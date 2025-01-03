@@ -1,6 +1,6 @@
 ####################################
 # 客户端：Clash.Meta
-# 创建时间：2025-01-03 15:01:09
+# 创建时间：2025-01-03 15:05:43
 # 使用模版：自学志888
 # 节点数量：101
 # 节点类型：vmess, hysteria2, trojan
@@ -114,7 +114,7 @@ proxies:
   - {"name":"🇭🇰香港｜04\r","type":"hysteria2","server":"tw.akebi.cc","port":2006,"password":"338b9800-fb4d-4934-8425-388f6d4342f5","sni":"hk02.akebi.cc"}
   - {"name":"🇹🇭泰国丨01｜原生IP\r","type":"hysteria2","server":"tw04.akebi.cc","port":1000,"password":"338b9800-fb4d-4934-8425-388f6d4342f5","sni":"th.akebi.cc","skip-cert-verify":true}
   - {"name":"🇸🇬新加坡｜01\r","type":"hysteria2","server":"tw.akebi.cc","port":5000,"password":"338b9800-fb4d-4934-8425-388f6d4342f5","sni":"sg01.akebi.cc","skip-cert-verify":true}
-  - {"name":"🇹🇼台湾｜01｜原生IPss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiMjI3YjRmNy02MDMxLTRkZGUtYjIwYS1kOTBhMmY0NTE4ZmI=@gy.666666222.shop:34338#🇭🇰 香港01-1B 2\r","type":"hysteria2","server":"tw.akebi.cc","port":30000,"password":"338b9800-fb4d-4934-8425-388f6d4342f5","sni":"tw.akebi.cc"}
+  - {"name":"🇹🇼台湾｜01｜原生IP\r","type":"hysteria2","server":"tw.akebi.cc","port":30000,"password":"338b9800-fb4d-4934-8425-388f6d4342f5","sni":"tw.akebi.cc"}
   - {"name":"Singapore Pro 2\r","type":"trojan","server":"ace-mayfly.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"ace-mayfly.boa152.lol","skip-cert-verify":true,"network":"tcp"}
   - {"name":"Singapore  Pro 8\r","type":"trojan","server":"major-reindeer.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"major-reindeer.boa152.lol","skip-cert-verify":true,"network":"tcp"}
   - {"name":"Singapore  8\r","type":"trojan","server":"major-reindeer.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"major-reindeer.boa152.lol","skip-cert-verify":true,"network":"tcp"}
@@ -221,7 +221,7 @@ proxy-groups:
       - "🇭🇰香港｜04\r"
       - "🇹🇭泰国丨01｜原生IP\r"
       - "🇸🇬新加坡｜01\r"
-      - "🇹🇼台湾｜01｜原生IPss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiMjI3YjRmNy02MDMxLTRkZGUtYjIwYS1kOTBhMmY0NTE4ZmI=@gy.666666222.shop:34338#🇭🇰 香港01-1B 2\r"
+      - "🇹🇼台湾｜01｜原生IP\r"
       - "Singapore Pro 2\r"
       - "Singapore  Pro 8\r"
       - "Singapore  8\r"
@@ -327,7 +327,7 @@ proxy-groups:
       - "🇭🇰香港｜04\r"
       - "🇹🇭泰国丨01｜原生IP\r"
       - "🇸🇬新加坡｜01\r"
-      - "🇹🇼台湾｜01｜原生IPss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiMjI3YjRmNy02MDMxLTRkZGUtYjIwYS1kOTBhMmY0NTE4ZmI=@gy.666666222.shop:34338#🇭🇰 香港01-1B 2\r"
+      - "🇹🇼台湾｜01｜原生IP\r"
       - "Singapore Pro 2\r"
       - "Singapore  Pro 8\r"
       - "Singapore  8\r"
@@ -433,7 +433,7 @@ proxy-groups:
       - "🇭🇰香港｜04\r"
       - "🇹🇭泰国丨01｜原生IP\r"
       - "🇸🇬新加坡｜01\r"
-      - "🇹🇼台湾｜01｜原生IPss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiMjI3YjRmNy02MDMxLTRkZGUtYjIwYS1kOTBhMmY0NTE4ZmI=@gy.666666222.shop:34338#🇭🇰 香港01-1B 2\r"
+      - "🇹🇼台湾｜01｜原生IP\r"
       - "Singapore Pro 2\r"
       - "Singapore  Pro 8\r"
       - "Singapore  8\r"
