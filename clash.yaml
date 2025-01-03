@@ -1,9 +1,9 @@
 ####################################
 # 客户端：Clash.Meta
-# 创建时间：2025-01-03 14:43:30
+# 创建时间：2025-01-03 15:01:09
 # 使用模版：自学志888
-# 节点数量：127
-# 节点类型：vmess, hysteria2, ss, trojan
+# 节点数量：101
+# 节点类型：vmess, hysteria2, trojan
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -114,36 +114,11 @@ proxies:
   - {"name":"🇭🇰香港｜04\r","type":"hysteria2","server":"tw.akebi.cc","port":2006,"password":"338b9800-fb4d-4934-8425-388f6d4342f5","sni":"hk02.akebi.cc"}
   - {"name":"🇹🇭泰国丨01｜原生IP\r","type":"hysteria2","server":"tw04.akebi.cc","port":1000,"password":"338b9800-fb4d-4934-8425-388f6d4342f5","sni":"th.akebi.cc","skip-cert-verify":true}
   - {"name":"🇸🇬新加坡｜01\r","type":"hysteria2","server":"tw.akebi.cc","port":5000,"password":"338b9800-fb4d-4934-8425-388f6d4342f5","sni":"sg01.akebi.cc","skip-cert-verify":true}
-  - {"name":"🇹🇼台湾｜01｜原生IP\r","type":"hysteria2","server":"tw.akebi.cc","port":30000,"password":"338b9800-fb4d-4934-8425-388f6d4342f5","sni":"tw.akebi.cc"}
-  - {"name":"🇭🇰 香港01-1B 2\r","type":"ss","server":"gy.666666222.shop","port":34338,"password":"b227b4f7-6031-4dde-b20a-d90a2f4518fb","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"Singapore  Pro 5\r","type":"trojan","server":"relevant-salmon.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"relevant-salmon.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Singapore  Pro 4\r","type":"trojan","server":"saved-caribou.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"saved-caribou.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰 香港01-1E\r","type":"ss","server":"gy.666666222.shop","port":34338,"password":"b75afbfb-5946-477d-831a-b67d7dd62f65","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰 香港01-1D 2\r","type":"ss","server":"gy.666666222.shop","port":34338,"password":"2339d649-81c5-4fdb-b551-fa444d34f6a0","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"Seoul  5\r","type":"trojan","server":"powerful-hen.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"powerful-hen.boa152.lol","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Seoul  Pro 5\r","type":"trojan","server":"powerful-hen.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"powerful-hen.boa152.lol","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰 香港6高速中转-1A 2\r","type":"ss","server":"gsgs.hy2.one","port":53344}
-  - {"name":"🇭🇰 香港2高速中转2x-1B 2\r","type":"ss","server":"gsgs.hy2.one","port":53348}
-  - {"name":"🇯🇵 日本1高速中转-1A 2\r","type":"ss","server":"gsgs.hy2.one","port":53339}
-  - {"name":"🇭🇰 香港1高速中转2x-1A 2\r","type":"ss","server":"gsgs.hy2.one","port":53349}
-  - {"name":"🇭🇰 香港01-1C\r","type":"ss","server":"gy.666666222.shop","port":34338,"password":"5a8668f3-7b2b-4202-923b-8b962ab6db6b","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰 香港6高速中转-1B 2\r","type":"ss","server":"gsgs.hy2.one","port":53344}
-  - {"name":"🇭🇰 香港1高速中转2x-1B 2\r","type":"ss","server":"gsgs.hy2.one","port":53349}
-  - {"name":"🇯🇵 日本3SS中转25x-1A 2\r","type":"ss","server":"g3.hy2.one","port":22063}
-  - {"name":"🇯🇵 日本1高速中转-1B 2\r","type":"ss","server":"gsgs.hy2.one","port":53339}
-  - {"name":"🇯🇵 日本3SS中转25x-1B 2\r","type":"ss","server":"g3.hy2.one","port":22063}
-  - {"name":"🇭🇰 香港2高速中转2x-1A 2\r","type":"ss","server":"gsgs.hy2.one","port":53348}
+  - {"name":"🇹🇼台湾｜01｜原生IPss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiMjI3YjRmNy02MDMxLTRkZGUtYjIwYS1kOTBhMmY0NTE4ZmI=@gy.666666222.shop:34338#🇭🇰 香港01-1B 2\r","type":"hysteria2","server":"tw.akebi.cc","port":30000,"password":"338b9800-fb4d-4934-8425-388f6d4342f5","sni":"tw.akebi.cc"}
   - {"name":"Singapore Pro 2\r","type":"trojan","server":"ace-mayfly.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"ace-mayfly.boa152.lol","skip-cert-verify":true,"network":"tcp"}
   - {"name":"Singapore  Pro 8\r","type":"trojan","server":"major-reindeer.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"major-reindeer.boa152.lol","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇸🇬 新加坡3高速中转3x-1A 2\r","type":"ss","server":"gsgs.hy2.one","port":53340}
   - {"name":"Singapore  8\r","type":"trojan","server":"major-reindeer.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"major-reindeer.boa152.lol","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇸🇬 新加坡2高速中转3x-1A 2\r","type":"ss","server":"gsgs.hy2.one","port":53341}
-  - {"name":"🇸🇬 新加坡3高速中转3x-1B 2\r","type":"ss","server":"gsgs.hy2.one","port":53340}
-  - {"name":"🇻🇳 越南高速中转-1B 2\r","type":"ss","server":"gsgs.hy2.one","port":63326}
-  - {"name":"🇻🇳 越南高速中转-1A 2\r","type":"ss","server":"gsgs.hy2.one","port":63326}
-  - {"name":"🇸🇬 新加坡2高速中转3x-1B 2\r","type":"ss","server":"gsgs.hy2.one","port":53341}
   - {"name":"Amsterdam  19\r","type":"trojan","server":"sacred-guppy.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"sacred-guppy.boa152.lol","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇸🇬 新加坡1高速中转3x-1B 2\r","type":"ss","server":"gsgs.hy2.one","port":53342}
   - {"name":"Ireland Pro 1\r","type":"trojan","server":"first-rodent.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"first-rodent.boa152.lol","skip-cert-verify":true,"network":"tcp"}
   - {"name":"London Pro 4\r","type":"trojan","server":"leading-shrew.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"leading-shrew.boa152.lol","skip-cert-verify":true,"network":"tcp"}
   - {"name":"Paris 1\r","type":"trojan","server":"exciting-mallard.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"exciting-mallard.boa152.lol","skip-cert-verify":true,"network":"tcp"}
@@ -164,7 +139,6 @@ proxies:
   - {"name":"Warsaw  7\r","type":"trojan","server":"holy-seahorse.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"holy-seahorse.boa152.lol","skip-cert-verify":true,"network":"tcp"}
   - {"name":"Amsterdam  16\r","type":"trojan","server":"wise-cowbird.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"wise-cowbird.boa152.lol","skip-cert-verify":true,"network":"tcp"}
   - {"name":"Frankfurt  Pro 6\r","type":"trojan","server":"profound-elk.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"profound-elk.boa152.lol","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇹🇭 泰国ISP高速中转3x-1A 2\r","type":"ss","server":"gsgs.hy2.one","port":63329}
   - {"name":"Riga Pro 1\r","type":"trojan","server":"adequate-narwhal.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"adequate-narwhal.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
   - {"name":"Warsaw  Pro 3\r","type":"trojan","server":"perfect-beagle.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"perfect-beagle.boa152.lol","skip-cert-verify":true,"network":"tcp"}
   - {"name":"Frankfurt  4\r","type":"trojan","server":"pleased-slug.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"pleased-slug.boa152.lol","skip-cert-verify":true,"network":"tcp"}
@@ -172,7 +146,7 @@ proxies:
   - {"name":"Frankfurt  Pro 4\r","type":"trojan","server":"pleased-slug.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"pleased-slug.boa152.lol","skip-cert-verify":true,"network":"tcp"}
   - {"name":"Ohio -L22 Pro 2\r","type":"trojan","server":"native-tetra.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"native-tetra.boa152.lol","skip-cert-verify":true,"network":"tcp"}
   - {"name":"Warsaw  Pro 7\r","type":"trojan","server":"holy-seahorse.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"holy-seahorse.boa152.lol","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇹🇭 泰国ISP高速中转3x-1B 2\r","type":"ss","server":"gsgs.hy2.one","port":63329}
+  - {"name":"Singapore  Pro 5\r","type":"trojan","server":"relevant-salmon.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"relevant-salmon.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
   - {"name":"Amsterdam  Pro 16\r","type":"trojan","server":"wise-cowbird.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"wise-cowbird.boa152.lol","skip-cert-verify":true,"network":"tcp"}
   - {"name":"Ohio -L22 2\r","type":"trojan","server":"native-tetra.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"native-tetra.boa152.lol","skip-cert-verify":true,"network":"tcp"}
   - {"name":"Frankfurt -L22 1\r","type":"trojan","server":"profound-anemone.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"profound-anemone.boa152.lol","skip-cert-verify":true,"network":"tcp"}
@@ -181,7 +155,6 @@ proxies:
   - {"name":"Manassas  Pro 1\r","type":"trojan","server":"nearby-hedgehog.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"nearby-hedgehog.boa152.lol","skip-cert-verify":true,"network":"tcp"}
   - {"name":"Frankfurt  Pro 16\r","type":"trojan","server":"ample-cockatoo.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"ample-cockatoo.boa152.lol","skip-cert-verify":true,"network":"tcp"}
   - {"name":"Toronto  Pro 1\r","type":"trojan","server":"neutral-magpie.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"neutral-magpie.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"公益|英国|V2","type":"vmess","server":"5.39.254.196","port":23185,"cipher":"auto","uuid":"398ce84e-4849-4e5f-9b1a-a56fbe233b81","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
   - {"name":"Virginia 10\r","type":"trojan","server":"equipped-mutt.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"equipped-mutt.boa152.lol","skip-cert-verify":true,"network":"tcp"}
   - {"name":"Singapore 2\r","type":"trojan","server":"ace-mayfly.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"ace-mayfly.boa152.lol","skip-cert-verify":true,"network":"tcp"}
   - {"name":"Toronto  2\r","type":"trojan","server":"trusty-grackle.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"trusty-grackle.boa152.lol","skip-cert-verify":true,"network":"tcp"}
@@ -197,7 +170,7 @@ proxies:
   - {"name":"Frankfurt  8\r","type":"trojan","server":"oriented-terrier.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"oriented-terrier.boa152.lol","skip-cert-verify":true,"network":"tcp"}
   - {"name":"Manassas  Pro 25\r","type":"trojan","server":"tight-clam.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"tight-clam.boa152.lol","skip-cert-verify":true,"network":"tcp"}
   - {"name":"Frankfurt  Pro 8\r","type":"trojan","server":"oriented-terrier.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"oriented-terrier.boa152.lol","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Seoul  Pro 4\r","type":"trojan","server":"super-goblin.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"super-goblin.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Singapore  Pro 4\r","type":"trojan","server":"saved-caribou.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"saved-caribou.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
   - {"name":"New York   Pro 3\r","type":"trojan","server":"relative-rhino.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"relative-rhino.boa152.lol","skip-cert-verify":true,"network":"tcp"}
   - {"name":"New York   9\r","type":"trojan","server":"eternal-tadpole.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"eternal-tadpole.boa152.lol","skip-cert-verify":true,"network":"tcp"}
   - {"name":"New York   Pro 5\r","type":"trojan","server":"organic-hare.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"organic-hare.boa152.lol","skip-cert-verify":true,"network":"tcp"}
@@ -210,20 +183,21 @@ proxies:
   - {"name":"New York   5\r","type":"trojan","server":"organic-hare.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"organic-hare.boa152.lol","skip-cert-verify":true,"network":"tcp"}
   - {"name":"Amsterdam  Pro 24\r","type":"trojan","server":"devoted-starfish.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"devoted-starfish.boa152.lol","skip-cert-verify":true,"network":"tcp"}
   - {"name":"Amsterdam Pro 25\r","type":"trojan","server":"concrete-buzzard.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"concrete-buzzard.boa152.lol","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇹🇷 土耳其高速中转-1A 2\r","type":"ss","server":"gsgs.hy2.one","port":63327}
+  - {"name":"Seoul  Pro 4\r","type":"trojan","server":"super-goblin.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"super-goblin.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
   - {"name":"Amsterdam  28\r","type":"trojan","server":"lucky-grouper.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"lucky-grouper.boa152.lol","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇹🇷 土耳其高速中转-1B 2\r","type":"ss","server":"gsgs.hy2.one","port":63327}
+  - {"name":"Seoul  5\r","type":"trojan","server":"powerful-hen.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"powerful-hen.boa152.lol","skip-cert-verify":true,"network":"tcp"}
   - {"name":"London  15\r","type":"trojan","server":"boss-hound.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"boss-hound.boa152.lol","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇸🇬 新加坡1高速中转3x-1A 2\r","type":"ss","server":"gsgs.hy2.one","port":53342}
+  - {"name":"Seoul  Pro 5\r","type":"trojan","server":"powerful-hen.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"powerful-hen.boa152.lol","skip-cert-verify":true,"network":"tcp"}
   - {"name":"Istanbul  Pro 1\r","type":"trojan","server":"absolute-mink.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"absolute-mink.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"公益|俄罗斯|V2","type":"vmess","server":"45.8.158.32","port":14556,"cipher":"auto","uuid":"398ce84e-4849-4e5f-9b1a-a56fbe233b81","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
   - {"name":"Warsaw  3\r","type":"trojan","server":"perfect-beagle.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"perfect-beagle.boa152.lol","skip-cert-verify":true,"network":"tcp"}
   - {"name":"Karachi Pro 2\r","type":"trojan","server":"fun-louse.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"fun-louse.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
   - {"name":"Amsterdam  Pro 19\r","type":"trojan","server":"sacred-guppy.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"sacred-guppy.boa152.lol","skip-cert-verify":true,"network":"tcp"}
   - {"name":"Kathmandu Pro 1\r","type":"trojan","server":"settled-seal.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"settled-seal.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
   - {"name":"Oregon -L22 Pro 16\r","type":"trojan","server":"fresh-grub.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"fresh-grub.boa152.lol","skip-cert-verify":true,"network":"tcp"}
   - {"name":"Oregon -L22 16\r","type":"trojan","server":"fresh-grub.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"fresh-grub.boa152.lol","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Frankfurt  Pro 13","type":"trojan","server":"golden-krill.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"golden-krill.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Frankfurt  Pro 13\r","type":"trojan","server":"golden-krill.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"golden-krill.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"公益|俄罗斯|V2","type":"vmess","server":"45.8.158.32","port":14556,"cipher":"auto","uuid":"398ce84e-4849-4e5f-9b1a-a56fbe233b81","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"公益|英国|V2","type":"vmess","server":"5.39.254.196","port":23185,"cipher":"auto","uuid":"398ce84e-4849-4e5f-9b1a-a56fbe233b81","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
 proxy-groups:
   - name: 自学志甄选
     type: select
@@ -247,36 +221,11 @@ proxy-groups:
       - "🇭🇰香港｜04\r"
       - "🇹🇭泰国丨01｜原生IP\r"
       - "🇸🇬新加坡｜01\r"
-      - "🇹🇼台湾｜01｜原生IP\r"
-      - "🇭🇰 香港01-1B 2\r"
-      - "Singapore  Pro 5\r"
-      - "Singapore  Pro 4\r"
-      - "🇭🇰 香港01-1E\r"
-      - "🇭🇰 香港01-1D 2\r"
-      - "Seoul  5\r"
-      - "Seoul  Pro 5\r"
-      - "🇭🇰 香港6高速中转-1A 2\r"
-      - "🇭🇰 香港2高速中转2x-1B 2\r"
-      - "🇯🇵 日本1高速中转-1A 2\r"
-      - "🇭🇰 香港1高速中转2x-1A 2\r"
-      - "🇭🇰 香港01-1C\r"
-      - "🇭🇰 香港6高速中转-1B 2\r"
-      - "🇭🇰 香港1高速中转2x-1B 2\r"
-      - "🇯🇵 日本3SS中转25x-1A 2\r"
-      - "🇯🇵 日本1高速中转-1B 2\r"
-      - "🇯🇵 日本3SS中转25x-1B 2\r"
-      - "🇭🇰 香港2高速中转2x-1A 2\r"
+      - "🇹🇼台湾｜01｜原生IPss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiMjI3YjRmNy02MDMxLTRkZGUtYjIwYS1kOTBhMmY0NTE4ZmI=@gy.666666222.shop:34338#🇭🇰 香港01-1B 2\r"
       - "Singapore Pro 2\r"
       - "Singapore  Pro 8\r"
-      - "🇸🇬 新加坡3高速中转3x-1A 2\r"
       - "Singapore  8\r"
-      - "🇸🇬 新加坡2高速中转3x-1A 2\r"
-      - "🇸🇬 新加坡3高速中转3x-1B 2\r"
-      - "🇻🇳 越南高速中转-1B 2\r"
-      - "🇻🇳 越南高速中转-1A 2\r"
-      - "🇸🇬 新加坡2高速中转3x-1B 2\r"
       - "Amsterdam  19\r"
-      - "🇸🇬 新加坡1高速中转3x-1B 2\r"
       - "Ireland Pro 1\r"
       - "London Pro 4\r"
       - "Paris 1\r"
@@ -297,7 +246,6 @@ proxy-groups:
       - "Warsaw  7\r"
       - "Amsterdam  16\r"
       - "Frankfurt  Pro 6\r"
-      - "🇹🇭 泰国ISP高速中转3x-1A 2\r"
       - "Riga Pro 1\r"
       - "Warsaw  Pro 3\r"
       - "Frankfurt  4\r"
@@ -305,7 +253,7 @@ proxy-groups:
       - "Frankfurt  Pro 4\r"
       - "Ohio -L22 Pro 2\r"
       - "Warsaw  Pro 7\r"
-      - "🇹🇭 泰国ISP高速中转3x-1B 2\r"
+      - "Singapore  Pro 5\r"
       - "Amsterdam  Pro 16\r"
       - "Ohio -L22 2\r"
       - "Frankfurt -L22 1\r"
@@ -314,7 +262,6 @@ proxy-groups:
       - "Manassas  Pro 1\r"
       - "Frankfurt  Pro 16\r"
       - "Toronto  Pro 1\r"
-      - 公益|英国|V2
       - "Virginia 10\r"
       - "Singapore 2\r"
       - "Toronto  2\r"
@@ -330,7 +277,7 @@ proxy-groups:
       - "Frankfurt  8\r"
       - "Manassas  Pro 25\r"
       - "Frankfurt  Pro 8\r"
-      - "Seoul  Pro 4\r"
+      - "Singapore  Pro 4\r"
       - "New York   Pro 3\r"
       - "New York   9\r"
       - "New York   Pro 5\r"
@@ -343,20 +290,21 @@ proxy-groups:
       - "New York   5\r"
       - "Amsterdam  Pro 24\r"
       - "Amsterdam Pro 25\r"
-      - "🇹🇷 土耳其高速中转-1A 2\r"
+      - "Seoul  Pro 4\r"
       - "Amsterdam  28\r"
-      - "🇹🇷 土耳其高速中转-1B 2\r"
+      - "Seoul  5\r"
       - "London  15\r"
-      - "🇸🇬 新加坡1高速中转3x-1A 2\r"
+      - "Seoul  Pro 5\r"
       - "Istanbul  Pro 1\r"
-      - 公益|俄罗斯|V2
       - "Warsaw  3\r"
       - "Karachi Pro 2\r"
       - "Amsterdam  Pro 19\r"
       - "Kathmandu Pro 1\r"
       - "Oregon -L22 Pro 16\r"
       - "Oregon -L22 16\r"
-      - Frankfurt  Pro 13
+      - "Frankfurt  Pro 13\r"
+      - 公益|俄罗斯|V2
+      - 公益|英国|V2
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -379,36 +327,11 @@ proxy-groups:
       - "🇭🇰香港｜04\r"
       - "🇹🇭泰国丨01｜原生IP\r"
       - "🇸🇬新加坡｜01\r"
-      - "🇹🇼台湾｜01｜原生IP\r"
-      - "🇭🇰 香港01-1B 2\r"
-      - "Singapore  Pro 5\r"
-      - "Singapore  Pro 4\r"
-      - "🇭🇰 香港01-1E\r"
-      - "🇭🇰 香港01-1D 2\r"
-      - "Seoul  5\r"
-      - "Seoul  Pro 5\r"
-      - "🇭🇰 香港6高速中转-1A 2\r"
-      - "🇭🇰 香港2高速中转2x-1B 2\r"
-      - "🇯🇵 日本1高速中转-1A 2\r"
-      - "🇭🇰 香港1高速中转2x-1A 2\r"
-      - "🇭🇰 香港01-1C\r"
-      - "🇭🇰 香港6高速中转-1B 2\r"
-      - "🇭🇰 香港1高速中转2x-1B 2\r"
-      - "🇯🇵 日本3SS中转25x-1A 2\r"
-      - "🇯🇵 日本1高速中转-1B 2\r"
-      - "🇯🇵 日本3SS中转25x-1B 2\r"
-      - "🇭🇰 香港2高速中转2x-1A 2\r"
+      - "🇹🇼台湾｜01｜原生IPss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiMjI3YjRmNy02MDMxLTRkZGUtYjIwYS1kOTBhMmY0NTE4ZmI=@gy.666666222.shop:34338#🇭🇰 香港01-1B 2\r"
       - "Singapore Pro 2\r"
       - "Singapore  Pro 8\r"
-      - "🇸🇬 新加坡3高速中转3x-1A 2\r"
       - "Singapore  8\r"
-      - "🇸🇬 新加坡2高速中转3x-1A 2\r"
-      - "🇸🇬 新加坡3高速中转3x-1B 2\r"
-      - "🇻🇳 越南高速中转-1B 2\r"
-      - "🇻🇳 越南高速中转-1A 2\r"
-      - "🇸🇬 新加坡2高速中转3x-1B 2\r"
       - "Amsterdam  19\r"
-      - "🇸🇬 新加坡1高速中转3x-1B 2\r"
       - "Ireland Pro 1\r"
       - "London Pro 4\r"
       - "Paris 1\r"
@@ -429,7 +352,6 @@ proxy-groups:
       - "Warsaw  7\r"
       - "Amsterdam  16\r"
       - "Frankfurt  Pro 6\r"
-      - "🇹🇭 泰国ISP高速中转3x-1A 2\r"
       - "Riga Pro 1\r"
       - "Warsaw  Pro 3\r"
       - "Frankfurt  4\r"
@@ -437,7 +359,7 @@ proxy-groups:
       - "Frankfurt  Pro 4\r"
       - "Ohio -L22 Pro 2\r"
       - "Warsaw  Pro 7\r"
-      - "🇹🇭 泰国ISP高速中转3x-1B 2\r"
+      - "Singapore  Pro 5\r"
       - "Amsterdam  Pro 16\r"
       - "Ohio -L22 2\r"
       - "Frankfurt -L22 1\r"
@@ -446,7 +368,6 @@ proxy-groups:
       - "Manassas  Pro 1\r"
       - "Frankfurt  Pro 16\r"
       - "Toronto  Pro 1\r"
-      - 公益|英国|V2
       - "Virginia 10\r"
       - "Singapore 2\r"
       - "Toronto  2\r"
@@ -462,7 +383,7 @@ proxy-groups:
       - "Frankfurt  8\r"
       - "Manassas  Pro 25\r"
       - "Frankfurt  Pro 8\r"
-      - "Seoul  Pro 4\r"
+      - "Singapore  Pro 4\r"
       - "New York   Pro 3\r"
       - "New York   9\r"
       - "New York   Pro 5\r"
@@ -475,20 +396,21 @@ proxy-groups:
       - "New York   5\r"
       - "Amsterdam  Pro 24\r"
       - "Amsterdam Pro 25\r"
-      - "🇹🇷 土耳其高速中转-1A 2\r"
+      - "Seoul  Pro 4\r"
       - "Amsterdam  28\r"
-      - "🇹🇷 土耳其高速中转-1B 2\r"
+      - "Seoul  5\r"
       - "London  15\r"
-      - "🇸🇬 新加坡1高速中转3x-1A 2\r"
+      - "Seoul  Pro 5\r"
       - "Istanbul  Pro 1\r"
-      - 公益|俄罗斯|V2
       - "Warsaw  3\r"
       - "Karachi Pro 2\r"
       - "Amsterdam  Pro 19\r"
       - "Kathmandu Pro 1\r"
       - "Oregon -L22 Pro 16\r"
       - "Oregon -L22 16\r"
-      - Frankfurt  Pro 13
+      - "Frankfurt  Pro 13\r"
+      - 公益|俄罗斯|V2
+      - 公益|英国|V2
   - name: 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -511,36 +433,11 @@ proxy-groups:
       - "🇭🇰香港｜04\r"
       - "🇹🇭泰国丨01｜原生IP\r"
       - "🇸🇬新加坡｜01\r"
-      - "🇹🇼台湾｜01｜原生IP\r"
-      - "🇭🇰 香港01-1B 2\r"
-      - "Singapore  Pro 5\r"
-      - "Singapore  Pro 4\r"
-      - "🇭🇰 香港01-1E\r"
-      - "🇭🇰 香港01-1D 2\r"
-      - "Seoul  5\r"
-      - "Seoul  Pro 5\r"
-      - "🇭🇰 香港6高速中转-1A 2\r"
-      - "🇭🇰 香港2高速中转2x-1B 2\r"
-      - "🇯🇵 日本1高速中转-1A 2\r"
-      - "🇭🇰 香港1高速中转2x-1A 2\r"
-      - "🇭🇰 香港01-1C\r"
-      - "🇭🇰 香港6高速中转-1B 2\r"
-      - "🇭🇰 香港1高速中转2x-1B 2\r"
-      - "🇯🇵 日本3SS中转25x-1A 2\r"
-      - "🇯🇵 日本1高速中转-1B 2\r"
-      - "🇯🇵 日本3SS中转25x-1B 2\r"
-      - "🇭🇰 香港2高速中转2x-1A 2\r"
+      - "🇹🇼台湾｜01｜原生IPss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiMjI3YjRmNy02MDMxLTRkZGUtYjIwYS1kOTBhMmY0NTE4ZmI=@gy.666666222.shop:34338#🇭🇰 香港01-1B 2\r"
       - "Singapore Pro 2\r"
       - "Singapore  Pro 8\r"
-      - "🇸🇬 新加坡3高速中转3x-1A 2\r"
       - "Singapore  8\r"
-      - "🇸🇬 新加坡2高速中转3x-1A 2\r"
-      - "🇸🇬 新加坡3高速中转3x-1B 2\r"
-      - "🇻🇳 越南高速中转-1B 2\r"
-      - "🇻🇳 越南高速中转-1A 2\r"
-      - "🇸🇬 新加坡2高速中转3x-1B 2\r"
       - "Amsterdam  19\r"
-      - "🇸🇬 新加坡1高速中转3x-1B 2\r"
       - "Ireland Pro 1\r"
       - "London Pro 4\r"
       - "Paris 1\r"
@@ -561,7 +458,6 @@ proxy-groups:
       - "Warsaw  7\r"
       - "Amsterdam  16\r"
       - "Frankfurt  Pro 6\r"
-      - "🇹🇭 泰国ISP高速中转3x-1A 2\r"
       - "Riga Pro 1\r"
       - "Warsaw  Pro 3\r"
       - "Frankfurt  4\r"
@@ -569,7 +465,7 @@ proxy-groups:
       - "Frankfurt  Pro 4\r"
       - "Ohio -L22 Pro 2\r"
       - "Warsaw  Pro 7\r"
-      - "🇹🇭 泰国ISP高速中转3x-1B 2\r"
+      - "Singapore  Pro 5\r"
       - "Amsterdam  Pro 16\r"
       - "Ohio -L22 2\r"
       - "Frankfurt -L22 1\r"
@@ -578,7 +474,6 @@ proxy-groups:
       - "Manassas  Pro 1\r"
       - "Frankfurt  Pro 16\r"
       - "Toronto  Pro 1\r"
-      - 公益|英国|V2
       - "Virginia 10\r"
       - "Singapore 2\r"
       - "Toronto  2\r"
@@ -594,7 +489,7 @@ proxy-groups:
       - "Frankfurt  8\r"
       - "Manassas  Pro 25\r"
       - "Frankfurt  Pro 8\r"
-      - "Seoul  Pro 4\r"
+      - "Singapore  Pro 4\r"
       - "New York   Pro 3\r"
       - "New York   9\r"
       - "New York   Pro 5\r"
@@ -607,20 +502,21 @@ proxy-groups:
       - "New York   5\r"
       - "Amsterdam  Pro 24\r"
       - "Amsterdam Pro 25\r"
-      - "🇹🇷 土耳其高速中转-1A 2\r"
+      - "Seoul  Pro 4\r"
       - "Amsterdam  28\r"
-      - "🇹🇷 土耳其高速中转-1B 2\r"
+      - "Seoul  5\r"
       - "London  15\r"
-      - "🇸🇬 新加坡1高速中转3x-1A 2\r"
+      - "Seoul  Pro 5\r"
       - "Istanbul  Pro 1\r"
-      - 公益|俄罗斯|V2
       - "Warsaw  3\r"
       - "Karachi Pro 2\r"
       - "Amsterdam  Pro 19\r"
       - "Kathmandu Pro 1\r"
       - "Oregon -L22 Pro 16\r"
       - "Oregon -L22 16\r"
-      - Frankfurt  Pro 13
+      - "Frankfurt  Pro 13\r"
+      - 公益|俄罗斯|V2
+      - 公益|英国|V2
 
 rules:
   - DOMAIN,v1.dogapi.yachts,DIRECT
