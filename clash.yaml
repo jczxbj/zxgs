@@ -1,8 +1,8 @@
 ####################################
 # 客户端：Clash
-# 创建时间：2025-01-04 16:07:38
+# 创建时间：2025-01-09 12:11:46
 # 使用模版：自学志888
-# 节点数量：62
+# 节点数量：20
 # 节点类型：ssr
 ####################################
 mixed-port: 7890
@@ -96,270 +96,102 @@ dns:
       - +.proton.me
 
 proxies:
-  - {"name":"🇯🇵 VIP节点-日本C-01","type":"ssr","server":"120.233.24.165","port":40256,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇯🇵 VIP节点-日本C-02","type":"ssr","server":"120.233.24.165","port":40257,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇭🇰 VIP节点-香港C-01","type":"ssr","server":"120.233.24.165","port":40240,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇭🇰 VIP节点-香港C-02","type":"ssr","server":"120.233.24.165","port":40241,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇯🇵 普通节点-日本C-01","type":"ssr","server":"120.233.24.165","port":40254,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇯🇵 普通节点-日本C-02","type":"ssr","server":"120.233.24.165","port":40255,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇭🇰 普通节点-香港C-01","type":"ssr","server":"120.233.24.165","port":40238,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇭🇰 普通节点-香港C-02","type":"ssr","server":"120.233.24.165","port":40239,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇯🇵 VIP节点-日本C-01 2","type":"ssr","server":"120.226.29.98","port":40256,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇯🇵 VIP节点-日本C-02 2","type":"ssr","server":"120.226.29.98","port":40257,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇭🇰 VIP节点-香港C-02 2","type":"ssr","server":"120.226.29.98","port":40241,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇯🇵 普通节点-日本C-01 2","type":"ssr","server":"120.226.29.98","port":40254,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇯🇵 普通节点-日本C-02 2","type":"ssr","server":"120.226.29.98","port":40255,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇭🇰 普通节点-香港C-01 2","type":"ssr","server":"120.226.29.98","port":40238,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇭🇰 普通节点-香港C-02 2","type":"ssr","server":"120.226.29.98","port":40239,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇯🇵 VIP节点-日本C-01 3","type":"ssr","server":"120.226.29.120","port":40256,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇯🇵 VIP节点-日本C-02 3","type":"ssr","server":"120.226.29.120","port":40257,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇭🇰 VIP节点-香港C-01 2","type":"ssr","server":"120.226.29.120","port":40240,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇭🇰 VIP节点-香港C-02 3","type":"ssr","server":"120.226.29.120","port":40241,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇯🇵 普通节点-日本C-02 3","type":"ssr","server":"120.226.29.120","port":40255,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇭🇰 普通节点-香港C-02 3","type":"ssr","server":"120.226.29.120","port":40239,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇯🇵 VIP节点-日本C-01 4","type":"ssr","server":"120.233.24.100","port":40256,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇯🇵 VIP节点-日本C-02 4","type":"ssr","server":"120.233.24.100","port":40257,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇭🇰 VIP节点-香港C-01 3","type":"ssr","server":"120.233.24.100","port":40240,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇭🇰 VIP节点-香港C-02 4","type":"ssr","server":"120.233.24.100","port":40241,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇯🇵 普通节点-日本C-01 3","type":"ssr","server":"120.233.24.100","port":40254,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇯🇵 普通节点-日本C-02 4","type":"ssr","server":"120.233.24.100","port":40255,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇭🇰 普通节点-香港C-01 3","type":"ssr","server":"120.233.24.100","port":40238,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇭🇰 普通节点-香港C-02 4","type":"ssr","server":"120.233.24.100","port":40239,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇯🇵 VIP节点-日本C-01 5","type":"ssr","server":"120.233.24.161","port":40256,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇯🇵 VIP节点-日本C-02 5","type":"ssr","server":"120.233.24.161","port":40257,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇭🇰 VIP节点-香港C-01 4","type":"ssr","server":"120.233.24.161","port":40240,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇭🇰 VIP节点-香港C-02 5","type":"ssr","server":"120.233.24.161","port":40241,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇯🇵 普通节点-日本C-01 4","type":"ssr","server":"120.233.24.161","port":40254,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇯🇵 普通节点-日本C-02 5","type":"ssr","server":"120.233.24.161","port":40255,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇭🇰 普通节点-香港C-01 4","type":"ssr","server":"120.233.24.161","port":40238,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇭🇰 普通节点-香港C-02 5","type":"ssr","server":"120.233.24.161","port":40239,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇸🇬 VIP节点-新加坡A-01","type":"ssr","server":"120.195.6.228","port":40251,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"74649:7upNdh"}
-  - {"name":"🇺🇸 VIP节点-美国A-01","type":"ssr","server":"120.195.6.228","port":40205,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"74649:7upNdh"}
-  - {"name":"🇺🇸 VIP节点-美国A-02","type":"ssr","server":"120.195.6.228","port":40262,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"74649:7upNdh"}
-  - {"name":"🇭🇰 VIP节点-香港A-01","type":"ssr","server":"120.195.6.228","port":40213,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"74649:7upNdh"}
-  - {"name":"🇭🇰 VIP节点-香港A-02","type":"ssr","server":"120.195.6.228","port":40215,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"74649:7upNdh"}
-  - {"name":"🇺🇸 普通节点-美国A-01","type":"ssr","server":"120.195.6.228","port":40204,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"74649:7upNdh"}
-  - {"name":"🇺🇸 普通节点-美国A-02","type":"ssr","server":"120.195.6.228","port":40217,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"74649:7upNdh"}
-  - {"name":"🇭🇰 普通节点-香港A-01","type":"ssr","server":"120.195.6.228","port":40207,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"74649:7upNdh"}
-  - {"name":"🇭🇰 普通节点-香港A-02","type":"ssr","server":"120.195.6.228","port":40209,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"74649:7upNdh"}
-  - {"name":"🇺🇸 VIP节点-美国A-01 2","type":"ssr","server":"120.195.6.228","port":40205,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇺🇸 VIP节点-美国A-02 2","type":"ssr","server":"120.195.6.228","port":40262,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇭🇰 VIP节点-香港A-01 2","type":"ssr","server":"120.195.6.228","port":40213,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇭🇰 VIP节点-香港A-02 2","type":"ssr","server":"120.195.6.228","port":40215,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇺🇸 普通节点-美国A-01 2","type":"ssr","server":"120.195.6.228","port":40204,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇺🇸 普通节点-美国A-02 2","type":"ssr","server":"120.195.6.228","port":40217,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇭🇰 普通节点-香港A-01 2","type":"ssr","server":"120.195.6.228","port":40207,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇭🇰 普通节点-香港A-02 2","type":"ssr","server":"120.195.6.228","port":40209,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇭🇰 VIP节点-香港B-01","type":"ssr","server":"120.233.24.20","port":40208,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"74649:7upNdh"}
-  - {"name":"🇭🇰 VIP节点-香港B-02","type":"ssr","server":"120.233.24.20","port":40214,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"74649:7upNdh"}
-  - {"name":"🇭🇰 普通节点-香港B-01","type":"ssr","server":"120.233.24.20","port":40206,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"74649:7upNdh"}
-  - {"name":"🇭🇰 普通节点-香港B-02","type":"ssr","server":"120.233.24.20","port":40208,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"74649:7upNdh"}
-  - {"name":"🇭🇰 VIP节点-香港B-01 2","type":"ssr","server":"120.233.24.20","port":40208,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇭🇰 VIP节点-香港B-02 2","type":"ssr","server":"120.233.24.20","port":40214,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇭🇰 普通节点-香港B-01 2","type":"ssr","server":"120.233.24.20","port":40206,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
-  - {"name":"🇭🇰 普通节点-香港B-02 2","type":"ssr","server":"120.233.24.20","port":40208,"udp":true,"password":"ENZ52K","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"92902:pFWGOQ"}
+  - {"name":"🇭🇰HK_@","type":"ssr","server":"36.151.195.67","port":33003,"udp":true,"password":"tMvrGcKAFpLkss9w7FM7","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"5385:QrTGkk"}
+  - {"name":"🇭🇰HK_@ 2","type":"ssr","server":"36.151.195.67","port":33004,"udp":true,"password":"tMvrGcKAFpLkss9w7FM7","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"5385:QrTGkk"}
+  - {"name":"🇭🇰HK_@ 3","type":"ssr","server":"36.151.195.67","port":33005,"udp":true,"password":"tMvrGcKAFpLkss9w7FM7","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"5385:QrTGkk"}
+  - {"name":"🇸🇬SG_@","type":"ssr","server":"36.151.195.67","port":33015,"udp":true,"password":"tMvrGcKAFpLkss9w7FM7","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"5385:QrTGkk"}
+  - {"name":"🇸🇬SG_@ 2","type":"ssr","server":"36.151.195.67","port":33016,"udp":true,"password":"tMvrGcKAFpLkss9w7FM7","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"5385:QrTGkk"}
+  - {"name":"🇸🇬SG_@ 3","type":"ssr","server":"36.151.195.67","port":33017,"udp":true,"password":"tMvrGcKAFpLkss9w7FM7","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"5385:QrTGkk"}
+  - {"name":"🇨🇳TW_@","type":"ssr","server":"36.151.195.67","port":33009,"udp":true,"password":"tMvrGcKAFpLkss9w7FM7","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"5385:QrTGkk"}
+  - {"name":"🇨🇳TW_@ 2","type":"ssr","server":"36.151.195.67","port":33010,"udp":true,"password":"tMvrGcKAFpLkss9w7FM7","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"5385:QrTGkk"}
+  - {"name":"🇯🇵JP_@","type":"ssr","server":"36.151.195.67","port":33012,"udp":true,"password":"tMvrGcKAFpLkss9w7FM7","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"5385:QrTGkk"}
+  - {"name":"🇯🇵JP_@ 2","type":"ssr","server":"36.151.195.67","port":33013,"udp":true,"password":"tMvrGcKAFpLkss9w7FM7","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"5385:QrTGkk"}
+  - {"name":"🇯🇵JP_@ 3","type":"ssr","server":"36.151.195.67","port":33014,"udp":true,"password":"tMvrGcKAFpLkss9w7FM7","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"5385:QrTGkk"}
+  - {"name":"🇰🇷KR_@","type":"ssr","server":"36.151.195.67","port":33020,"udp":true,"password":"tMvrGcKAFpLkss9w7FM7","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"5385:QrTGkk"}
+  - {"name":"🇰🇷KR_@ 2","type":"ssr","server":"36.151.195.67","port":33021,"udp":true,"password":"tMvrGcKAFpLkss9w7FM7","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"5385:QrTGkk"}
+  - {"name":"🇰🇷KR_@ 3","type":"ssr","server":"36.151.195.67","port":33022,"udp":true,"password":"tMvrGcKAFpLkss9w7FM7","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"5385:QrTGkk"}
+  - {"name":"🇺🇸US_@","type":"ssr","server":"36.151.195.67","port":33006,"udp":true,"password":"tMvrGcKAFpLkss9w7FM7","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"5385:QrTGkk"}
+  - {"name":"🇺🇸US_@ 2","type":"ssr","server":"36.151.195.67","port":33007,"udp":true,"password":"tMvrGcKAFpLkss9w7FM7","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"5385:QrTGkk"}
+  - {"name":"🇺🇸US_@ 3","type":"ssr","server":"36.151.195.67","port":33008,"udp":true,"password":"tMvrGcKAFpLkss9w7FM7","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"5385:QrTGkk"}
+  - {"name":"🇬🇧GB_@","type":"ssr","server":"36.151.195.67","port":33036,"udp":true,"password":"tMvrGcKAFpLkss9w7FM7","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"5385:QrTGkk"}
+  - {"name":"🇹🇷TR_@","type":"ssr","server":"36.151.195.67","port":33029,"udp":true,"password":"tMvrGcKAFpLkss9w7FM7","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"5385:QrTGkk"}
+  - {"name":"🇨🇦CA_@","type":"ssr","server":"36.151.195.67","port":33036,"udp":true,"password":"tMvrGcKAFpLkss9w7FM7","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"5385:QrTGkk"}
 proxy-groups:
   - name: 自学志甄选
     type: select
     proxies:
       - 自动选择
       - 故障转移
-      - 🇯🇵 VIP节点-日本C-01
-      - 🇯🇵 VIP节点-日本C-02
-      - 🇭🇰 VIP节点-香港C-01
-      - 🇭🇰 VIP节点-香港C-02
-      - 🇯🇵 普通节点-日本C-01
-      - 🇯🇵 普通节点-日本C-02
-      - 🇭🇰 普通节点-香港C-01
-      - 🇭🇰 普通节点-香港C-02
-      - 🇯🇵 VIP节点-日本C-01 2
-      - 🇯🇵 VIP节点-日本C-02 2
-      - 🇭🇰 VIP节点-香港C-02 2
-      - 🇯🇵 普通节点-日本C-01 2
-      - 🇯🇵 普通节点-日本C-02 2
-      - 🇭🇰 普通节点-香港C-01 2
-      - 🇭🇰 普通节点-香港C-02 2
-      - 🇯🇵 VIP节点-日本C-01 3
-      - 🇯🇵 VIP节点-日本C-02 3
-      - 🇭🇰 VIP节点-香港C-01 2
-      - 🇭🇰 VIP节点-香港C-02 3
-      - 🇯🇵 普通节点-日本C-02 3
-      - 🇭🇰 普通节点-香港C-02 3
-      - 🇯🇵 VIP节点-日本C-01 4
-      - 🇯🇵 VIP节点-日本C-02 4
-      - 🇭🇰 VIP节点-香港C-01 3
-      - 🇭🇰 VIP节点-香港C-02 4
-      - 🇯🇵 普通节点-日本C-01 3
-      - 🇯🇵 普通节点-日本C-02 4
-      - 🇭🇰 普通节点-香港C-01 3
-      - 🇭🇰 普通节点-香港C-02 4
-      - 🇯🇵 VIP节点-日本C-01 5
-      - 🇯🇵 VIP节点-日本C-02 5
-      - 🇭🇰 VIP节点-香港C-01 4
-      - 🇭🇰 VIP节点-香港C-02 5
-      - 🇯🇵 普通节点-日本C-01 4
-      - 🇯🇵 普通节点-日本C-02 5
-      - 🇭🇰 普通节点-香港C-01 4
-      - 🇭🇰 普通节点-香港C-02 5
-      - 🇸🇬 VIP节点-新加坡A-01
-      - 🇺🇸 VIP节点-美国A-01
-      - 🇺🇸 VIP节点-美国A-02
-      - 🇭🇰 VIP节点-香港A-01
-      - 🇭🇰 VIP节点-香港A-02
-      - 🇺🇸 普通节点-美国A-01
-      - 🇺🇸 普通节点-美国A-02
-      - 🇭🇰 普通节点-香港A-01
-      - 🇭🇰 普通节点-香港A-02
-      - 🇺🇸 VIP节点-美国A-01 2
-      - 🇺🇸 VIP节点-美国A-02 2
-      - 🇭🇰 VIP节点-香港A-01 2
-      - 🇭🇰 VIP节点-香港A-02 2
-      - 🇺🇸 普通节点-美国A-01 2
-      - 🇺🇸 普通节点-美国A-02 2
-      - 🇭🇰 普通节点-香港A-01 2
-      - 🇭🇰 普通节点-香港A-02 2
-      - 🇭🇰 VIP节点-香港B-01
-      - 🇭🇰 VIP节点-香港B-02
-      - 🇭🇰 普通节点-香港B-01
-      - 🇭🇰 普通节点-香港B-02
-      - 🇭🇰 VIP节点-香港B-01 2
-      - 🇭🇰 VIP节点-香港B-02 2
-      - 🇭🇰 普通节点-香港B-01 2
-      - 🇭🇰 普通节点-香港B-02 2
+      - 🇭🇰HK_@
+      - 🇭🇰HK_@ 2
+      - 🇭🇰HK_@ 3
+      - 🇸🇬SG_@
+      - 🇸🇬SG_@ 2
+      - 🇸🇬SG_@ 3
+      - 🇨🇳TW_@
+      - 🇨🇳TW_@ 2
+      - 🇯🇵JP_@
+      - 🇯🇵JP_@ 2
+      - 🇯🇵JP_@ 3
+      - 🇰🇷KR_@
+      - 🇰🇷KR_@ 2
+      - 🇰🇷KR_@ 3
+      - 🇺🇸US_@
+      - 🇺🇸US_@ 2
+      - 🇺🇸US_@ 3
+      - 🇬🇧GB_@
+      - 🇹🇷TR_@
+      - 🇨🇦CA_@
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇯🇵 VIP节点-日本C-01
-      - 🇯🇵 VIP节点-日本C-02
-      - 🇭🇰 VIP节点-香港C-01
-      - 🇭🇰 VIP节点-香港C-02
-      - 🇯🇵 普通节点-日本C-01
-      - 🇯🇵 普通节点-日本C-02
-      - 🇭🇰 普通节点-香港C-01
-      - 🇭🇰 普通节点-香港C-02
-      - 🇯🇵 VIP节点-日本C-01 2
-      - 🇯🇵 VIP节点-日本C-02 2
-      - 🇭🇰 VIP节点-香港C-02 2
-      - 🇯🇵 普通节点-日本C-01 2
-      - 🇯🇵 普通节点-日本C-02 2
-      - 🇭🇰 普通节点-香港C-01 2
-      - 🇭🇰 普通节点-香港C-02 2
-      - 🇯🇵 VIP节点-日本C-01 3
-      - 🇯🇵 VIP节点-日本C-02 3
-      - 🇭🇰 VIP节点-香港C-01 2
-      - 🇭🇰 VIP节点-香港C-02 3
-      - 🇯🇵 普通节点-日本C-02 3
-      - 🇭🇰 普通节点-香港C-02 3
-      - 🇯🇵 VIP节点-日本C-01 4
-      - 🇯🇵 VIP节点-日本C-02 4
-      - 🇭🇰 VIP节点-香港C-01 3
-      - 🇭🇰 VIP节点-香港C-02 4
-      - 🇯🇵 普通节点-日本C-01 3
-      - 🇯🇵 普通节点-日本C-02 4
-      - 🇭🇰 普通节点-香港C-01 3
-      - 🇭🇰 普通节点-香港C-02 4
-      - 🇯🇵 VIP节点-日本C-01 5
-      - 🇯🇵 VIP节点-日本C-02 5
-      - 🇭🇰 VIP节点-香港C-01 4
-      - 🇭🇰 VIP节点-香港C-02 5
-      - 🇯🇵 普通节点-日本C-01 4
-      - 🇯🇵 普通节点-日本C-02 5
-      - 🇭🇰 普通节点-香港C-01 4
-      - 🇭🇰 普通节点-香港C-02 5
-      - 🇸🇬 VIP节点-新加坡A-01
-      - 🇺🇸 VIP节点-美国A-01
-      - 🇺🇸 VIP节点-美国A-02
-      - 🇭🇰 VIP节点-香港A-01
-      - 🇭🇰 VIP节点-香港A-02
-      - 🇺🇸 普通节点-美国A-01
-      - 🇺🇸 普通节点-美国A-02
-      - 🇭🇰 普通节点-香港A-01
-      - 🇭🇰 普通节点-香港A-02
-      - 🇺🇸 VIP节点-美国A-01 2
-      - 🇺🇸 VIP节点-美国A-02 2
-      - 🇭🇰 VIP节点-香港A-01 2
-      - 🇭🇰 VIP节点-香港A-02 2
-      - 🇺🇸 普通节点-美国A-01 2
-      - 🇺🇸 普通节点-美国A-02 2
-      - 🇭🇰 普通节点-香港A-01 2
-      - 🇭🇰 普通节点-香港A-02 2
-      - 🇭🇰 VIP节点-香港B-01
-      - 🇭🇰 VIP节点-香港B-02
-      - 🇭🇰 普通节点-香港B-01
-      - 🇭🇰 普通节点-香港B-02
-      - 🇭🇰 VIP节点-香港B-01 2
-      - 🇭🇰 VIP节点-香港B-02 2
-      - 🇭🇰 普通节点-香港B-01 2
-      - 🇭🇰 普通节点-香港B-02 2
+      - 🇭🇰HK_@
+      - 🇭🇰HK_@ 2
+      - 🇭🇰HK_@ 3
+      - 🇸🇬SG_@
+      - 🇸🇬SG_@ 2
+      - 🇸🇬SG_@ 3
+      - 🇨🇳TW_@
+      - 🇨🇳TW_@ 2
+      - 🇯🇵JP_@
+      - 🇯🇵JP_@ 2
+      - 🇯🇵JP_@ 3
+      - 🇰🇷KR_@
+      - 🇰🇷KR_@ 2
+      - 🇰🇷KR_@ 3
+      - 🇺🇸US_@
+      - 🇺🇸US_@ 2
+      - 🇺🇸US_@ 3
+      - 🇬🇧GB_@
+      - 🇹🇷TR_@
+      - 🇨🇦CA_@
   - name: 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 7200
     proxies:
-      - 🇯🇵 VIP节点-日本C-01
-      - 🇯🇵 VIP节点-日本C-02
-      - 🇭🇰 VIP节点-香港C-01
-      - 🇭🇰 VIP节点-香港C-02
-      - 🇯🇵 普通节点-日本C-01
-      - 🇯🇵 普通节点-日本C-02
-      - 🇭🇰 普通节点-香港C-01
-      - 🇭🇰 普通节点-香港C-02
-      - 🇯🇵 VIP节点-日本C-01 2
-      - 🇯🇵 VIP节点-日本C-02 2
-      - 🇭🇰 VIP节点-香港C-02 2
-      - 🇯🇵 普通节点-日本C-01 2
-      - 🇯🇵 普通节点-日本C-02 2
-      - 🇭🇰 普通节点-香港C-01 2
-      - 🇭🇰 普通节点-香港C-02 2
-      - 🇯🇵 VIP节点-日本C-01 3
-      - 🇯🇵 VIP节点-日本C-02 3
-      - 🇭🇰 VIP节点-香港C-01 2
-      - 🇭🇰 VIP节点-香港C-02 3
-      - 🇯🇵 普通节点-日本C-02 3
-      - 🇭🇰 普通节点-香港C-02 3
-      - 🇯🇵 VIP节点-日本C-01 4
-      - 🇯🇵 VIP节点-日本C-02 4
-      - 🇭🇰 VIP节点-香港C-01 3
-      - 🇭🇰 VIP节点-香港C-02 4
-      - 🇯🇵 普通节点-日本C-01 3
-      - 🇯🇵 普通节点-日本C-02 4
-      - 🇭🇰 普通节点-香港C-01 3
-      - 🇭🇰 普通节点-香港C-02 4
-      - 🇯🇵 VIP节点-日本C-01 5
-      - 🇯🇵 VIP节点-日本C-02 5
-      - 🇭🇰 VIP节点-香港C-01 4
-      - 🇭🇰 VIP节点-香港C-02 5
-      - 🇯🇵 普通节点-日本C-01 4
-      - 🇯🇵 普通节点-日本C-02 5
-      - 🇭🇰 普通节点-香港C-01 4
-      - 🇭🇰 普通节点-香港C-02 5
-      - 🇸🇬 VIP节点-新加坡A-01
-      - 🇺🇸 VIP节点-美国A-01
-      - 🇺🇸 VIP节点-美国A-02
-      - 🇭🇰 VIP节点-香港A-01
-      - 🇭🇰 VIP节点-香港A-02
-      - 🇺🇸 普通节点-美国A-01
-      - 🇺🇸 普通节点-美国A-02
-      - 🇭🇰 普通节点-香港A-01
-      - 🇭🇰 普通节点-香港A-02
-      - 🇺🇸 VIP节点-美国A-01 2
-      - 🇺🇸 VIP节点-美国A-02 2
-      - 🇭🇰 VIP节点-香港A-01 2
-      - 🇭🇰 VIP节点-香港A-02 2
-      - 🇺🇸 普通节点-美国A-01 2
-      - 🇺🇸 普通节点-美国A-02 2
-      - 🇭🇰 普通节点-香港A-01 2
-      - 🇭🇰 普通节点-香港A-02 2
-      - 🇭🇰 VIP节点-香港B-01
-      - 🇭🇰 VIP节点-香港B-02
-      - 🇭🇰 普通节点-香港B-01
-      - 🇭🇰 普通节点-香港B-02
-      - 🇭🇰 VIP节点-香港B-01 2
-      - 🇭🇰 VIP节点-香港B-02 2
-      - 🇭🇰 普通节点-香港B-01 2
-      - 🇭🇰 普通节点-香港B-02 2
+      - 🇭🇰HK_@
+      - 🇭🇰HK_@ 2
+      - 🇭🇰HK_@ 3
+      - 🇸🇬SG_@
+      - 🇸🇬SG_@ 2
+      - 🇸🇬SG_@ 3
+      - 🇨🇳TW_@
+      - 🇨🇳TW_@ 2
+      - 🇯🇵JP_@
+      - 🇯🇵JP_@ 2
+      - 🇯🇵JP_@ 3
+      - 🇰🇷KR_@
+      - 🇰🇷KR_@ 2
+      - 🇰🇷KR_@ 3
+      - 🇺🇸US_@
+      - 🇺🇸US_@ 2
+      - 🇺🇸US_@ 3
+      - 🇬🇧GB_@
+      - 🇹🇷TR_@
+      - 🇨🇦CA_@
 
 rules:
   - DOMAIN,v1.dogapi.yachts,DIRECT
