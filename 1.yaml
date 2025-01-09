@@ -1,0 +1,1242 @@
+####################################
+# 客户端：Clash
+# 创建时间：2025-01-09 13:08:43
+# 使用模版：自学志888
+# 节点数量：152
+# 节点类型：trojan
+####################################
+mixed-port: 7890
+allow-lan: false
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:9090
+clash-for-android:
+  append-system-dns: false
+hosts:
+  mtalk.google.com: 108.177.125.188
+dns:
+  enable: true
+  listen: 127.0.0.1:5335
+  default-nameserver:
+    - 180.184.1.1
+    - 119.29.29.29
+    - 223.5.5.5
+  ipv6: true
+  use-hosts: true
+  fake-ip-filter:
+    - '*.n.n.srv.nintendo.net'
+    - +.stun.playstation.net
+    - xbox.*.*.microsoft.com
+    - '*.msftncsi.com'
+    - '*.msftconnecttest.com'
+    - WORKGROUP
+    - '*.lan'
+    - stun.*.*.*
+    - stun.*.*
+    - time.windows.com
+    - time.nist.gov
+    - time.apple.com
+    - time.asia.apple.com
+    - '*.ntp.org.cn'
+    - '*.openwrt.pool.ntp.org'
+    - time1.cloud.tencent.com
+    - time.ustc.edu.cn
+    - pool.ntp.org
+    - ntp.ubuntu.com
+    - '*.*.xboxlive.com'
+    - speedtest.cros.wr.pvp.net
+  nameserver:
+    - tls://223.5.5.5:853
+    - https://223.6.6.6/dns-query
+    - https://120.53.53.53/dns-query
+  nameserver-policy:
+    +.tmall.com: 223.5.5.5
+    +.taobao.com: 223.5.5.5
+    +.alicdn.com: 223.5.5.5
+    +.aliyun.com: 223.5.5.5
+    +.alipay.com: 223.5.5.5
+    +.alibaba.com: 223.5.5.5
+    +.qq.com: 119.29.29.29
+    +.tencent.com: 119.29.29.29
+    +.weixin.com: 119.29.29.29
+    +.qpic.cn: 119.29.29.29
+    +.jd.com: 119.29.29.29
+    +.bilibili.com: 119.29.29.29
+    +.hdslb.com: 119.29.29.29
+    +.163.com: 119.29.29.29
+    +.126.com: 119.29.29.29
+    +.126.net: 119.29.29.29
+    +.127.net: 119.29.29.29
+    +.netease.com: 119.29.29.29
+    +.baidu.com: 223.5.5.5
+    +.bdstatic.com: 223.5.5.5
+    +.bilivideo.+: 119.29.29.29
+    +.iqiyi.com: 119.29.29.29
+    +.douyinvod.com: 180.184.1.1
+    +.douyin.com: 180.184.1.1
+    +.douyincdn.com: 180.184.1.1
+    +.douyinpic.com: 180.184.1.1
+    +.feishu.cn: 180.184.1.1
+  fallback:
+    - https://101.101.101.101/dns-query
+    - https://public.dns.iij.jp/dns-query
+    - https://208.67.220.220/dns-query
+  fallback-filter:
+    geoip: true
+    ipcidr:
+      - 240.0.0.0/4
+      - 0.0.0.0/32
+      - 223.75.236.241/32
+      - 182.43.124.6/32
+      - 106.74.25.198/32
+    domain:
+      - +.bianyuan.xyz
+      - +.happynothings031.xyz
+      - +.jsdelivr.net
+      - +.proton.me
+
+proxies:
+  - {"name":"Ohio  Pro 20\r","type":"trojan","server":"magnetic-chicken.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"magnetic-chicken.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Virginia  Pro 15\r","type":"trojan","server":"busy-buffalo.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"busy-buffalo.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Toronto  2\r","type":"trojan","server":"trusty-grackle.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"trusty-grackle.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Toronto  Pro 2\r","type":"trojan","server":"trusty-grackle.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"trusty-grackle.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Virginia Pro 10\r","type":"trojan","server":"equipped-mutt.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"equipped-mutt.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Virginia 10\r","type":"trojan","server":"equipped-mutt.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"equipped-mutt.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Paris 1\r","type":"trojan","server":"exciting-mallard.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"exciting-mallard.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Paris Pro 1\r","type":"trojan","server":"exciting-mallard.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"exciting-mallard.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Saint Peterburg Pro 2\r","type":"trojan","server":"relaxed-jaybird.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"relaxed-jaybird.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Oregon  Pro 12\r","type":"trojan","server":"usable-toad.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"usable-toad.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"New York   Pro 9\r","type":"trojan","server":"eternal-tadpole.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"eternal-tadpole.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Manassas  1\r","type":"trojan","server":"nearby-hedgehog.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"nearby-hedgehog.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Moscow Pro 3\r","type":"trojan","server":"usable-skink.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"usable-skink.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Frankfurt  Pro 6\r","type":"trojan","server":"profound-elk.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"profound-elk.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Frankfurt  8\r","type":"trojan","server":"oriented-terrier.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"oriented-terrier.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Tokyo  3\r","type":"trojan","server":"open-kangaroo.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"open-kangaroo.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Warsaw 5\r","type":"trojan","server":"improved-shrimp.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"improved-shrimp.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Tokyo  15\r","type":"trojan","server":"correct-griffon.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"correct-griffon.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Tokyo  Pro 13\r","type":"trojan","server":"ethical-falcon.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"ethical-falcon.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"London 4\r","type":"trojan","server":"leading-shrew.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"leading-shrew.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Amsterdam  19\r","type":"trojan","server":"sacred-guppy.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"sacred-guppy.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Mexico Pro 1\r","type":"trojan","server":"climbing-racer.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"climbing-racer.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Singapore  Pro 5\r","type":"trojan","server":"assured-fowl.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"assured-fowl.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Stockholm  Pro 2\r","type":"trojan","server":"flying-gazelle.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"flying-gazelle.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Frankfurt  Pro 4\r","type":"trojan","server":"pleased-slug.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"pleased-slug.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Amsterdam  9\r","type":"trojan","server":"fitting-ox.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"fitting-ox.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Singapore  Pro 2\r","type":"trojan","server":"square-walleye.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"square-walleye.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Singapore  Pro 4\r","type":"trojan","server":"saved-caribou.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"saved-caribou.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Amsterdam  Pro 7\r","type":"trojan","server":"tops-kit.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"tops-kit.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Istanbul  Pro 1\r","type":"trojan","server":"absolute-mink.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"absolute-mink.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"London  Pro 15\r","type":"trojan","server":"boss-hound.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"boss-hound.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Amsterdam  17\r","type":"trojan","server":"helping-katydid.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"helping-katydid.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Ponte San Pietro Pro 1\r","type":"trojan","server":"keen-falcon.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"keen-falcon.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Frankfurt -L22 1\r","type":"trojan","server":"sacred-sloth.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"sacred-sloth.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Amsterdam  13\r","type":"trojan","server":"useful-prawn.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"useful-prawn.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Manassas  25\r","type":"trojan","server":"tight-clam.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"tight-clam.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Warsaw  6\r","type":"trojan","server":"honest-gar.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"honest-gar.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Singapore  Pro 8\r","type":"trojan","server":"major-reindeer.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"major-reindeer.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Sao Paulo Pro 1\r","type":"trojan","server":"glorious-calf.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"glorious-calf.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Madrid Pro 1\r","type":"trojan","server":"subtle-seahorse.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"subtle-seahorse.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Frankfurt  Pro 16\r","type":"trojan","server":"ample-cockatoo.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"ample-cockatoo.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Manila Pro 1\r","type":"trojan","server":"advanced-shad.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"advanced-shad.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Amsterdam 25\r","type":"trojan","server":"concrete-buzzard.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"concrete-buzzard.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Ireland Pro 1\r","type":"trojan","server":"first-rodent.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"first-rodent.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"New York   3\r","type":"trojan","server":"relative-rhino.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"relative-rhino.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Frankfurt  4\r","type":"trojan","server":"pleased-slug.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"pleased-slug.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Warsaw Pro 5\r","type":"trojan","server":"improved-shrimp.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"improved-shrimp.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Amsterdam  Pro 16\r","type":"trojan","server":"wise-cowbird.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"wise-cowbird.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Sydney  Pro 3\r","type":"trojan","server":"complete-leopard.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"complete-leopard.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Amsterdam  Pro 22\r","type":"trojan","server":"national-gar.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"national-gar.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Manassas  Pro 35\r","type":"trojan","server":"trusty-mutt.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"trusty-mutt.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Warsaw  Pro 7\r","type":"trojan","server":"holy-seahorse.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"holy-seahorse.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Singapore  7\r","type":"trojan","server":"profound-shiner.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"profound-shiner.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"London  15\r","type":"trojan","server":"boss-hound.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"boss-hound.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Frankfurt  6\r","type":"trojan","server":"profound-elk.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"profound-elk.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Amsterdam Pro 25\r","type":"trojan","server":"concrete-buzzard.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"concrete-buzzard.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Fujairah Pro 1\r","type":"trojan","server":"intense-wombat.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"intense-wombat.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Seoul  Pro 1\r","type":"trojan","server":"crack-muskrat.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"crack-muskrat.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Stockholm  2\r","type":"trojan","server":"flying-gazelle.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"flying-gazelle.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Karachi Pro 2\r","type":"trojan","server":"fun-louse.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"fun-louse.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Oregon -L22 Pro 16\r","type":"trojan","server":"dynamic-tuna.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"dynamic-tuna.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Sydney Pro 2\r","type":"trojan","server":"decent-katydid.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"decent-katydid.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Sydney 2\r","type":"trojan","server":"decent-katydid.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"decent-katydid.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Seoul  Pro 5\r","type":"trojan","server":"powerful-hen.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"powerful-hen.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Tokyo  2\r","type":"trojan","server":"smiling-marmoset.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"smiling-marmoset.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Amsterdam  14\r","type":"trojan","server":"clean-ray.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"clean-ray.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"London Pro 4\r","type":"trojan","server":"leading-shrew.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"leading-shrew.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Kuala Lumpur Pro 1\r","type":"trojan","server":"safe-ferret.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"safe-ferret.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"New York   5\r","type":"trojan","server":"organic-hare.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"organic-hare.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Frankfurt -L22 Pro 1\r","type":"trojan","server":"sacred-sloth.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"sacred-sloth.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Ohio -L22 2\r","type":"trojan","server":"model-oarfish.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"model-oarfish.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"New York   Pro 7\r","type":"trojan","server":"allowed-primate.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"allowed-primate.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"New York   9\r","type":"trojan","server":"eternal-tadpole.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"eternal-tadpole.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Sydney  5\r","type":"trojan","server":"pumped-stingray.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"pumped-stingray.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Amsterdam  11\r","type":"trojan","server":"fit-mackerel.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"fit-mackerel.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Amsterdam  Pro 9\r","type":"trojan","server":"fitting-ox.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"fitting-ox.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Ashburn Pro 6\r","type":"trojan","server":"learning-boxer.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"learning-boxer.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Amsterdam  10\r","type":"trojan","server":"wired-magpie.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"wired-magpie.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Mumbai 1\r","type":"trojan","server":"inspired-gobbler.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"inspired-gobbler.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Tokyo  Pro 15\r","type":"trojan","server":"correct-griffon.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"correct-griffon.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Amsterdam  7\r","type":"trojan","server":"tops-kit.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"tops-kit.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Sydney  3\r","type":"trojan","server":"complete-leopard.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"complete-leopard.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Amsterdam  Pro 10\r","type":"trojan","server":"wired-magpie.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"wired-magpie.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Sydney  Pro 5\r","type":"trojan","server":"pumped-stingray.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"pumped-stingray.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Amsterdam  15\r","type":"trojan","server":"social-bream.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"social-bream.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Amsterdam  Pro 15\r","type":"trojan","server":"social-bream.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"social-bream.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Tokyo  13\r","type":"trojan","server":"ethical-falcon.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"ethical-falcon.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Amsterdam  16\r","type":"trojan","server":"wise-cowbird.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"wise-cowbird.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Seoul  Pro 2\r","type":"trojan","server":"allowing-snake.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"allowing-snake.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Toronto  Pro 1\r","type":"trojan","server":"neutral-magpie.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"neutral-magpie.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Lagos Pro 3\r","type":"trojan","server":"alive-polecat.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"alive-polecat.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Riga Pro 1\r","type":"trojan","server":"adequate-narwhal.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"adequate-narwhal.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Warsaw  8\r","type":"trojan","server":"organic-skunk.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"organic-skunk.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Frankfurt  Pro 8\r","type":"trojan","server":"oriented-terrier.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"oriented-terrier.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Amsterdam  Pro 18\r","type":"trojan","server":"correct-redbird.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"correct-redbird.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Tokyo  Pro 2\r","type":"trojan","server":"smiling-marmoset.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"smiling-marmoset.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Amsterdam  18\r","type":"trojan","server":"correct-redbird.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"correct-redbird.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Amsterdam  Pro 19\r","type":"trojan","server":"sacred-guppy.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"sacred-guppy.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Seoul  5\r","type":"trojan","server":"powerful-hen.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"powerful-hen.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Singapore  Pro 3\r","type":"trojan","server":"dear-sunbeam.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"dear-sunbeam.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Ohio -L22 Pro 2\r","type":"trojan","server":"model-oarfish.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"model-oarfish.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Amsterdam  6\r","type":"trojan","server":"sensible-ocelot.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"sensible-ocelot.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Frankfurt  Pro 13\r","type":"trojan","server":"golden-krill.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"golden-krill.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Frankfurt  16\r","type":"trojan","server":"ample-cockatoo.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"ample-cockatoo.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Stockholm Pro 1\r","type":"trojan","server":"dominant-kingfish.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"dominant-kingfish.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Amsterdam  Pro 28\r","type":"trojan","server":"lucky-grouper.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"lucky-grouper.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Mumbai Pro 1\r","type":"trojan","server":"inspired-gobbler.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"inspired-gobbler.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Amsterdam  Pro 14\r","type":"trojan","server":"clean-ray.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"clean-ray.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Tokyo -L22 7\r","type":"trojan","server":"wealthy-monkey.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"wealthy-monkey.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Manassas  Pro 1\r","type":"trojan","server":"nearby-hedgehog.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"nearby-hedgehog.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Warsaw  Pro 6\r","type":"trojan","server":"honest-gar.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"honest-gar.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Amsterdam  28\r","type":"trojan","server":"lucky-grouper.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"lucky-grouper.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Frankfurt Pro 2\r","type":"trojan","server":"genuine-fowl.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"genuine-fowl.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"New York   Pro 5\r","type":"trojan","server":"organic-hare.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"organic-hare.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Amsterdam  22\r","type":"trojan","server":"national-gar.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"national-gar.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Warsaw  3\r","type":"trojan","server":"perfect-beagle.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"perfect-beagle.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Singapore  8\r","type":"trojan","server":"major-reindeer.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"major-reindeer.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Frankfurt 2\r","type":"trojan","server":"genuine-fowl.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"genuine-fowl.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Amsterdam  Pro 11\r","type":"trojan","server":"fit-mackerel.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"fit-mackerel.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Prague Pro 2\r","type":"trojan","server":"humane-tetra.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"humane-tetra.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Amsterdam  Pro 13\r","type":"trojan","server":"useful-prawn.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"useful-prawn.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Oregon -L22 16\r","type":"trojan","server":"dynamic-tuna.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"dynamic-tuna.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Tokyo -L22 Pro 7\r","type":"trojan","server":"wealthy-monkey.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"wealthy-monkey.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Riyadh Pro 1\r","type":"trojan","server":"noted-calf.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"noted-calf.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"New York   8\r","type":"trojan","server":"actual-albacore.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"actual-albacore.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Bangkok Pro 1\r","type":"trojan","server":"tolerant-spider.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"tolerant-spider.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Singapore  Pro 6\r","type":"trojan","server":"choice-condor.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"choice-condor.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Warsaw  Pro 8\r","type":"trojan","server":"organic-skunk.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"organic-skunk.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Tokyo  Pro 3\r","type":"trojan","server":"open-kangaroo.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"open-kangaroo.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Mumbai  Pro 4\r","type":"trojan","server":"first-leech.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"first-leech.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Ponte San Pietro Pro 2\r","type":"trojan","server":"intent-amoeba.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"intent-amoeba.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Manassas  Pro 25\r","type":"trojan","server":"tight-clam.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"tight-clam.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Singapore  1\r","type":"trojan","server":"premium-gull.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"premium-gull.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Amsterdam  3\r","type":"trojan","server":"pleased-airedale.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"pleased-airedale.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Warsaw  7\r","type":"trojan","server":"holy-seahorse.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"holy-seahorse.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Amsterdam  Pro 24\r","type":"trojan","server":"devoted-starfish.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"devoted-starfish.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Ireland 1\r","type":"trojan","server":"first-rodent.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"first-rodent.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Mumbai Pro 3\r","type":"trojan","server":"able-emu.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"able-emu.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Amsterdam  24\r","type":"trojan","server":"devoted-starfish.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"devoted-starfish.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Singapore  Pro 1\r","type":"trojan","server":"premium-gull.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"premium-gull.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Singapore  Pro 7\r","type":"trojan","server":"profound-shiner.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"profound-shiner.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Amsterdam  Pro 17\r","type":"trojan","server":"helping-katydid.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"helping-katydid.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Lagos Pro 2\r","type":"trojan","server":"artistic-flounder.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"artistic-flounder.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"New York   Pro 8\r","type":"trojan","server":"actual-albacore.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"actual-albacore.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Amsterdam  Pro 6\r","type":"trojan","server":"sensible-ocelot.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"sensible-ocelot.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Manassas  35\r","type":"trojan","server":"trusty-mutt.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"trusty-mutt.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Amsterdam  Pro 3\r","type":"trojan","server":"pleased-airedale.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"pleased-airedale.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Warsaw  Pro 3\r","type":"trojan","server":"perfect-beagle.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"perfect-beagle.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Manama Pro 1\r","type":"trojan","server":"skilled-badger.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"skilled-badger.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Kathmandu Pro 1\r","type":"trojan","server":"settled-seal.treefrog761.one","port":443,"udp":true,"password":"3723507166611775488","sni":"settled-seal.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"New York   Pro 3\r","type":"trojan","server":"relative-rhino.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"relative-rhino.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"New York   7\r","type":"trojan","server":"allowed-primate.boa152.lol","port":443,"udp":true,"password":"3723507166611775488","sni":"allowed-primate.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+proxy-groups:
+  - name: 自学志甄选
+    type: select
+    proxies:
+      - 自动选择
+      - 故障转移
+      - "Ohio  Pro 20\r"
+      - "Virginia  Pro 15\r"
+      - "Toronto  2\r"
+      - "Toronto  Pro 2\r"
+      - "Virginia Pro 10\r"
+      - "Virginia 10\r"
+      - "Paris 1\r"
+      - "Paris Pro 1\r"
+      - "Saint Peterburg Pro 2\r"
+      - "Oregon  Pro 12\r"
+      - "New York   Pro 9\r"
+      - "Manassas  1\r"
+      - "Moscow Pro 3\r"
+      - "Frankfurt  Pro 6\r"
+      - "Frankfurt  8\r"
+      - "Tokyo  3\r"
+      - "Warsaw 5\r"
+      - "Tokyo  15\r"
+      - "Tokyo  Pro 13\r"
+      - "London 4\r"
+      - "Amsterdam  19\r"
+      - "Mexico Pro 1\r"
+      - "Singapore  Pro 5\r"
+      - "Stockholm  Pro 2\r"
+      - "Frankfurt  Pro 4\r"
+      - "Amsterdam  9\r"
+      - "Singapore  Pro 2\r"
+      - "Singapore  Pro 4\r"
+      - "Amsterdam  Pro 7\r"
+      - "Istanbul  Pro 1\r"
+      - "London  Pro 15\r"
+      - "Amsterdam  17\r"
+      - "Ponte San Pietro Pro 1\r"
+      - "Frankfurt -L22 1\r"
+      - "Amsterdam  13\r"
+      - "Manassas  25\r"
+      - "Warsaw  6\r"
+      - "Singapore  Pro 8\r"
+      - "Sao Paulo Pro 1\r"
+      - "Madrid Pro 1\r"
+      - "Frankfurt  Pro 16\r"
+      - "Manila Pro 1\r"
+      - "Amsterdam 25\r"
+      - "Ireland Pro 1\r"
+      - "New York   3\r"
+      - "Frankfurt  4\r"
+      - "Warsaw Pro 5\r"
+      - "Amsterdam  Pro 16\r"
+      - "Sydney  Pro 3\r"
+      - "Amsterdam  Pro 22\r"
+      - "Manassas  Pro 35\r"
+      - "Warsaw  Pro 7\r"
+      - "Singapore  7\r"
+      - "London  15\r"
+      - "Frankfurt  6\r"
+      - "Amsterdam Pro 25\r"
+      - "Fujairah Pro 1\r"
+      - "Seoul  Pro 1\r"
+      - "Stockholm  2\r"
+      - "Karachi Pro 2\r"
+      - "Oregon -L22 Pro 16\r"
+      - "Sydney Pro 2\r"
+      - "Sydney 2\r"
+      - "Seoul  Pro 5\r"
+      - "Tokyo  2\r"
+      - "Amsterdam  14\r"
+      - "London Pro 4\r"
+      - "Kuala Lumpur Pro 1\r"
+      - "New York   5\r"
+      - "Frankfurt -L22 Pro 1\r"
+      - "Ohio -L22 2\r"
+      - "New York   Pro 7\r"
+      - "New York   9\r"
+      - "Sydney  5\r"
+      - "Amsterdam  11\r"
+      - "Amsterdam  Pro 9\r"
+      - "Ashburn Pro 6\r"
+      - "Amsterdam  10\r"
+      - "Mumbai 1\r"
+      - "Tokyo  Pro 15\r"
+      - "Amsterdam  7\r"
+      - "Sydney  3\r"
+      - "Amsterdam  Pro 10\r"
+      - "Sydney  Pro 5\r"
+      - "Amsterdam  15\r"
+      - "Amsterdam  Pro 15\r"
+      - "Tokyo  13\r"
+      - "Amsterdam  16\r"
+      - "Seoul  Pro 2\r"
+      - "Toronto  Pro 1\r"
+      - "Lagos Pro 3\r"
+      - "Riga Pro 1\r"
+      - "Warsaw  8\r"
+      - "Frankfurt  Pro 8\r"
+      - "Amsterdam  Pro 18\r"
+      - "Tokyo  Pro 2\r"
+      - "Amsterdam  18\r"
+      - "Amsterdam  Pro 19\r"
+      - "Seoul  5\r"
+      - "Singapore  Pro 3\r"
+      - "Ohio -L22 Pro 2\r"
+      - "Amsterdam  6\r"
+      - "Frankfurt  Pro 13\r"
+      - "Frankfurt  16\r"
+      - "Stockholm Pro 1\r"
+      - "Amsterdam  Pro 28\r"
+      - "Mumbai Pro 1\r"
+      - "Amsterdam  Pro 14\r"
+      - "Tokyo -L22 7\r"
+      - "Manassas  Pro 1\r"
+      - "Warsaw  Pro 6\r"
+      - "Amsterdam  28\r"
+      - "Frankfurt Pro 2\r"
+      - "New York   Pro 5\r"
+      - "Amsterdam  22\r"
+      - "Warsaw  3\r"
+      - "Singapore  8\r"
+      - "Frankfurt 2\r"
+      - "Amsterdam  Pro 11\r"
+      - "Prague Pro 2\r"
+      - "Amsterdam  Pro 13\r"
+      - "Oregon -L22 16\r"
+      - "Tokyo -L22 Pro 7\r"
+      - "Riyadh Pro 1\r"
+      - "New York   8\r"
+      - "Bangkok Pro 1\r"
+      - "Singapore  Pro 6\r"
+      - "Warsaw  Pro 8\r"
+      - "Tokyo  Pro 3\r"
+      - "Mumbai  Pro 4\r"
+      - "Ponte San Pietro Pro 2\r"
+      - "Manassas  Pro 25\r"
+      - "Singapore  1\r"
+      - "Amsterdam  3\r"
+      - "Warsaw  7\r"
+      - "Amsterdam  Pro 24\r"
+      - "Ireland 1\r"
+      - "Mumbai Pro 3\r"
+      - "Amsterdam  24\r"
+      - "Singapore  Pro 1\r"
+      - "Singapore  Pro 7\r"
+      - "Amsterdam  Pro 17\r"
+      - "Lagos Pro 2\r"
+      - "New York   Pro 8\r"
+      - "Amsterdam  Pro 6\r"
+      - "Manassas  35\r"
+      - "Amsterdam  Pro 3\r"
+      - "Warsaw  Pro 3\r"
+      - "Manama Pro 1\r"
+      - "Kathmandu Pro 1\r"
+      - "New York   Pro 3\r"
+      - "New York   7\r"
+  - name: 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - "Ohio  Pro 20\r"
+      - "Virginia  Pro 15\r"
+      - "Toronto  2\r"
+      - "Toronto  Pro 2\r"
+      - "Virginia Pro 10\r"
+      - "Virginia 10\r"
+      - "Paris 1\r"
+      - "Paris Pro 1\r"
+      - "Saint Peterburg Pro 2\r"
+      - "Oregon  Pro 12\r"
+      - "New York   Pro 9\r"
+      - "Manassas  1\r"
+      - "Moscow Pro 3\r"
+      - "Frankfurt  Pro 6\r"
+      - "Frankfurt  8\r"
+      - "Tokyo  3\r"
+      - "Warsaw 5\r"
+      - "Tokyo  15\r"
+      - "Tokyo  Pro 13\r"
+      - "London 4\r"
+      - "Amsterdam  19\r"
+      - "Mexico Pro 1\r"
+      - "Singapore  Pro 5\r"
+      - "Stockholm  Pro 2\r"
+      - "Frankfurt  Pro 4\r"
+      - "Amsterdam  9\r"
+      - "Singapore  Pro 2\r"
+      - "Singapore  Pro 4\r"
+      - "Amsterdam  Pro 7\r"
+      - "Istanbul  Pro 1\r"
+      - "London  Pro 15\r"
+      - "Amsterdam  17\r"
+      - "Ponte San Pietro Pro 1\r"
+      - "Frankfurt -L22 1\r"
+      - "Amsterdam  13\r"
+      - "Manassas  25\r"
+      - "Warsaw  6\r"
+      - "Singapore  Pro 8\r"
+      - "Sao Paulo Pro 1\r"
+      - "Madrid Pro 1\r"
+      - "Frankfurt  Pro 16\r"
+      - "Manila Pro 1\r"
+      - "Amsterdam 25\r"
+      - "Ireland Pro 1\r"
+      - "New York   3\r"
+      - "Frankfurt  4\r"
+      - "Warsaw Pro 5\r"
+      - "Amsterdam  Pro 16\r"
+      - "Sydney  Pro 3\r"
+      - "Amsterdam  Pro 22\r"
+      - "Manassas  Pro 35\r"
+      - "Warsaw  Pro 7\r"
+      - "Singapore  7\r"
+      - "London  15\r"
+      - "Frankfurt  6\r"
+      - "Amsterdam Pro 25\r"
+      - "Fujairah Pro 1\r"
+      - "Seoul  Pro 1\r"
+      - "Stockholm  2\r"
+      - "Karachi Pro 2\r"
+      - "Oregon -L22 Pro 16\r"
+      - "Sydney Pro 2\r"
+      - "Sydney 2\r"
+      - "Seoul  Pro 5\r"
+      - "Tokyo  2\r"
+      - "Amsterdam  14\r"
+      - "London Pro 4\r"
+      - "Kuala Lumpur Pro 1\r"
+      - "New York   5\r"
+      - "Frankfurt -L22 Pro 1\r"
+      - "Ohio -L22 2\r"
+      - "New York   Pro 7\r"
+      - "New York   9\r"
+      - "Sydney  5\r"
+      - "Amsterdam  11\r"
+      - "Amsterdam  Pro 9\r"
+      - "Ashburn Pro 6\r"
+      - "Amsterdam  10\r"
+      - "Mumbai 1\r"
+      - "Tokyo  Pro 15\r"
+      - "Amsterdam  7\r"
+      - "Sydney  3\r"
+      - "Amsterdam  Pro 10\r"
+      - "Sydney  Pro 5\r"
+      - "Amsterdam  15\r"
+      - "Amsterdam  Pro 15\r"
+      - "Tokyo  13\r"
+      - "Amsterdam  16\r"
+      - "Seoul  Pro 2\r"
+      - "Toronto  Pro 1\r"
+      - "Lagos Pro 3\r"
+      - "Riga Pro 1\r"
+      - "Warsaw  8\r"
+      - "Frankfurt  Pro 8\r"
+      - "Amsterdam  Pro 18\r"
+      - "Tokyo  Pro 2\r"
+      - "Amsterdam  18\r"
+      - "Amsterdam  Pro 19\r"
+      - "Seoul  5\r"
+      - "Singapore  Pro 3\r"
+      - "Ohio -L22 Pro 2\r"
+      - "Amsterdam  6\r"
+      - "Frankfurt  Pro 13\r"
+      - "Frankfurt  16\r"
+      - "Stockholm Pro 1\r"
+      - "Amsterdam  Pro 28\r"
+      - "Mumbai Pro 1\r"
+      - "Amsterdam  Pro 14\r"
+      - "Tokyo -L22 7\r"
+      - "Manassas  Pro 1\r"
+      - "Warsaw  Pro 6\r"
+      - "Amsterdam  28\r"
+      - "Frankfurt Pro 2\r"
+      - "New York   Pro 5\r"
+      - "Amsterdam  22\r"
+      - "Warsaw  3\r"
+      - "Singapore  8\r"
+      - "Frankfurt 2\r"
+      - "Amsterdam  Pro 11\r"
+      - "Prague Pro 2\r"
+      - "Amsterdam  Pro 13\r"
+      - "Oregon -L22 16\r"
+      - "Tokyo -L22 Pro 7\r"
+      - "Riyadh Pro 1\r"
+      - "New York   8\r"
+      - "Bangkok Pro 1\r"
+      - "Singapore  Pro 6\r"
+      - "Warsaw  Pro 8\r"
+      - "Tokyo  Pro 3\r"
+      - "Mumbai  Pro 4\r"
+      - "Ponte San Pietro Pro 2\r"
+      - "Manassas  Pro 25\r"
+      - "Singapore  1\r"
+      - "Amsterdam  3\r"
+      - "Warsaw  7\r"
+      - "Amsterdam  Pro 24\r"
+      - "Ireland 1\r"
+      - "Mumbai Pro 3\r"
+      - "Amsterdam  24\r"
+      - "Singapore  Pro 1\r"
+      - "Singapore  Pro 7\r"
+      - "Amsterdam  Pro 17\r"
+      - "Lagos Pro 2\r"
+      - "New York   Pro 8\r"
+      - "Amsterdam  Pro 6\r"
+      - "Manassas  35\r"
+      - "Amsterdam  Pro 3\r"
+      - "Warsaw  Pro 3\r"
+      - "Manama Pro 1\r"
+      - "Kathmandu Pro 1\r"
+      - "New York   Pro 3\r"
+      - "New York   7\r"
+  - name: 故障转移
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 7200
+    proxies:
+      - "Ohio  Pro 20\r"
+      - "Virginia  Pro 15\r"
+      - "Toronto  2\r"
+      - "Toronto  Pro 2\r"
+      - "Virginia Pro 10\r"
+      - "Virginia 10\r"
+      - "Paris 1\r"
+      - "Paris Pro 1\r"
+      - "Saint Peterburg Pro 2\r"
+      - "Oregon  Pro 12\r"
+      - "New York   Pro 9\r"
+      - "Manassas  1\r"
+      - "Moscow Pro 3\r"
+      - "Frankfurt  Pro 6\r"
+      - "Frankfurt  8\r"
+      - "Tokyo  3\r"
+      - "Warsaw 5\r"
+      - "Tokyo  15\r"
+      - "Tokyo  Pro 13\r"
+      - "London 4\r"
+      - "Amsterdam  19\r"
+      - "Mexico Pro 1\r"
+      - "Singapore  Pro 5\r"
+      - "Stockholm  Pro 2\r"
+      - "Frankfurt  Pro 4\r"
+      - "Amsterdam  9\r"
+      - "Singapore  Pro 2\r"
+      - "Singapore  Pro 4\r"
+      - "Amsterdam  Pro 7\r"
+      - "Istanbul  Pro 1\r"
+      - "London  Pro 15\r"
+      - "Amsterdam  17\r"
+      - "Ponte San Pietro Pro 1\r"
+      - "Frankfurt -L22 1\r"
+      - "Amsterdam  13\r"
+      - "Manassas  25\r"
+      - "Warsaw  6\r"
+      - "Singapore  Pro 8\r"
+      - "Sao Paulo Pro 1\r"
+      - "Madrid Pro 1\r"
+      - "Frankfurt  Pro 16\r"
+      - "Manila Pro 1\r"
+      - "Amsterdam 25\r"
+      - "Ireland Pro 1\r"
+      - "New York   3\r"
+      - "Frankfurt  4\r"
+      - "Warsaw Pro 5\r"
+      - "Amsterdam  Pro 16\r"
+      - "Sydney  Pro 3\r"
+      - "Amsterdam  Pro 22\r"
+      - "Manassas  Pro 35\r"
+      - "Warsaw  Pro 7\r"
+      - "Singapore  7\r"
+      - "London  15\r"
+      - "Frankfurt  6\r"
+      - "Amsterdam Pro 25\r"
+      - "Fujairah Pro 1\r"
+      - "Seoul  Pro 1\r"
+      - "Stockholm  2\r"
+      - "Karachi Pro 2\r"
+      - "Oregon -L22 Pro 16\r"
+      - "Sydney Pro 2\r"
+      - "Sydney 2\r"
+      - "Seoul  Pro 5\r"
+      - "Tokyo  2\r"
+      - "Amsterdam  14\r"
+      - "London Pro 4\r"
+      - "Kuala Lumpur Pro 1\r"
+      - "New York   5\r"
+      - "Frankfurt -L22 Pro 1\r"
+      - "Ohio -L22 2\r"
+      - "New York   Pro 7\r"
+      - "New York   9\r"
+      - "Sydney  5\r"
+      - "Amsterdam  11\r"
+      - "Amsterdam  Pro 9\r"
+      - "Ashburn Pro 6\r"
+      - "Amsterdam  10\r"
+      - "Mumbai 1\r"
+      - "Tokyo  Pro 15\r"
+      - "Amsterdam  7\r"
+      - "Sydney  3\r"
+      - "Amsterdam  Pro 10\r"
+      - "Sydney  Pro 5\r"
+      - "Amsterdam  15\r"
+      - "Amsterdam  Pro 15\r"
+      - "Tokyo  13\r"
+      - "Amsterdam  16\r"
+      - "Seoul  Pro 2\r"
+      - "Toronto  Pro 1\r"
+      - "Lagos Pro 3\r"
+      - "Riga Pro 1\r"
+      - "Warsaw  8\r"
+      - "Frankfurt  Pro 8\r"
+      - "Amsterdam  Pro 18\r"
+      - "Tokyo  Pro 2\r"
+      - "Amsterdam  18\r"
+      - "Amsterdam  Pro 19\r"
+      - "Seoul  5\r"
+      - "Singapore  Pro 3\r"
+      - "Ohio -L22 Pro 2\r"
+      - "Amsterdam  6\r"
+      - "Frankfurt  Pro 13\r"
+      - "Frankfurt  16\r"
+      - "Stockholm Pro 1\r"
+      - "Amsterdam  Pro 28\r"
+      - "Mumbai Pro 1\r"
+      - "Amsterdam  Pro 14\r"
+      - "Tokyo -L22 7\r"
+      - "Manassas  Pro 1\r"
+      - "Warsaw  Pro 6\r"
+      - "Amsterdam  28\r"
+      - "Frankfurt Pro 2\r"
+      - "New York   Pro 5\r"
+      - "Amsterdam  22\r"
+      - "Warsaw  3\r"
+      - "Singapore  8\r"
+      - "Frankfurt 2\r"
+      - "Amsterdam  Pro 11\r"
+      - "Prague Pro 2\r"
+      - "Amsterdam  Pro 13\r"
+      - "Oregon -L22 16\r"
+      - "Tokyo -L22 Pro 7\r"
+      - "Riyadh Pro 1\r"
+      - "New York   8\r"
+      - "Bangkok Pro 1\r"
+      - "Singapore  Pro 6\r"
+      - "Warsaw  Pro 8\r"
+      - "Tokyo  Pro 3\r"
+      - "Mumbai  Pro 4\r"
+      - "Ponte San Pietro Pro 2\r"
+      - "Manassas  Pro 25\r"
+      - "Singapore  1\r"
+      - "Amsterdam  3\r"
+      - "Warsaw  7\r"
+      - "Amsterdam  Pro 24\r"
+      - "Ireland 1\r"
+      - "Mumbai Pro 3\r"
+      - "Amsterdam  24\r"
+      - "Singapore  Pro 1\r"
+      - "Singapore  Pro 7\r"
+      - "Amsterdam  Pro 17\r"
+      - "Lagos Pro 2\r"
+      - "New York   Pro 8\r"
+      - "Amsterdam  Pro 6\r"
+      - "Manassas  35\r"
+      - "Amsterdam  Pro 3\r"
+      - "Warsaw  Pro 3\r"
+      - "Manama Pro 1\r"
+      - "Kathmandu Pro 1\r"
+      - "New York   Pro 3\r"
+      - "New York   7\r"
+
+rules:
+  - DOMAIN,v1.dogapi.yachts,DIRECT
+  - DOMAIN-SUFFIX,v2rayse.com,自学志甄选
+  - DOMAIN-SUFFIX,cff.pw,自学志甄选
+  - DOMAIN-SUFFIX,vpnse.org,自学志甄选
+  - DOMAIN-SUFFIX,cfmem.com,自学志甄选
+  - DOMAIN-SUFFIX,services.googleapis.cn,自学志甄选
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,自学志甄选
+  - DOMAIN,safebrowsing.urlsec.qq.com,DIRECT
+  - DOMAIN,safebrowsing.googleapis.com,DIRECT
+  - DOMAIN,developer.apple.com,自学志甄选
+  - DOMAIN-SUFFIX,digicert.com,自学志甄选
+  - DOMAIN,ocsp.apple.com,自学志甄选
+  - DOMAIN,ocsp.comodoca.com,自学志甄选
+  - DOMAIN,ocsp.usertrust.com,自学志甄选
+  - DOMAIN,ocsp.sectigo.com,自学志甄选
+  - DOMAIN,ocsp.verisign.net,自学志甄选
+  - DOMAIN-SUFFIX,apple-dns.net,自学志甄选
+  - DOMAIN,testflight.apple.com,自学志甄选
+  - DOMAIN,sandbox.itunes.apple.com,自学志甄选
+  - DOMAIN,itunes.apple.com,自学志甄选
+  - DOMAIN-SUFFIX,apps.apple.com,自学志甄选
+  - DOMAIN-SUFFIX,blobstore.apple.com,自学志甄选
+  - DOMAIN,cvws.icloud-content.com,自学志甄选
+  - DOMAIN-SUFFIX,mzstatic.com,DIRECT
+  - DOMAIN-SUFFIX,itunes.apple.com,DIRECT
+  - DOMAIN-SUFFIX,icloud.com,DIRECT
+  - DOMAIN-SUFFIX,icloud-content.com,DIRECT
+  - DOMAIN-SUFFIX,me.com,DIRECT
+  - DOMAIN-SUFFIX,aaplimg.com,DIRECT
+  - DOMAIN-SUFFIX,cdn20.com,DIRECT
+  - DOMAIN-SUFFIX,cdn-apple.com,DIRECT
+  - DOMAIN-SUFFIX,akadns.net,DIRECT
+  - DOMAIN-SUFFIX,akamaiedge.net,DIRECT
+  - DOMAIN-SUFFIX,edgekey.net,DIRECT
+  - DOMAIN-SUFFIX,mwcloudcdn.com,DIRECT
+  - DOMAIN-SUFFIX,mwcname.com,DIRECT
+  - DOMAIN-SUFFIX,apple.com,DIRECT
+  - DOMAIN-SUFFIX,apple-cloudkit.com,DIRECT
+  - DOMAIN-SUFFIX,apple-mapkit.com,DIRECT
+  - DOMAIN-SUFFIX,126.com,DIRECT
+  - DOMAIN-SUFFIX,126.net,DIRECT
+  - DOMAIN-SUFFIX,127.net,DIRECT
+  - DOMAIN-SUFFIX,163.com,DIRECT
+  - DOMAIN-SUFFIX,360buyimg.com,DIRECT
+  - DOMAIN-SUFFIX,36kr.com,DIRECT
+  - DOMAIN-SUFFIX,acfun.tv,DIRECT
+  - DOMAIN-SUFFIX,air-matters.com,DIRECT
+  - DOMAIN-SUFFIX,aixifan.com,DIRECT
+  - DOMAIN-KEYWORD,alicdn,DIRECT
+  - DOMAIN-KEYWORD,alipay,DIRECT
+  - DOMAIN-KEYWORD,taobao,DIRECT
+  - DOMAIN-SUFFIX,amap.com,DIRECT
+  - DOMAIN-SUFFIX,autonavi.com,DIRECT
+  - DOMAIN-KEYWORD,baidu,DIRECT
+  - DOMAIN-SUFFIX,bdimg.com,DIRECT
+  - DOMAIN-SUFFIX,bdstatic.com,DIRECT
+  - DOMAIN-SUFFIX,bilibili.com,DIRECT
+  - DOMAIN-SUFFIX,bilivideo.com,DIRECT
+  - DOMAIN-SUFFIX,caiyunapp.com,DIRECT
+  - DOMAIN-SUFFIX,clouddn.com,DIRECT
+  - DOMAIN-SUFFIX,cnbeta.com,DIRECT
+  - DOMAIN-SUFFIX,cnbetacdn.com,DIRECT
+  - DOMAIN-SUFFIX,cootekservice.com,DIRECT
+  - DOMAIN-SUFFIX,csdn.net,DIRECT
+  - DOMAIN-SUFFIX,ctrip.com,DIRECT
+  - DOMAIN-SUFFIX,dgtle.com,DIRECT
+  - DOMAIN-SUFFIX,dianping.com,DIRECT
+  - DOMAIN-SUFFIX,douban.com,DIRECT
+  - DOMAIN-SUFFIX,doubanio.com,DIRECT
+  - DOMAIN-SUFFIX,duokan.com,DIRECT
+  - DOMAIN-SUFFIX,easou.com,DIRECT
+  - DOMAIN-SUFFIX,ele.me,DIRECT
+  - DOMAIN-SUFFIX,feng.com,DIRECT
+  - DOMAIN-SUFFIX,fir.im,DIRECT
+  - DOMAIN-SUFFIX,frdic.com,DIRECT
+  - DOMAIN-SUFFIX,g-cores.com,DIRECT
+  - DOMAIN-SUFFIX,godic.net,DIRECT
+  - DOMAIN-SUFFIX,gtimg.com,DIRECT
+  - DOMAIN,cdn.hockeyapp.net,DIRECT
+  - DOMAIN-SUFFIX,hongxiu.com,DIRECT
+  - DOMAIN-SUFFIX,hxcdn.net,DIRECT
+  - DOMAIN-SUFFIX,iciba.com,DIRECT
+  - DOMAIN-SUFFIX,ifeng.com,DIRECT
+  - DOMAIN-SUFFIX,ifengimg.com,DIRECT
+  - DOMAIN-SUFFIX,ipip.net,DIRECT
+  - DOMAIN-SUFFIX,iqiyi.com,DIRECT
+  - DOMAIN-SUFFIX,jd.com,DIRECT
+  - DOMAIN-SUFFIX,jianshu.com,DIRECT
+  - DOMAIN-SUFFIX,knewone.com,DIRECT
+  - DOMAIN-SUFFIX,le.com,DIRECT
+  - DOMAIN-SUFFIX,lecloud.com,DIRECT
+  - DOMAIN-SUFFIX,lemicp.com,DIRECT
+  - DOMAIN-SUFFIX,licdn.com,DIRECT
+  - DOMAIN-SUFFIX,luoo.net,DIRECT
+  - DOMAIN-SUFFIX,meituan.com,DIRECT
+  - DOMAIN-SUFFIX,meituan.net,DIRECT
+  - DOMAIN-SUFFIX,mi.com,DIRECT
+  - DOMAIN-SUFFIX,miaopai.com,DIRECT
+  - DOMAIN-SUFFIX,microsoft.com,DIRECT
+  - DOMAIN-SUFFIX,microsoftonline.com,DIRECT
+  - DOMAIN-SUFFIX,miui.com,DIRECT
+  - DOMAIN-SUFFIX,miwifi.com,DIRECT
+  - DOMAIN-SUFFIX,mob.com,DIRECT
+  - DOMAIN-SUFFIX,netease.com,DIRECT
+  - DOMAIN-SUFFIX,office.com,DIRECT
+  - DOMAIN-SUFFIX,office365.com,DIRECT
+  - DOMAIN-KEYWORD,officecdn,DIRECT
+  - DOMAIN-SUFFIX,oschina.net,DIRECT
+  - DOMAIN-SUFFIX,ppsimg.com,DIRECT
+  - DOMAIN-SUFFIX,pstatp.com,DIRECT
+  - DOMAIN-SUFFIX,qcloud.com,DIRECT
+  - DOMAIN-SUFFIX,qdaily.com,DIRECT
+  - DOMAIN-SUFFIX,qdmm.com,DIRECT
+  - DOMAIN-SUFFIX,qhimg.com,DIRECT
+  - DOMAIN-SUFFIX,qhres.com,DIRECT
+  - DOMAIN-SUFFIX,qidian.com,DIRECT
+  - DOMAIN-SUFFIX,qihucdn.com,DIRECT
+  - DOMAIN-SUFFIX,qiniu.com,DIRECT
+  - DOMAIN-SUFFIX,qiniucdn.com,DIRECT
+  - DOMAIN-SUFFIX,qiyipic.com,DIRECT
+  - DOMAIN-SUFFIX,qq.com,DIRECT
+  - DOMAIN-SUFFIX,qqurl.com,DIRECT
+  - DOMAIN-SUFFIX,rarbg.to,DIRECT
+  - DOMAIN-SUFFIX,ruguoapp.com,DIRECT
+  - DOMAIN-SUFFIX,segmentfault.com,DIRECT
+  - DOMAIN-SUFFIX,sinaapp.com,DIRECT
+  - DOMAIN-SUFFIX,smzdm.com,DIRECT
+  - DOMAIN-SUFFIX,snapdrop.net,DIRECT
+  - DOMAIN-SUFFIX,sogou.com,DIRECT
+  - DOMAIN-SUFFIX,sogoucdn.com,DIRECT
+  - DOMAIN-SUFFIX,sohu.com,DIRECT
+  - DOMAIN-SUFFIX,soku.com,DIRECT
+  - DOMAIN-SUFFIX,speedtest.net,DIRECT
+  - DOMAIN-SUFFIX,sspai.com,DIRECT
+  - DOMAIN-SUFFIX,suning.com,DIRECT
+  - DOMAIN-SUFFIX,taobao.com,DIRECT
+  - DOMAIN-SUFFIX,tencent.com,DIRECT
+  - DOMAIN-SUFFIX,tenpay.com,DIRECT
+  - DOMAIN-SUFFIX,tianyancha.com,DIRECT
+  - DOMAIN-SUFFIX,tmall.com,DIRECT
+  - DOMAIN-SUFFIX,tudou.com,DIRECT
+  - DOMAIN-SUFFIX,umetrip.com,DIRECT
+  - DOMAIN-SUFFIX,upaiyun.com,DIRECT
+  - DOMAIN-SUFFIX,upyun.com,DIRECT
+  - DOMAIN-SUFFIX,veryzhun.com,DIRECT
+  - DOMAIN-SUFFIX,weather.com,DIRECT
+  - DOMAIN-SUFFIX,weibo.com,DIRECT
+  - DOMAIN-SUFFIX,xiami.com,DIRECT
+  - DOMAIN-SUFFIX,xiami.net,DIRECT
+  - DOMAIN-SUFFIX,xiaomicp.com,DIRECT
+  - DOMAIN-SUFFIX,ximalaya.com,DIRECT
+  - DOMAIN-SUFFIX,xmcdn.com,DIRECT
+  - DOMAIN-SUFFIX,xunlei.com,DIRECT
+  - DOMAIN-SUFFIX,yhd.com,DIRECT
+  - DOMAIN-SUFFIX,yihaodianimg.com,DIRECT
+  - DOMAIN-SUFFIX,yinxiang.com,DIRECT
+  - DOMAIN-SUFFIX,ykimg.com,DIRECT
+  - DOMAIN-SUFFIX,youdao.com,DIRECT
+  - DOMAIN-SUFFIX,youku.com,DIRECT
+  - DOMAIN-SUFFIX,zealer.com,DIRECT
+  - DOMAIN-SUFFIX,zhihu.com,DIRECT
+  - DOMAIN-SUFFIX,zhimg.com,DIRECT
+  - DOMAIN-SUFFIX,zimuzu.tv,DIRECT
+  - DOMAIN-SUFFIX,zoho.com,DIRECT
+  - DOMAIN-KEYWORD,amazon,自学志甄选
+  - DOMAIN-KEYWORD,google,自学志甄选
+  - DOMAIN-KEYWORD,gmail,自学志甄选
+  - DOMAIN-KEYWORD,youtube,自学志甄选
+  - DOMAIN-KEYWORD,facebook,自学志甄选
+  - DOMAIN-SUFFIX,fb.me,自学志甄选
+  - DOMAIN-SUFFIX,fbcdn.net,自学志甄选
+  - DOMAIN-KEYWORD,twitter,自学志甄选
+  - DOMAIN-KEYWORD,instagram,自学志甄选
+  - DOMAIN-KEYWORD,dropbox,自学志甄选
+  - DOMAIN-SUFFIX,twimg.com,自学志甄选
+  - DOMAIN-KEYWORD,blogspot,自学志甄选
+  - DOMAIN-SUFFIX,youtu.be,自学志甄选
+  - DOMAIN-KEYWORD,whatsapp,自学志甄选
+  - DOMAIN-KEYWORD,admarvel,REJECT
+  - DOMAIN-KEYWORD,admaster,REJECT
+  - DOMAIN-KEYWORD,adsage,REJECT
+  - DOMAIN-KEYWORD,adsmogo,REJECT
+  - DOMAIN-KEYWORD,adsrvmedia,REJECT
+  - DOMAIN-KEYWORD,adwords,REJECT
+  - DOMAIN-KEYWORD,adservice,REJECT
+  - DOMAIN-SUFFIX,appsflyer.com,REJECT
+  - DOMAIN-KEYWORD,domob,REJECT
+  - DOMAIN-SUFFIX,doubleclick.net,REJECT
+  - DOMAIN-KEYWORD,duomeng,REJECT
+  - DOMAIN-KEYWORD,dwtrack,REJECT
+  - DOMAIN-KEYWORD,guanggao,REJECT
+  - DOMAIN-KEYWORD,lianmeng,REJECT
+  - DOMAIN-SUFFIX,mmstat.com,REJECT
+  - DOMAIN-KEYWORD,mopub,REJECT
+  - DOMAIN-KEYWORD,omgmta,REJECT
+  - DOMAIN-KEYWORD,openx,REJECT
+  - DOMAIN-KEYWORD,partnerad,REJECT
+  - DOMAIN-KEYWORD,pingfore,REJECT
+  - DOMAIN-KEYWORD,supersonicads,REJECT
+  - DOMAIN-KEYWORD,uedas,REJECT
+  - DOMAIN-KEYWORD,umeng,REJECT
+  - DOMAIN-KEYWORD,usage,REJECT
+  - DOMAIN-SUFFIX,vungle.com,REJECT
+  - DOMAIN-KEYWORD,wlmonitor,REJECT
+  - DOMAIN-KEYWORD,zjtoolbar,REJECT
+  - DOMAIN-SUFFIX,9to5mac.com,自学志甄选
+  - DOMAIN-SUFFIX,abpchina.org,自学志甄选
+  - DOMAIN-SUFFIX,adblockplus.org,自学志甄选
+  - DOMAIN-SUFFIX,adobe.com,自学志甄选
+  - DOMAIN-SUFFIX,akamaized.net,自学志甄选
+  - DOMAIN-SUFFIX,alfredapp.com,自学志甄选
+  - DOMAIN-SUFFIX,amplitude.com,自学志甄选
+  - DOMAIN-SUFFIX,ampproject.org,自学志甄选
+  - DOMAIN-SUFFIX,android.com,自学志甄选
+  - DOMAIN-SUFFIX,angularjs.org,自学志甄选
+  - DOMAIN-SUFFIX,aolcdn.com,自学志甄选
+  - DOMAIN-SUFFIX,apkpure.com,自学志甄选
+  - DOMAIN-SUFFIX,appledaily.com,自学志甄选
+  - DOMAIN-SUFFIX,appshopper.com,自学志甄选
+  - DOMAIN-SUFFIX,appspot.com,自学志甄选
+  - DOMAIN-SUFFIX,arcgis.com,自学志甄选
+  - DOMAIN-SUFFIX,archive.org,自学志甄选
+  - DOMAIN-SUFFIX,armorgames.com,自学志甄选
+  - DOMAIN-SUFFIX,aspnetcdn.com,自学志甄选
+  - DOMAIN-SUFFIX,att.com,自学志甄选
+  - DOMAIN-SUFFIX,awsstatic.com,自学志甄选
+  - DOMAIN-SUFFIX,azureedge.net,自学志甄选
+  - DOMAIN-SUFFIX,azurewebsites.net,自学志甄选
+  - DOMAIN-SUFFIX,bing.com,自学志甄选
+  - DOMAIN-SUFFIX,bintray.com,自学志甄选
+  - DOMAIN-SUFFIX,bit.com,自学志甄选
+  - DOMAIN-SUFFIX,bit.ly,自学志甄选
+  - DOMAIN-SUFFIX,bitbucket.org,自学志甄选
+  - DOMAIN-SUFFIX,bjango.com,自学志甄选
+  - DOMAIN-SUFFIX,bkrtx.com,自学志甄选
+  - DOMAIN-SUFFIX,blog.com,自学志甄选
+  - DOMAIN-SUFFIX,blogcdn.com,自学志甄选
+  - DOMAIN-SUFFIX,blogger.com,自学志甄选
+  - DOMAIN-SUFFIX,blogsmithmedia.com,自学志甄选
+  - DOMAIN-SUFFIX,blogspot.com,自学志甄选
+  - DOMAIN-SUFFIX,blogspot.hk,自学志甄选
+  - DOMAIN-SUFFIX,bloomberg.com,自学志甄选
+  - DOMAIN-SUFFIX,box.com,自学志甄选
+  - DOMAIN-SUFFIX,box.net,自学志甄选
+  - DOMAIN-SUFFIX,cachefly.net,自学志甄选
+  - DOMAIN-SUFFIX,chromium.org,自学志甄选
+  - DOMAIN-SUFFIX,cl.ly,自学志甄选
+  - DOMAIN-SUFFIX,cloudflare.com,自学志甄选
+  - DOMAIN-SUFFIX,cloudfront.net,自学志甄选
+  - DOMAIN-SUFFIX,cloudmagic.com,自学志甄选
+  - DOMAIN-SUFFIX,cmail19.com,自学志甄选
+  - DOMAIN-SUFFIX,cnet.com,自学志甄选
+  - DOMAIN-SUFFIX,cocoapods.org,自学志甄选
+  - DOMAIN-SUFFIX,comodoca.com,自学志甄选
+  - DOMAIN-SUFFIX,crashlytics.com,自学志甄选
+  - DOMAIN-SUFFIX,culturedcode.com,自学志甄选
+  - DOMAIN-SUFFIX,d.pr,自学志甄选
+  - DOMAIN-SUFFIX,danilo.to,自学志甄选
+  - DOMAIN-SUFFIX,dayone.me,自学志甄选
+  - DOMAIN-SUFFIX,db.tt,自学志甄选
+  - DOMAIN-SUFFIX,deskconnect.com,自学志甄选
+  - DOMAIN-SUFFIX,disq.us,自学志甄选
+  - DOMAIN-SUFFIX,disqus.com,自学志甄选
+  - DOMAIN-SUFFIX,disquscdn.com,自学志甄选
+  - DOMAIN-SUFFIX,dnsimple.com,自学志甄选
+  - DOMAIN-SUFFIX,docker.com,自学志甄选
+  - DOMAIN-SUFFIX,dribbble.com,自学志甄选
+  - DOMAIN-SUFFIX,droplr.com,自学志甄选
+  - DOMAIN-SUFFIX,duckduckgo.com,自学志甄选
+  - DOMAIN-SUFFIX,dueapp.com,自学志甄选
+  - DOMAIN-SUFFIX,dytt8.net,自学志甄选
+  - DOMAIN-SUFFIX,edgecastcdn.net,自学志甄选
+  - DOMAIN-SUFFIX,edgekey.net,自学志甄选
+  - DOMAIN-SUFFIX,edgesuite.net,自学志甄选
+  - DOMAIN-SUFFIX,engadget.com,自学志甄选
+  - DOMAIN-SUFFIX,entrust.net,自学志甄选
+  - DOMAIN-SUFFIX,eurekavpt.com,自学志甄选
+  - DOMAIN-SUFFIX,evernote.com,自学志甄选
+  - DOMAIN-SUFFIX,fabric.io,自学志甄选
+  - DOMAIN-SUFFIX,fast.com,自学志甄选
+  - DOMAIN-SUFFIX,fastly.net,自学志甄选
+  - DOMAIN-SUFFIX,fc2.com,自学志甄选
+  - DOMAIN-SUFFIX,feedburner.com,自学志甄选
+  - DOMAIN-SUFFIX,feedly.com,自学志甄选
+  - DOMAIN-SUFFIX,feedsportal.com,自学志甄选
+  - DOMAIN-SUFFIX,fiftythree.com,自学志甄选
+  - DOMAIN-SUFFIX,firebaseio.com,自学志甄选
+  - DOMAIN-SUFFIX,flexibits.com,自学志甄选
+  - DOMAIN-SUFFIX,flickr.com,自学志甄选
+  - DOMAIN-SUFFIX,flipboard.com,自学志甄选
+  - DOMAIN-SUFFIX,g.co,自学志甄选
+  - DOMAIN-SUFFIX,gabia.net,自学志甄选
+  - DOMAIN-SUFFIX,geni.us,自学志甄选
+  - DOMAIN-SUFFIX,gfx.ms,自学志甄选
+  - DOMAIN-SUFFIX,ggpht.com,自学志甄选
+  - DOMAIN-SUFFIX,ghostnoteapp.com,自学志甄选
+  - DOMAIN-SUFFIX,git.io,自学志甄选
+  - DOMAIN-KEYWORD,github,自学志甄选
+  - DOMAIN-SUFFIX,globalsign.com,自学志甄选
+  - DOMAIN-SUFFIX,gmodules.com,自学志甄选
+  - DOMAIN-SUFFIX,godaddy.com,自学志甄选
+  - DOMAIN-SUFFIX,golang.org,自学志甄选
+  - DOMAIN-SUFFIX,gongm.in,自学志甄选
+  - DOMAIN-SUFFIX,goo.gl,自学志甄选
+  - DOMAIN-SUFFIX,goodreaders.com,自学志甄选
+  - DOMAIN-SUFFIX,goodreads.com,自学志甄选
+  - DOMAIN-SUFFIX,gravatar.com,自学志甄选
+  - DOMAIN-SUFFIX,gstatic.com,自学志甄选
+  - DOMAIN-SUFFIX,gvt0.com,自学志甄选
+  - DOMAIN-SUFFIX,hockeyapp.net,自学志甄选
+  - DOMAIN-SUFFIX,hotmail.com,自学志甄选
+  - DOMAIN-SUFFIX,icons8.com,自学志甄选
+  - DOMAIN-SUFFIX,ifixit.com,自学志甄选
+  - DOMAIN-SUFFIX,ift.tt,自学志甄选
+  - DOMAIN-SUFFIX,ifttt.com,自学志甄选
+  - DOMAIN-SUFFIX,iherb.com,自学志甄选
+  - DOMAIN-SUFFIX,imageshack.us,自学志甄选
+  - DOMAIN-SUFFIX,img.ly,自学志甄选
+  - DOMAIN-SUFFIX,imgur.com,自学志甄选
+  - DOMAIN-SUFFIX,imore.com,自学志甄选
+  - DOMAIN-SUFFIX,instapaper.com,自学志甄选
+  - DOMAIN-SUFFIX,ipn.li,自学志甄选
+  - DOMAIN-SUFFIX,is.gd,自学志甄选
+  - DOMAIN-SUFFIX,issuu.com,自学志甄选
+  - DOMAIN-SUFFIX,itgonglun.com,自学志甄选
+  - DOMAIN-SUFFIX,itun.es,自学志甄选
+  - DOMAIN-SUFFIX,ixquick.com,自学志甄选
+  - DOMAIN-SUFFIX,j.mp,自学志甄选
+  - DOMAIN-SUFFIX,js.revsci.net,自学志甄选
+  - DOMAIN-SUFFIX,jshint.com,自学志甄选
+  - DOMAIN-SUFFIX,jtvnw.net,自学志甄选
+  - DOMAIN-SUFFIX,justgetflux.com,自学志甄选
+  - DOMAIN-SUFFIX,kat.cr,自学志甄选
+  - DOMAIN-SUFFIX,klip.me,自学志甄选
+  - DOMAIN-SUFFIX,libsyn.com,自学志甄选
+  - DOMAIN-SUFFIX,linkedin.com,自学志甄选
+  - DOMAIN-SUFFIX,line-apps.com,自学志甄选
+  - DOMAIN-SUFFIX,linode.com,自学志甄选
+  - DOMAIN-SUFFIX,lithium.com,自学志甄选
+  - DOMAIN-SUFFIX,littlehj.com,自学志甄选
+  - DOMAIN-SUFFIX,live.com,自学志甄选
+  - DOMAIN-SUFFIX,live.net,自学志甄选
+  - DOMAIN-SUFFIX,livefilestore.com,自学志甄选
+  - DOMAIN-SUFFIX,llnwd.net,自学志甄选
+  - DOMAIN-SUFFIX,macid.co,自学志甄选
+  - DOMAIN-SUFFIX,macromedia.com,自学志甄选
+  - DOMAIN-SUFFIX,macrumors.com,自学志甄选
+  - DOMAIN-SUFFIX,mashable.com,自学志甄选
+  - DOMAIN-SUFFIX,mathjax.org,自学志甄选
+  - DOMAIN-SUFFIX,medium.com,自学志甄选
+  - DOMAIN-SUFFIX,mega.co.nz,自学志甄选
+  - DOMAIN-SUFFIX,mega.nz,自学志甄选
+  - DOMAIN-SUFFIX,megaupload.com,自学志甄选
+  - DOMAIN-SUFFIX,microsofttranslator.com,自学志甄选
+  - DOMAIN-SUFFIX,mindnode.com,自学志甄选
+  - DOMAIN-SUFFIX,mobile01.com,自学志甄选
+  - DOMAIN-SUFFIX,modmyi.com,自学志甄选
+  - DOMAIN-SUFFIX,msedge.net,自学志甄选
+  - DOMAIN-SUFFIX,myfontastic.com,自学志甄选
+  - DOMAIN-SUFFIX,name.com,自学志甄选
+  - DOMAIN-SUFFIX,nextmedia.com,自学志甄选
+  - DOMAIN-SUFFIX,nsstatic.net,自学志甄选
+  - DOMAIN-SUFFIX,nssurge.com,自学志甄选
+  - DOMAIN-SUFFIX,nyt.com,自学志甄选
+  - DOMAIN-SUFFIX,nytimes.com,自学志甄选
+  - DOMAIN-SUFFIX,omnigroup.com,自学志甄选
+  - DOMAIN-SUFFIX,onedrive.com,自学志甄选
+  - DOMAIN-SUFFIX,onenote.com,自学志甄选
+  - DOMAIN-SUFFIX,ooyala.com,自学志甄选
+  - DOMAIN-SUFFIX,openvpn.net,自学志甄选
+  - DOMAIN-SUFFIX,openwrt.org,自学志甄选
+  - DOMAIN-SUFFIX,orkut.com,自学志甄选
+  - DOMAIN-SUFFIX,osxdaily.com,自学志甄选
+  - DOMAIN-SUFFIX,outlook.com,自学志甄选
+  - DOMAIN-SUFFIX,ow.ly,自学志甄选
+  - DOMAIN-SUFFIX,paddleapi.com,自学志甄选
+  - DOMAIN-SUFFIX,parallels.com,自学志甄选
+  - DOMAIN-SUFFIX,parse.com,自学志甄选
+  - DOMAIN-SUFFIX,pdfexpert.com,自学志甄选
+  - DOMAIN-SUFFIX,periscope.tv,自学志甄选
+  - DOMAIN-SUFFIX,pinboard.in,自学志甄选
+  - DOMAIN-SUFFIX,pinterest.com,自学志甄选
+  - DOMAIN-SUFFIX,pixelmator.com,自学志甄选
+  - DOMAIN-SUFFIX,pixiv.net,自学志甄选
+  - DOMAIN-SUFFIX,playpcesor.com,自学志甄选
+  - DOMAIN-SUFFIX,playstation.com,自学志甄选
+  - DOMAIN-SUFFIX,playstation.com.hk,自学志甄选
+  - DOMAIN-SUFFIX,playstation.net,自学志甄选
+  - DOMAIN-SUFFIX,playstationnetwork.com,自学志甄选
+  - DOMAIN-SUFFIX,pushwoosh.com,自学志甄选
+  - DOMAIN-SUFFIX,rime.im,自学志甄选
+  - DOMAIN-SUFFIX,servebom.com,自学志甄选
+  - DOMAIN-SUFFIX,sfx.ms,自学志甄选
+  - DOMAIN-SUFFIX,shadowsocks.org,自学志甄选
+  - DOMAIN-SUFFIX,sharethis.com,自学志甄选
+  - DOMAIN-SUFFIX,shazam.com,自学志甄选
+  - DOMAIN-SUFFIX,skype.com,自学志甄选
+  - DOMAIN-SUFFIX,smartdns自学志甄选.com,自学志甄选
+  - DOMAIN-SUFFIX,smartmailcloud.com,自学志甄选
+  - DOMAIN-SUFFIX,sndcdn.com,自学志甄选
+  - DOMAIN-SUFFIX,sony.com,自学志甄选
+  - DOMAIN-SUFFIX,soundcloud.com,自学志甄选
+  - DOMAIN-SUFFIX,sourceforge.net,自学志甄选
+  - DOMAIN-SUFFIX,spotify.com,自学志甄选
+  - DOMAIN-SUFFIX,squarespace.com,自学志甄选
+  - DOMAIN-SUFFIX,sstatic.net,自学志甄选
+  - DOMAIN-SUFFIX,st.luluku.pw,自学志甄选
+  - DOMAIN-SUFFIX,stackoverflow.com,自学志甄选
+  - DOMAIN-SUFFIX,startpage.com,自学志甄选
+  - DOMAIN-SUFFIX,staticflickr.com,自学志甄选
+  - DOMAIN-SUFFIX,steamcommunity.com,自学志甄选
+  - DOMAIN-SUFFIX,symauth.com,自学志甄选
+  - DOMAIN-SUFFIX,symcb.com,自学志甄选
+  - DOMAIN-SUFFIX,symcd.com,自学志甄选
+  - DOMAIN-SUFFIX,tapbots.com,自学志甄选
+  - DOMAIN-SUFFIX,tapbots.net,自学志甄选
+  - DOMAIN-SUFFIX,tdesktop.com,自学志甄选
+  - DOMAIN-SUFFIX,techcrunch.com,自学志甄选
+  - DOMAIN-SUFFIX,techsmith.com,自学志甄选
+  - DOMAIN-SUFFIX,thepiratebay.org,自学志甄选
+  - DOMAIN-SUFFIX,theverge.com,自学志甄选
+  - DOMAIN-SUFFIX,time.com,自学志甄选
+  - DOMAIN-SUFFIX,timeinc.net,自学志甄选
+  - DOMAIN-SUFFIX,tiny.cc,自学志甄选
+  - DOMAIN-SUFFIX,tinypic.com,自学志甄选
+  - DOMAIN-SUFFIX,tmblr.co,自学志甄选
+  - DOMAIN-SUFFIX,todoist.com,自学志甄选
+  - DOMAIN-SUFFIX,trello.com,自学志甄选
+  - DOMAIN-SUFFIX,trustasiassl.com,自学志甄选
+  - DOMAIN-SUFFIX,tumblr.co,自学志甄选
+  - DOMAIN-SUFFIX,tumblr.com,自学志甄选
+  - DOMAIN-SUFFIX,tweetdeck.com,自学志甄选
+  - DOMAIN-SUFFIX,tweetmarker.net,自学志甄选
+  - DOMAIN-SUFFIX,twitch.tv,自学志甄选
+  - DOMAIN-SUFFIX,txmblr.com,自学志甄选
+  - DOMAIN-SUFFIX,typekit.net,自学志甄选
+  - DOMAIN-SUFFIX,ubertags.com,自学志甄选
+  - DOMAIN-SUFFIX,ublock.org,自学志甄选
+  - DOMAIN-SUFFIX,ubnt.com,自学志甄选
+  - DOMAIN-SUFFIX,ulyssesapp.com,自学志甄选
+  - DOMAIN-SUFFIX,urchin.com,自学志甄选
+  - DOMAIN-SUFFIX,usertrust.com,自学志甄选
+  - DOMAIN-SUFFIX,v.gd,自学志甄选
+  - DOMAIN-SUFFIX,v2ex.com,自学志甄选
+  - DOMAIN-SUFFIX,vimeo.com,自学志甄选
+  - DOMAIN-SUFFIX,vimeocdn.com,自学志甄选
+  - DOMAIN-SUFFIX,vine.co,自学志甄选
+  - DOMAIN-SUFFIX,vivaldi.com,自学志甄选
+  - DOMAIN-SUFFIX,vox-cdn.com,自学志甄选
+  - DOMAIN-SUFFIX,vsco.co,自学志甄选
+  - DOMAIN-SUFFIX,vultr.com,自学志甄选
+  - DOMAIN-SUFFIX,w.org,自学志甄选
+  - DOMAIN-SUFFIX,w3schools.com,自学志甄选
+  - DOMAIN-SUFFIX,webtype.com,自学志甄选
+  - DOMAIN-SUFFIX,wikiwand.com,自学志甄选
+  - DOMAIN-SUFFIX,wikileaks.org,自学志甄选
+  - DOMAIN-SUFFIX,wikimedia.org,自学志甄选
+  - DOMAIN-SUFFIX,wikipedia.com,自学志甄选
+  - DOMAIN-SUFFIX,wikipedia.org,自学志甄选
+  - DOMAIN-SUFFIX,windows.com,自学志甄选
+  - DOMAIN-SUFFIX,windows.net,自学志甄选
+  - DOMAIN-SUFFIX,wire.com,自学志甄选
+  - DOMAIN-SUFFIX,wordpress.com,自学志甄选
+  - DOMAIN-SUFFIX,workflowy.com,自学志甄选
+  - DOMAIN-SUFFIX,wp.com,自学志甄选
+  - DOMAIN-SUFFIX,wsj.com,自学志甄选
+  - DOMAIN-SUFFIX,wsj.net,自学志甄选
+  - DOMAIN-SUFFIX,xda-developers.com,自学志甄选
+  - DOMAIN-SUFFIX,xeeno.com,自学志甄选
+  - DOMAIN-SUFFIX,xiti.com,自学志甄选
+  - DOMAIN-SUFFIX,yahoo.com,自学志甄选
+  - DOMAIN-SUFFIX,yimg.com,自学志甄选
+  - DOMAIN-SUFFIX,ying.com,自学志甄选
+  - DOMAIN-SUFFIX,yoyo.org,自学志甄选
+  - DOMAIN-SUFFIX,ytimg.com,自学志甄选
+  - DOMAIN-SUFFIX,telegra.ph,自学志甄选
+  - DOMAIN-SUFFIX,telegram.org,自学志甄选
+  - IP-CIDR,91.108.4.0/22,自学志甄选,no-resolve
+  - IP-CIDR,91.108.8.0/21,自学志甄选,no-resolve
+  - IP-CIDR,91.108.16.0/22,自学志甄选,no-resolve
+  - IP-CIDR,91.108.56.0/22,自学志甄选,no-resolve
+  - IP-CIDR,149.154.160.0/20,自学志甄选,no-resolve
+  - IP-CIDR6,2001:67c:4e8::/48,自学志甄选,no-resolve
+  - IP-CIDR6,2001:b28:f23d::/48,自学志甄选,no-resolve
+  - IP-CIDR6,2001:b28:f23f::/48,自学志甄选,no-resolve
+  - IP-CIDR,120.232.181.162/32,自学志甄选,no-resolve
+  - IP-CIDR,120.241.147.226/32,自学志甄选,no-resolve
+  - IP-CIDR,120.253.253.226/32,自学志甄选,no-resolve
+  - IP-CIDR,120.253.255.162/32,自学志甄选,no-resolve
+  - IP-CIDR,120.253.255.34/32,自学志甄选,no-resolve
+  - IP-CIDR,120.253.255.98/32,自学志甄选,no-resolve
+  - IP-CIDR,180.163.150.162/32,自学志甄选,no-resolve
+  - IP-CIDR,180.163.150.34/32,自学志甄选,no-resolve
+  - IP-CIDR,180.163.151.162/32,自学志甄选,no-resolve
+  - IP-CIDR,180.163.151.34/32,自学志甄选,no-resolve
+  - IP-CIDR,203.208.39.0/24,自学志甄选,no-resolve
+  - IP-CIDR,203.208.40.0/24,自学志甄选,no-resolve
+  - IP-CIDR,203.208.41.0/24,自学志甄选,no-resolve
+  - IP-CIDR,203.208.43.0/24,自学志甄选,no-resolve
+  - IP-CIDR,203.208.50.0/24,自学志甄选,no-resolve
+  - IP-CIDR,220.181.174.162/32,自学志甄选,no-resolve
+  - IP-CIDR,220.181.174.226/32,自学志甄选,no-resolve
+  - IP-CIDR,220.181.174.34/32,自学志甄选,no-resolve
+  - DOMAIN,injections.adguard.org,DIRECT
+  - DOMAIN,local.adguard.org,DIRECT
+  - DOMAIN-SUFFIX,local,DIRECT
+  - IP-CIDR,127.0.0.0/8,DIRECT
+  - IP-CIDR,172.16.0.0/12,DIRECT
+  - IP-CIDR,192.168.0.0/16,DIRECT
+  - IP-CIDR,10.0.0.0/8,DIRECT
+  - IP-CIDR,17.0.0.0/8,DIRECT
+  - IP-CIDR,100.64.0.0/10,DIRECT
+  - IP-CIDR,224.0.0.0/4,DIRECT
+  - IP-CIDR6,fe80::/10,DIRECT
+  - DOMAIN-SUFFIX,cn,DIRECT
+  - DOMAIN-KEYWORD,-cn,DIRECT
+  - GEOIP,CN,DIRECT
+  - MATCH,自学志甄选
