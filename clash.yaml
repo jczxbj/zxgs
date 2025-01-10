@@ -1,9 +1,11 @@
 ####################################
-# 客户端：Clash
-# 创建时间：2025-01-09 12:11:46
-# 使用模版：自学志888
-# 节点数量：20
-# 节点类型：ssr
+# 创建者：v2rayse.com
+# 客户端：Clash.Meta
+# 创建时间：2025-01-10 16:41:25
+# 使用模版：自学志666
+# 节点数量：54
+# 节点类型：vmess, ss, hysteria2
+# !!当前配置文件请使用基于 Clash.Meta 内核程序
 ####################################
 mixed-port: 7890
 allow-lan: false
@@ -96,619 +98,759 @@ dns:
       - +.proton.me
 
 proxies:
-  - {"name":"🇭🇰HK_@","type":"ssr","server":"36.151.195.67","port":33003,"udp":true,"password":"tMvrGcKAFpLkss9w7FM7","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"5385:QrTGkk"}
-  - {"name":"🇭🇰HK_@ 2","type":"ssr","server":"36.151.195.67","port":33004,"udp":true,"password":"tMvrGcKAFpLkss9w7FM7","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"5385:QrTGkk"}
-  - {"name":"🇭🇰HK_@ 3","type":"ssr","server":"36.151.195.67","port":33005,"udp":true,"password":"tMvrGcKAFpLkss9w7FM7","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"5385:QrTGkk"}
-  - {"name":"🇸🇬SG_@","type":"ssr","server":"36.151.195.67","port":33015,"udp":true,"password":"tMvrGcKAFpLkss9w7FM7","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"5385:QrTGkk"}
-  - {"name":"🇸🇬SG_@ 2","type":"ssr","server":"36.151.195.67","port":33016,"udp":true,"password":"tMvrGcKAFpLkss9w7FM7","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"5385:QrTGkk"}
-  - {"name":"🇸🇬SG_@ 3","type":"ssr","server":"36.151.195.67","port":33017,"udp":true,"password":"tMvrGcKAFpLkss9w7FM7","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"5385:QrTGkk"}
-  - {"name":"🇨🇳TW_@","type":"ssr","server":"36.151.195.67","port":33009,"udp":true,"password":"tMvrGcKAFpLkss9w7FM7","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"5385:QrTGkk"}
-  - {"name":"🇨🇳TW_@ 2","type":"ssr","server":"36.151.195.67","port":33010,"udp":true,"password":"tMvrGcKAFpLkss9w7FM7","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"5385:QrTGkk"}
-  - {"name":"🇯🇵JP_@","type":"ssr","server":"36.151.195.67","port":33012,"udp":true,"password":"tMvrGcKAFpLkss9w7FM7","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"5385:QrTGkk"}
-  - {"name":"🇯🇵JP_@ 2","type":"ssr","server":"36.151.195.67","port":33013,"udp":true,"password":"tMvrGcKAFpLkss9w7FM7","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"5385:QrTGkk"}
-  - {"name":"🇯🇵JP_@ 3","type":"ssr","server":"36.151.195.67","port":33014,"udp":true,"password":"tMvrGcKAFpLkss9w7FM7","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"5385:QrTGkk"}
-  - {"name":"🇰🇷KR_@","type":"ssr","server":"36.151.195.67","port":33020,"udp":true,"password":"tMvrGcKAFpLkss9w7FM7","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"5385:QrTGkk"}
-  - {"name":"🇰🇷KR_@ 2","type":"ssr","server":"36.151.195.67","port":33021,"udp":true,"password":"tMvrGcKAFpLkss9w7FM7","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"5385:QrTGkk"}
-  - {"name":"🇰🇷KR_@ 3","type":"ssr","server":"36.151.195.67","port":33022,"udp":true,"password":"tMvrGcKAFpLkss9w7FM7","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"5385:QrTGkk"}
-  - {"name":"🇺🇸US_@","type":"ssr","server":"36.151.195.67","port":33006,"udp":true,"password":"tMvrGcKAFpLkss9w7FM7","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"5385:QrTGkk"}
-  - {"name":"🇺🇸US_@ 2","type":"ssr","server":"36.151.195.67","port":33007,"udp":true,"password":"tMvrGcKAFpLkss9w7FM7","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"5385:QrTGkk"}
-  - {"name":"🇺🇸US_@ 3","type":"ssr","server":"36.151.195.67","port":33008,"udp":true,"password":"tMvrGcKAFpLkss9w7FM7","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"5385:QrTGkk"}
-  - {"name":"🇬🇧GB_@","type":"ssr","server":"36.151.195.67","port":33036,"udp":true,"password":"tMvrGcKAFpLkss9w7FM7","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"5385:QrTGkk"}
-  - {"name":"🇹🇷TR_@","type":"ssr","server":"36.151.195.67","port":33029,"udp":true,"password":"tMvrGcKAFpLkss9w7FM7","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"5385:QrTGkk"}
-  - {"name":"🇨🇦CA_@","type":"ssr","server":"36.151.195.67","port":33036,"udp":true,"password":"tMvrGcKAFpLkss9w7FM7","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"Telegram🇨🇳 @WangCai2","protocol-param":"5385:QrTGkk"}
+  - {"name":"🇨🇳仅供学术研究，请勿违法用途","type":"vmess","server":"0.0.0.0","port":443,"cipher":"auto","uuid":"5750e2bf-db87-4c33-829b-45d4608babbb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"www.microsoft.com","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}}}
+  - {"name":"🇨🇳更新于:1-10","type":"vmess","server":"1.1.1.1","port":1,"cipher":"auto","uuid":"6a3bcc08-9c77-4c02-844b-4a694c4f2fea","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇭🇰 香港01-1A 2\r","type":"ss","server":"gy.666666222.shop","port":34338,"password":"ce451577-3af8-4488-b170-2bb4d3f43d97","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇭🇰 香港01-1A\r","type":"ss","server":"gy.666666222.shop","port":34338,"password":"0590a8b5-8ea9-45f0-a4de-0eadee6b33de","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇭🇰 香港01-1B\r","type":"ss","server":"gy.666666222.shop","port":34338,"password":"b0c763c5-953c-42fd-a01c-e17c78bba1ee","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇭🇰 香港01-1B 2\r","type":"ss","server":"gy.666666222.shop","port":34338,"password":"8b550ee9-a21b-485a-9cb0-45a66fcc504a","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇭🇰 中国-香港-005-1B","type":"vmess","server":"212.192.12.70","port":27681,"cipher":"auto","uuid":"651f3f18-471f-4be0-a02a-c3c43fb1ce31","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇭🇰 中国-香港-005-1E","type":"vmess","server":"212.192.12.70","port":27681,"cipher":"auto","uuid":"faa65ed3-699e-425e-9388-435bcdcee6d7","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇭🇰 中国-香港-005-1F","type":"vmess","server":"212.192.12.70","port":27681,"cipher":"auto","uuid":"33111301-e7f8-4799-b91f-137b7bc2b5d0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇭🇰 中国-香港-005-1A","type":"vmess","server":"212.192.12.70","port":27681,"cipher":"auto","uuid":"2ef06885-a4f6-4e5c-891c-8478e5c41f70","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇭🇰 中国-香港-005-1D","type":"vmess","server":"212.192.12.70","port":27681,"cipher":"auto","uuid":"c87420e7-2b53-446e-8b6e-112ff03a5fed","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇨🇭 瑞士-日内瓦-001-1B","type":"vmess","server":"194.87.18.248","port":27681,"cipher":"auto","uuid":"651f3f18-471f-4be0-a02a-c3c43fb1ce31","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇭🇰 中国-香港-005-1C","type":"vmess","server":"212.192.12.70","port":27681,"cipher":"auto","uuid":"cb17d5c7-1408-4566-912f-13b2e63227d0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇯🇵日本HY01-1000M专线\r","type":"hysteria2","server":"109.166.36.141","port":51523,"password":"65bdc8fb-7cc5-44df-83c8-7963c5ac8193","sni":"music.apple.com","skip-cert-verify":true}
+  - {"name":"🇯🇵日本HY02-1000M专线\r","type":"hysteria2","server":"178.157.94.136","port":50347,"password":"65bdc8fb-7cc5-44df-83c8-7963c5ac8193","sni":"music.apple.com","skip-cert-verify":true}
+  - {"name":"🇷🇺专线去油管广告","type":"vmess","server":"eedp257bubu2wefy3.lovebaipiao.net","port":80,"cipher":"auto","uuid":"65bdc8fb-7cc5-44df-83c8-7963c5ac8193","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/iphone","headers":{"host":"www.apple.com"}}}
+  - {"name":"🇷🇺俄罗斯HY01-1000M专线去广告\r","type":"hysteria2","server":"46.17.40.117","port":52875,"password":"65bdc8fb-7cc5-44df-83c8-7963c5ac8193","sni":"music.apple.com","skip-cert-verify":true}
+  - {"name":"🇷🇺俄罗斯1-专线-去广告","type":"vmess","server":"eedp257bubu2wefy1.lovebaipiao.net","port":80,"cipher":"auto","uuid":"65bdc8fb-7cc5-44df-83c8-7963c5ac8193","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/iphone","headers":{"host":"www.apple.com"}}}
+  - {"name":"🇺🇸美国1-","type":"vmess","server":"cdn1.bpcdn.cc","port":2086,"cipher":"auto","uuid":"65bdc8fb-7cc5-44df-83c8-7963c5ac8193","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"gz4wah11v4bem6ws.lovebaipiao.com"}}}
+  - {"name":"🇺🇸美国光速3","type":"vmess","server":"170.114.45.53","port":80,"cipher":"auto","uuid":"65bdc8fb-7cc5-44df-83c8-7963c5ac8193","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us1.849yht89w.jiesk4pdqcqjo16j.xyz"}}}
+  - {"name":"🇺🇸美国光速8","type":"vmess","server":"141.193.213.168","port":2086,"cipher":"auto","uuid":"65bdc8fb-7cc5-44df-83c8-7963c5ac8193","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"ustoucjjnid18sj6us.lovebaipiao.com"}}}
+  - {"name":"🇷🇺俄罗斯2-专线-去广告","type":"vmess","server":"eedp257bubu2wefy2.lovebaipiao.net","port":80,"cipher":"auto","uuid":"65bdc8fb-7cc5-44df-83c8-7963c5ac8193","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/iphone","headers":{"host":"www.apple.com"}}}
+  - {"name":"🇺🇸美国光速7","type":"vmess","server":"141.193.213.167","port":2086,"cipher":"auto","uuid":"65bdc8fb-7cc5-44df-83c8-7963c5ac8193","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"ustoucjjnid18sj6us.lovebaipiao.com"}}}
+  - {"name":"🇺🇸美国3-","type":"vmess","server":"cdn3.bpcdn.cc","port":2086,"cipher":"auto","uuid":"65bdc8fb-7cc5-44df-83c8-7963c5ac8193","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"gz4wah11v4bem6ws.lovebaipiao.com"}}}
+  - {"name":"🇺🇸美国光速2","type":"vmess","server":"170.114.45.52","port":80,"cipher":"auto","uuid":"65bdc8fb-7cc5-44df-83c8-7963c5ac8193","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us1.849yht89w.jiesk4pdqcqjo16j.xyz"}}}
+  - {"name":"🇺🇸美国光速9","type":"vmess","server":"141.193.213.169","port":2086,"cipher":"auto","uuid":"65bdc8fb-7cc5-44df-83c8-7963c5ac8193","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"ustoucjjnid18sj6us.lovebaipiao.com"}}}
+  - {"name":"🇺🇸请订阅","type":"vmess","server":"cdn1.bpcdn.cc","port":2086,"cipher":"auto","uuid":"65bdc8fb-7cc5-44df-83c8-7963c5ac8193","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"gz4wah11v4bem6ws.lovebaipiao.com"}}}
+  - {"name":"🇬🇧英国HY01-1000M专线\r","type":"hysteria2","server":"91.149.203.119","port":51414,"password":"65bdc8fb-7cc5-44df-83c8-7963c5ac8193","sni":"api.push.apple.com","skip-cert-verify":true}
+  - {"name":"🇺🇸美国光速1","type":"vmess","server":"170.114.45.51","port":80,"cipher":"auto","uuid":"65bdc8fb-7cc5-44df-83c8-7963c5ac8193","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us1.849yht89w.jiesk4pdqcqjo16j.xyz"}}}
+  - {"name":"🇨🇦加拿大3丨","type":"vmess","server":"cdn3.bpcdn.cc","port":2086,"cipher":"auto","uuid":"65bdc8fb-7cc5-44df-83c8-7963c5ac8193","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"cae3mg9qsg55eo5lhq.lovebaipiao.com"}}}
+  - {"name":"🇺🇸美国HY01-1000M专线\r","type":"hysteria2","server":"205.185.125.20","port":50864,"password":"65bdc8fb-7cc5-44df-83c8-7963c5ac8193","sni":"apps.apple.com","skip-cert-verify":true}
+  - {"name":"🇨🇦加拿大2丨","type":"vmess","server":"cdn2.bpcdn.cc","port":2086,"cipher":"auto","uuid":"65bdc8fb-7cc5-44df-83c8-7963c5ac8193","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"cae3mg9qsg55eo5lhq.lovebaipiao.com"}}}
+  - {"name":"白嫖","type":"vmess","server":"cdn1.bpcdn.cc","port":2086,"cipher":"auto","uuid":"65bdc8fb-7cc5-44df-83c8-7963c5ac8193","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"gz4wah11v4bem6ws.lovebaipiao.com"}}}
+  - {"name":"🇸🇬新加坡HY01-1000M专线\r","type":"hysteria2","server":"5.180.78.153","port":50666,"password":"65bdc8fb-7cc5-44df-83c8-7963c5ac8193","sni":"api.push.apple.com","skip-cert-verify":true}
+  - {"name":"🇯🇵日本1","type":"vmess","server":"cdn1.bpcdn.cc","port":2086,"cipher":"auto","uuid":"65bdc8fb-7cc5-44df-83c8-7963c5ac8193","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"jpjhve0r3125kg1xmz.lovebaipiao.com"}}}
+  - {"name":"🇨🇦加拿大1丨","type":"vmess","server":"digitalocean.com","port":2086,"cipher":"auto","uuid":"65bdc8fb-7cc5-44df-83c8-7963c5ac8193","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"cae3mg9qsg55eo5lhq.lovebaipiao.com"}}}
+  - {"name":"🇯🇵日本3","type":"vmess","server":"cdn3.bpcdn.cc","port":2086,"cipher":"auto","uuid":"65bdc8fb-7cc5-44df-83c8-7963c5ac8193","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"jpjhve0r3125kg1xmz.lovebaipiao.com"}}}
+  - {"name":"🇺🇸美国2-","type":"vmess","server":"cdn2.bpcdn.cc","port":2086,"cipher":"auto","uuid":"65bdc8fb-7cc5-44df-83c8-7963c5ac8193","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"gz4wah11v4bem6ws.lovebaipiao.com"}}}
+  - {"name":"🇯🇵日本2","type":"vmess","server":"cdn2.bpcdn.cc","port":2086,"cipher":"auto","uuid":"65bdc8fb-7cc5-44df-83c8-7963c5ac8193","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"jpjhve0r3125kg1xmz.lovebaipiao.com"}}}
+  - {"name":"🇬🇧英国1丨ChatGpt","type":"vmess","server":"cdn1.bpcdn.cc","port":2086,"cipher":"auto","uuid":"65bdc8fb-7cc5-44df-83c8-7963c5ac8193","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"ukh74wfshj2jg2jcsq.lovebaipiao.com"}}}
+  - {"name":"🇬🇧英国3丨ChatGpt","type":"vmess","server":"cdn3.bpcdn.cc","port":2086,"cipher":"auto","uuid":"65bdc8fb-7cc5-44df-83c8-7963c5ac8193","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"ukh74wfshj2jg2jcsq.lovebaipiao.com"}}}
+  - {"name":"🇭🇰香港3丨","type":"vmess","server":"cdn3.bpcdn.cc","port":2086,"cipher":"auto","uuid":"65bdc8fb-7cc5-44df-83c8-7963c5ac8193","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"hkrg0nf30ik5piq1zr.lovebaipiao.com"}}}
+  - {"name":"🇸🇬新加坡3","type":"vmess","server":"cdn3.bpcdn.cc","port":2086,"cipher":"auto","uuid":"65bdc8fb-7cc5-44df-83c8-7963c5ac8193","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"sgtxv82wilpfh6a8vm.lovebaipiao.com"}}}
+  - {"name":"Youtube破解广告3","type":"vmess","server":"cdn3.bpcdn.cc","port":2086,"cipher":"auto","uuid":"65bdc8fb-7cc5-44df-83c8-7963c5ac8193","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"erfpus962ivsb8pwri.lovebaipiao.com"}}}
+  - {"name":"🇭🇰香港HY01-轻量专线\r","type":"hysteria2","server":"212.192.15.222","port":50904,"password":"65bdc8fb-7cc5-44df-83c8-7963c5ac8193","sni":"api.push.apple.com","skip-cert-verify":true}
+  - {"name":"🇸🇬新加坡1","type":"vmess","server":"cdn1.bpcdn.cc","port":2086,"cipher":"auto","uuid":"65bdc8fb-7cc5-44df-83c8-7963c5ac8193","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"sgtxv82wilpfh6a8vm.lovebaipiao.com"}}}
+  - {"name":"🇬🇧英国2丨ChatGpt","type":"vmess","server":"cdn2.bpcdn.cc","port":2086,"cipher":"auto","uuid":"65bdc8fb-7cc5-44df-83c8-7963c5ac8193","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"ukh74wfshj2jg2jcsq.lovebaipiao.com"}}}
+  - {"name":"🇭🇰香港1丨","type":"vmess","server":"cdn1.bpcdn.cc","port":2086,"cipher":"auto","uuid":"65bdc8fb-7cc5-44df-83c8-7963c5ac8193","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"hkrg0nf30ik5piq1zr.lovebaipiao.com"}}}
+  - {"name":"🇹🇷土耳其3丨","type":"vmess","server":"cdn3.bpcdn.cc","port":80,"cipher":"auto","uuid":"65bdc8fb-7cc5-44df-83c8-7963c5ac8193","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"tk1.bk5jh4t6w.jiesk4pdqcqjo16j.xyz"}}}
+  - {"name":"🇹🇷土耳其1","type":"vmess","server":"cdn1.bpcdn.cc","port":80,"cipher":"auto","uuid":"65bdc8fb-7cc5-44df-83c8-7963c5ac8193","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"tk1.bk5jh4t6w.jiesk4pdqcqjo16j.xyz"}}}
+  - {"name":"Youtube破解广告1","type":"vmess","server":"cdn1.bpcdn.cc","port":2086,"cipher":"auto","uuid":"65bdc8fb-7cc5-44df-83c8-7963c5ac8193","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"erfpus962ivsb8pwri.lovebaipiao.com"}}}
+  - {"name":"🇭🇰香港2","type":"vmess","server":"cdn2.bpcdn.cc","port":2086,"cipher":"auto","uuid":"65bdc8fb-7cc5-44df-83c8-7963c5ac8193","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"hkrg0nf30ik5piq1zr.lovebaipiao.com"}}}
+  - {"name":"🇹🇷土耳其2丨","type":"vmess","server":"cdn2.bpcdn.cc","port":80,"cipher":"auto","uuid":"65bdc8fb-7cc5-44df-83c8-7963c5ac8193","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"tk1.bk5jh4t6w.jiesk4pdqcqjo16j.xyz"}}}
+  - {"name":"🇸🇬新加坡2","type":"vmess","server":"cdn2.bpcdn.cc","port":2086,"cipher":"auto","uuid":"65bdc8fb-7cc5-44df-83c8-7963c5ac8193","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"sgtxv82wilpfh6a8vm.lovebaipiao.com"}}}
 proxy-groups:
-  - name: 自学志甄选
+  - name: 🔰 自学志甄选
     type: select
     proxies:
-      - 自动选择
-      - 故障转移
-      - 🇭🇰HK_@
-      - 🇭🇰HK_@ 2
-      - 🇭🇰HK_@ 3
-      - 🇸🇬SG_@
-      - 🇸🇬SG_@ 2
-      - 🇸🇬SG_@ 3
-      - 🇨🇳TW_@
-      - 🇨🇳TW_@ 2
-      - 🇯🇵JP_@
-      - 🇯🇵JP_@ 2
-      - 🇯🇵JP_@ 3
-      - 🇰🇷KR_@
-      - 🇰🇷KR_@ 2
-      - 🇰🇷KR_@ 3
-      - 🇺🇸US_@
-      - 🇺🇸US_@ 2
-      - 🇺🇸US_@ 3
-      - 🇬🇧GB_@
-      - 🇹🇷TR_@
-      - 🇨🇦CA_@
-  - name: 自动选择
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - 🇨🇳仅供学术研究，请勿违法用途
+      - 🇨🇳更新于:1-10
+      - "🇭🇰 香港01-1A 2\r"
+      - "🇭🇰 香港01-1A\r"
+      - "🇭🇰 香港01-1B\r"
+      - "🇭🇰 香港01-1B 2\r"
+      - 🇭🇰 中国-香港-005-1B
+      - 🇭🇰 中国-香港-005-1E
+      - 🇭🇰 中国-香港-005-1F
+      - 🇭🇰 中国-香港-005-1A
+      - 🇭🇰 中国-香港-005-1D
+      - 🇨🇭 瑞士-日内瓦-001-1B
+      - 🇭🇰 中国-香港-005-1C
+      - "🇯🇵日本HY01-1000M专线\r"
+      - "🇯🇵日本HY02-1000M专线\r"
+      - 🇷🇺专线去油管广告
+      - "🇷🇺俄罗斯HY01-1000M专线去广告\r"
+      - 🇷🇺俄罗斯1-专线-去广告
+      - 🇺🇸美国1-
+      - 🇺🇸美国光速3
+      - 🇺🇸美国光速8
+      - 🇷🇺俄罗斯2-专线-去广告
+      - 🇺🇸美国光速7
+      - 🇺🇸美国3-
+      - 🇺🇸美国光速2
+      - 🇺🇸美国光速9
+      - 🇺🇸请订阅
+      - "🇬🇧英国HY01-1000M专线\r"
+      - 🇺🇸美国光速1
+      - 🇨🇦加拿大3丨
+      - "🇺🇸美国HY01-1000M专线\r"
+      - 🇨🇦加拿大2丨
+      - 白嫖
+      - "🇸🇬新加坡HY01-1000M专线\r"
+      - 🇯🇵日本1
+      - 🇨🇦加拿大1丨
+      - 🇯🇵日本3
+      - 🇺🇸美国2-
+      - 🇯🇵日本2
+      - 🇬🇧英国1丨ChatGpt
+      - 🇬🇧英国3丨ChatGpt
+      - 🇭🇰香港3丨
+      - 🇸🇬新加坡3
+      - Youtube破解广告3
+      - "🇭🇰香港HY01-轻量专线\r"
+      - 🇸🇬新加坡1
+      - 🇬🇧英国2丨ChatGpt
+      - 🇭🇰香港1丨
+      - 🇹🇷土耳其3丨
+      - 🇹🇷土耳其1
+      - Youtube破解广告1
+      - 🇭🇰香港2
+      - 🇹🇷土耳其2丨
+      - 🇸🇬新加坡2
+  - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰HK_@
-      - 🇭🇰HK_@ 2
-      - 🇭🇰HK_@ 3
-      - 🇸🇬SG_@
-      - 🇸🇬SG_@ 2
-      - 🇸🇬SG_@ 3
-      - 🇨🇳TW_@
-      - 🇨🇳TW_@ 2
-      - 🇯🇵JP_@
-      - 🇯🇵JP_@ 2
-      - 🇯🇵JP_@ 3
-      - 🇰🇷KR_@
-      - 🇰🇷KR_@ 2
-      - 🇰🇷KR_@ 3
-      - 🇺🇸US_@
-      - 🇺🇸US_@ 2
-      - 🇺🇸US_@ 3
-      - 🇬🇧GB_@
-      - 🇹🇷TR_@
-      - 🇨🇦CA_@
-  - name: 故障转移
-    type: fallback
-    url: http://www.gstatic.com/generate_204
-    interval: 7200
-    proxies:
-      - 🇭🇰HK_@
-      - 🇭🇰HK_@ 2
-      - 🇭🇰HK_@ 3
-      - 🇸🇬SG_@
-      - 🇸🇬SG_@ 2
-      - 🇸🇬SG_@ 3
-      - 🇨🇳TW_@
-      - 🇨🇳TW_@ 2
-      - 🇯🇵JP_@
-      - 🇯🇵JP_@ 2
-      - 🇯🇵JP_@ 3
-      - 🇰🇷KR_@
-      - 🇰🇷KR_@ 2
-      - 🇰🇷KR_@ 3
-      - 🇺🇸US_@
-      - 🇺🇸US_@ 2
-      - 🇺🇸US_@ 3
-      - 🇬🇧GB_@
-      - 🇹🇷TR_@
-      - 🇨🇦CA_@
+      - 🇨🇳仅供学术研究，请勿违法用途
+      - 🇨🇳更新于:1-10
+      - "🇭🇰 香港01-1A 2\r"
+      - "🇭🇰 香港01-1A\r"
+      - "🇭🇰 香港01-1B\r"
+      - "🇭🇰 香港01-1B 2\r"
+      - 🇭🇰 中国-香港-005-1B
+      - 🇭🇰 中国-香港-005-1E
+      - 🇭🇰 中国-香港-005-1F
+      - 🇭🇰 中国-香港-005-1A
+      - 🇭🇰 中国-香港-005-1D
+      - 🇨🇭 瑞士-日内瓦-001-1B
+      - 🇭🇰 中国-香港-005-1C
+      - "🇯🇵日本HY01-1000M专线\r"
+      - "🇯🇵日本HY02-1000M专线\r"
+      - 🇷🇺专线去油管广告
+      - "🇷🇺俄罗斯HY01-1000M专线去广告\r"
+      - 🇷🇺俄罗斯1-专线-去广告
+      - 🇺🇸美国1-
+      - 🇺🇸美国光速3
+      - 🇺🇸美国光速8
+      - 🇷🇺俄罗斯2-专线-去广告
+      - 🇺🇸美国光速7
+      - 🇺🇸美国3-
+      - 🇺🇸美国光速2
+      - 🇺🇸美国光速9
+      - 🇺🇸请订阅
+      - "🇬🇧英国HY01-1000M专线\r"
+      - 🇺🇸美国光速1
+      - 🇨🇦加拿大3丨
+      - "🇺🇸美国HY01-1000M专线\r"
+      - 🇨🇦加拿大2丨
+      - 白嫖
+      - "🇸🇬新加坡HY01-1000M专线\r"
+      - 🇯🇵日本1
+      - 🇨🇦加拿大1丨
+      - 🇯🇵日本3
+      - 🇺🇸美国2-
+      - 🇯🇵日本2
+      - 🇬🇧英国1丨ChatGpt
+      - 🇬🇧英国3丨ChatGpt
+      - 🇭🇰香港3丨
+      - 🇸🇬新加坡3
+      - Youtube破解广告3
+      - "🇭🇰香港HY01-轻量专线\r"
+      - 🇸🇬新加坡1
+      - 🇬🇧英国2丨ChatGpt
+      - 🇭🇰香港1丨
+      - 🇹🇷土耳其3丨
+      - 🇹🇷土耳其1
+      - Youtube破解广告1
+      - 🇭🇰香港2
+      - 🇹🇷土耳其2丨
+      - 🇸🇬新加坡2
 
 rules:
-  - DOMAIN,v1.dogapi.yachts,DIRECT
-  - DOMAIN-SUFFIX,v2rayse.com,自学志甄选
-  - DOMAIN-SUFFIX,cff.pw,自学志甄选
-  - DOMAIN-SUFFIX,vpnse.org,自学志甄选
-  - DOMAIN-SUFFIX,cfmem.com,自学志甄选
-  - DOMAIN-SUFFIX,services.googleapis.cn,自学志甄选
-  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,自学志甄选
-  - DOMAIN,safebrowsing.urlsec.qq.com,DIRECT
-  - DOMAIN,safebrowsing.googleapis.com,DIRECT
-  - DOMAIN,developer.apple.com,自学志甄选
-  - DOMAIN-SUFFIX,digicert.com,自学志甄选
-  - DOMAIN,ocsp.apple.com,自学志甄选
-  - DOMAIN,ocsp.comodoca.com,自学志甄选
-  - DOMAIN,ocsp.usertrust.com,自学志甄选
-  - DOMAIN,ocsp.sectigo.com,自学志甄选
-  - DOMAIN,ocsp.verisign.net,自学志甄选
-  - DOMAIN-SUFFIX,apple-dns.net,自学志甄选
-  - DOMAIN,testflight.apple.com,自学志甄选
-  - DOMAIN,sandbox.itunes.apple.com,自学志甄选
-  - DOMAIN,itunes.apple.com,自学志甄选
-  - DOMAIN-SUFFIX,apps.apple.com,自学志甄选
-  - DOMAIN-SUFFIX,blobstore.apple.com,自学志甄选
-  - DOMAIN,cvws.icloud-content.com,自学志甄选
-  - DOMAIN-SUFFIX,mzstatic.com,DIRECT
-  - DOMAIN-SUFFIX,itunes.apple.com,DIRECT
-  - DOMAIN-SUFFIX,icloud.com,DIRECT
-  - DOMAIN-SUFFIX,icloud-content.com,DIRECT
-  - DOMAIN-SUFFIX,me.com,DIRECT
-  - DOMAIN-SUFFIX,aaplimg.com,DIRECT
-  - DOMAIN-SUFFIX,cdn20.com,DIRECT
-  - DOMAIN-SUFFIX,cdn-apple.com,DIRECT
-  - DOMAIN-SUFFIX,akadns.net,DIRECT
-  - DOMAIN-SUFFIX,akamaiedge.net,DIRECT
-  - DOMAIN-SUFFIX,edgekey.net,DIRECT
-  - DOMAIN-SUFFIX,mwcloudcdn.com,DIRECT
-  - DOMAIN-SUFFIX,mwcname.com,DIRECT
-  - DOMAIN-SUFFIX,apple.com,DIRECT
-  - DOMAIN-SUFFIX,apple-cloudkit.com,DIRECT
-  - DOMAIN-SUFFIX,apple-mapkit.com,DIRECT
-  - DOMAIN-SUFFIX,126.com,DIRECT
-  - DOMAIN-SUFFIX,126.net,DIRECT
-  - DOMAIN-SUFFIX,127.net,DIRECT
-  - DOMAIN-SUFFIX,163.com,DIRECT
-  - DOMAIN-SUFFIX,360buyimg.com,DIRECT
-  - DOMAIN-SUFFIX,36kr.com,DIRECT
-  - DOMAIN-SUFFIX,acfun.tv,DIRECT
-  - DOMAIN-SUFFIX,air-matters.com,DIRECT
-  - DOMAIN-SUFFIX,aixifan.com,DIRECT
-  - DOMAIN-KEYWORD,alicdn,DIRECT
-  - DOMAIN-KEYWORD,alipay,DIRECT
-  - DOMAIN-KEYWORD,taobao,DIRECT
-  - DOMAIN-SUFFIX,amap.com,DIRECT
-  - DOMAIN-SUFFIX,autonavi.com,DIRECT
-  - DOMAIN-KEYWORD,baidu,DIRECT
-  - DOMAIN-SUFFIX,bdimg.com,DIRECT
-  - DOMAIN-SUFFIX,bdstatic.com,DIRECT
-  - DOMAIN-SUFFIX,bilibili.com,DIRECT
-  - DOMAIN-SUFFIX,bilivideo.com,DIRECT
-  - DOMAIN-SUFFIX,caiyunapp.com,DIRECT
-  - DOMAIN-SUFFIX,clouddn.com,DIRECT
-  - DOMAIN-SUFFIX,cnbeta.com,DIRECT
-  - DOMAIN-SUFFIX,cnbetacdn.com,DIRECT
-  - DOMAIN-SUFFIX,cootekservice.com,DIRECT
-  - DOMAIN-SUFFIX,csdn.net,DIRECT
-  - DOMAIN-SUFFIX,ctrip.com,DIRECT
-  - DOMAIN-SUFFIX,dgtle.com,DIRECT
-  - DOMAIN-SUFFIX,dianping.com,DIRECT
-  - DOMAIN-SUFFIX,douban.com,DIRECT
-  - DOMAIN-SUFFIX,doubanio.com,DIRECT
-  - DOMAIN-SUFFIX,duokan.com,DIRECT
-  - DOMAIN-SUFFIX,easou.com,DIRECT
-  - DOMAIN-SUFFIX,ele.me,DIRECT
-  - DOMAIN-SUFFIX,feng.com,DIRECT
-  - DOMAIN-SUFFIX,fir.im,DIRECT
-  - DOMAIN-SUFFIX,frdic.com,DIRECT
-  - DOMAIN-SUFFIX,g-cores.com,DIRECT
-  - DOMAIN-SUFFIX,godic.net,DIRECT
-  - DOMAIN-SUFFIX,gtimg.com,DIRECT
-  - DOMAIN,cdn.hockeyapp.net,DIRECT
-  - DOMAIN-SUFFIX,hongxiu.com,DIRECT
-  - DOMAIN-SUFFIX,hxcdn.net,DIRECT
-  - DOMAIN-SUFFIX,iciba.com,DIRECT
-  - DOMAIN-SUFFIX,ifeng.com,DIRECT
-  - DOMAIN-SUFFIX,ifengimg.com,DIRECT
-  - DOMAIN-SUFFIX,ipip.net,DIRECT
-  - DOMAIN-SUFFIX,iqiyi.com,DIRECT
-  - DOMAIN-SUFFIX,jd.com,DIRECT
-  - DOMAIN-SUFFIX,jianshu.com,DIRECT
-  - DOMAIN-SUFFIX,knewone.com,DIRECT
-  - DOMAIN-SUFFIX,le.com,DIRECT
-  - DOMAIN-SUFFIX,lecloud.com,DIRECT
-  - DOMAIN-SUFFIX,lemicp.com,DIRECT
-  - DOMAIN-SUFFIX,licdn.com,DIRECT
-  - DOMAIN-SUFFIX,luoo.net,DIRECT
-  - DOMAIN-SUFFIX,meituan.com,DIRECT
-  - DOMAIN-SUFFIX,meituan.net,DIRECT
-  - DOMAIN-SUFFIX,mi.com,DIRECT
-  - DOMAIN-SUFFIX,miaopai.com,DIRECT
-  - DOMAIN-SUFFIX,microsoft.com,DIRECT
-  - DOMAIN-SUFFIX,microsoftonline.com,DIRECT
-  - DOMAIN-SUFFIX,miui.com,DIRECT
-  - DOMAIN-SUFFIX,miwifi.com,DIRECT
-  - DOMAIN-SUFFIX,mob.com,DIRECT
-  - DOMAIN-SUFFIX,netease.com,DIRECT
-  - DOMAIN-SUFFIX,office.com,DIRECT
-  - DOMAIN-SUFFIX,office365.com,DIRECT
-  - DOMAIN-KEYWORD,officecdn,DIRECT
-  - DOMAIN-SUFFIX,oschina.net,DIRECT
-  - DOMAIN-SUFFIX,ppsimg.com,DIRECT
-  - DOMAIN-SUFFIX,pstatp.com,DIRECT
-  - DOMAIN-SUFFIX,qcloud.com,DIRECT
-  - DOMAIN-SUFFIX,qdaily.com,DIRECT
-  - DOMAIN-SUFFIX,qdmm.com,DIRECT
-  - DOMAIN-SUFFIX,qhimg.com,DIRECT
-  - DOMAIN-SUFFIX,qhres.com,DIRECT
-  - DOMAIN-SUFFIX,qidian.com,DIRECT
-  - DOMAIN-SUFFIX,qihucdn.com,DIRECT
-  - DOMAIN-SUFFIX,qiniu.com,DIRECT
-  - DOMAIN-SUFFIX,qiniucdn.com,DIRECT
-  - DOMAIN-SUFFIX,qiyipic.com,DIRECT
-  - DOMAIN-SUFFIX,qq.com,DIRECT
-  - DOMAIN-SUFFIX,qqurl.com,DIRECT
-  - DOMAIN-SUFFIX,rarbg.to,DIRECT
-  - DOMAIN-SUFFIX,ruguoapp.com,DIRECT
-  - DOMAIN-SUFFIX,segmentfault.com,DIRECT
-  - DOMAIN-SUFFIX,sinaapp.com,DIRECT
-  - DOMAIN-SUFFIX,smzdm.com,DIRECT
-  - DOMAIN-SUFFIX,snapdrop.net,DIRECT
-  - DOMAIN-SUFFIX,sogou.com,DIRECT
-  - DOMAIN-SUFFIX,sogoucdn.com,DIRECT
-  - DOMAIN-SUFFIX,sohu.com,DIRECT
-  - DOMAIN-SUFFIX,soku.com,DIRECT
-  - DOMAIN-SUFFIX,speedtest.net,DIRECT
-  - DOMAIN-SUFFIX,sspai.com,DIRECT
-  - DOMAIN-SUFFIX,suning.com,DIRECT
-  - DOMAIN-SUFFIX,taobao.com,DIRECT
-  - DOMAIN-SUFFIX,tencent.com,DIRECT
-  - DOMAIN-SUFFIX,tenpay.com,DIRECT
-  - DOMAIN-SUFFIX,tianyancha.com,DIRECT
-  - DOMAIN-SUFFIX,tmall.com,DIRECT
-  - DOMAIN-SUFFIX,tudou.com,DIRECT
-  - DOMAIN-SUFFIX,umetrip.com,DIRECT
-  - DOMAIN-SUFFIX,upaiyun.com,DIRECT
-  - DOMAIN-SUFFIX,upyun.com,DIRECT
-  - DOMAIN-SUFFIX,veryzhun.com,DIRECT
-  - DOMAIN-SUFFIX,weather.com,DIRECT
-  - DOMAIN-SUFFIX,weibo.com,DIRECT
-  - DOMAIN-SUFFIX,xiami.com,DIRECT
-  - DOMAIN-SUFFIX,xiami.net,DIRECT
-  - DOMAIN-SUFFIX,xiaomicp.com,DIRECT
-  - DOMAIN-SUFFIX,ximalaya.com,DIRECT
-  - DOMAIN-SUFFIX,xmcdn.com,DIRECT
-  - DOMAIN-SUFFIX,xunlei.com,DIRECT
-  - DOMAIN-SUFFIX,yhd.com,DIRECT
-  - DOMAIN-SUFFIX,yihaodianimg.com,DIRECT
-  - DOMAIN-SUFFIX,yinxiang.com,DIRECT
-  - DOMAIN-SUFFIX,ykimg.com,DIRECT
-  - DOMAIN-SUFFIX,youdao.com,DIRECT
-  - DOMAIN-SUFFIX,youku.com,DIRECT
-  - DOMAIN-SUFFIX,zealer.com,DIRECT
-  - DOMAIN-SUFFIX,zhihu.com,DIRECT
-  - DOMAIN-SUFFIX,zhimg.com,DIRECT
-  - DOMAIN-SUFFIX,zimuzu.tv,DIRECT
-  - DOMAIN-SUFFIX,zoho.com,DIRECT
-  - DOMAIN-KEYWORD,amazon,自学志甄选
-  - DOMAIN-KEYWORD,google,自学志甄选
-  - DOMAIN-KEYWORD,gmail,自学志甄选
-  - DOMAIN-KEYWORD,youtube,自学志甄选
-  - DOMAIN-KEYWORD,facebook,自学志甄选
-  - DOMAIN-SUFFIX,fb.me,自学志甄选
-  - DOMAIN-SUFFIX,fbcdn.net,自学志甄选
-  - DOMAIN-KEYWORD,twitter,自学志甄选
-  - DOMAIN-KEYWORD,instagram,自学志甄选
-  - DOMAIN-KEYWORD,dropbox,自学志甄选
-  - DOMAIN-SUFFIX,twimg.com,自学志甄选
-  - DOMAIN-KEYWORD,blogspot,自学志甄选
-  - DOMAIN-SUFFIX,youtu.be,自学志甄选
-  - DOMAIN-KEYWORD,whatsapp,自学志甄选
-  - DOMAIN-KEYWORD,admarvel,REJECT
-  - DOMAIN-KEYWORD,admaster,REJECT
-  - DOMAIN-KEYWORD,adsage,REJECT
-  - DOMAIN-KEYWORD,adsmogo,REJECT
-  - DOMAIN-KEYWORD,adsrvmedia,REJECT
-  - DOMAIN-KEYWORD,adwords,REJECT
-  - DOMAIN-KEYWORD,adservice,REJECT
-  - DOMAIN-SUFFIX,appsflyer.com,REJECT
-  - DOMAIN-KEYWORD,domob,REJECT
-  - DOMAIN-SUFFIX,doubleclick.net,REJECT
-  - DOMAIN-KEYWORD,duomeng,REJECT
-  - DOMAIN-KEYWORD,dwtrack,REJECT
-  - DOMAIN-KEYWORD,guanggao,REJECT
-  - DOMAIN-KEYWORD,lianmeng,REJECT
-  - DOMAIN-SUFFIX,mmstat.com,REJECT
-  - DOMAIN-KEYWORD,mopub,REJECT
-  - DOMAIN-KEYWORD,omgmta,REJECT
-  - DOMAIN-KEYWORD,openx,REJECT
-  - DOMAIN-KEYWORD,partnerad,REJECT
-  - DOMAIN-KEYWORD,pingfore,REJECT
-  - DOMAIN-KEYWORD,supersonicads,REJECT
-  - DOMAIN-KEYWORD,uedas,REJECT
-  - DOMAIN-KEYWORD,umeng,REJECT
-  - DOMAIN-KEYWORD,usage,REJECT
-  - DOMAIN-SUFFIX,vungle.com,REJECT
-  - DOMAIN-KEYWORD,wlmonitor,REJECT
-  - DOMAIN-KEYWORD,zjtoolbar,REJECT
-  - DOMAIN-SUFFIX,9to5mac.com,自学志甄选
-  - DOMAIN-SUFFIX,abpchina.org,自学志甄选
-  - DOMAIN-SUFFIX,adblockplus.org,自学志甄选
-  - DOMAIN-SUFFIX,adobe.com,自学志甄选
-  - DOMAIN-SUFFIX,akamaized.net,自学志甄选
-  - DOMAIN-SUFFIX,alfredapp.com,自学志甄选
-  - DOMAIN-SUFFIX,amplitude.com,自学志甄选
-  - DOMAIN-SUFFIX,ampproject.org,自学志甄选
-  - DOMAIN-SUFFIX,android.com,自学志甄选
-  - DOMAIN-SUFFIX,angularjs.org,自学志甄选
-  - DOMAIN-SUFFIX,aolcdn.com,自学志甄选
-  - DOMAIN-SUFFIX,apkpure.com,自学志甄选
-  - DOMAIN-SUFFIX,appledaily.com,自学志甄选
-  - DOMAIN-SUFFIX,appshopper.com,自学志甄选
-  - DOMAIN-SUFFIX,appspot.com,自学志甄选
-  - DOMAIN-SUFFIX,arcgis.com,自学志甄选
-  - DOMAIN-SUFFIX,archive.org,自学志甄选
-  - DOMAIN-SUFFIX,armorgames.com,自学志甄选
-  - DOMAIN-SUFFIX,aspnetcdn.com,自学志甄选
-  - DOMAIN-SUFFIX,att.com,自学志甄选
-  - DOMAIN-SUFFIX,awsstatic.com,自学志甄选
-  - DOMAIN-SUFFIX,azureedge.net,自学志甄选
-  - DOMAIN-SUFFIX,azurewebsites.net,自学志甄选
-  - DOMAIN-SUFFIX,bing.com,自学志甄选
-  - DOMAIN-SUFFIX,bintray.com,自学志甄选
-  - DOMAIN-SUFFIX,bit.com,自学志甄选
-  - DOMAIN-SUFFIX,bit.ly,自学志甄选
-  - DOMAIN-SUFFIX,bitbucket.org,自学志甄选
-  - DOMAIN-SUFFIX,bjango.com,自学志甄选
-  - DOMAIN-SUFFIX,bkrtx.com,自学志甄选
-  - DOMAIN-SUFFIX,blog.com,自学志甄选
-  - DOMAIN-SUFFIX,blogcdn.com,自学志甄选
-  - DOMAIN-SUFFIX,blogger.com,自学志甄选
-  - DOMAIN-SUFFIX,blogsmithmedia.com,自学志甄选
-  - DOMAIN-SUFFIX,blogspot.com,自学志甄选
-  - DOMAIN-SUFFIX,blogspot.hk,自学志甄选
-  - DOMAIN-SUFFIX,bloomberg.com,自学志甄选
-  - DOMAIN-SUFFIX,box.com,自学志甄选
-  - DOMAIN-SUFFIX,box.net,自学志甄选
-  - DOMAIN-SUFFIX,cachefly.net,自学志甄选
-  - DOMAIN-SUFFIX,chromium.org,自学志甄选
-  - DOMAIN-SUFFIX,cl.ly,自学志甄选
-  - DOMAIN-SUFFIX,cloudflare.com,自学志甄选
-  - DOMAIN-SUFFIX,cloudfront.net,自学志甄选
-  - DOMAIN-SUFFIX,cloudmagic.com,自学志甄选
-  - DOMAIN-SUFFIX,cmail19.com,自学志甄选
-  - DOMAIN-SUFFIX,cnet.com,自学志甄选
-  - DOMAIN-SUFFIX,cocoapods.org,自学志甄选
-  - DOMAIN-SUFFIX,comodoca.com,自学志甄选
-  - DOMAIN-SUFFIX,crashlytics.com,自学志甄选
-  - DOMAIN-SUFFIX,culturedcode.com,自学志甄选
-  - DOMAIN-SUFFIX,d.pr,自学志甄选
-  - DOMAIN-SUFFIX,danilo.to,自学志甄选
-  - DOMAIN-SUFFIX,dayone.me,自学志甄选
-  - DOMAIN-SUFFIX,db.tt,自学志甄选
-  - DOMAIN-SUFFIX,deskconnect.com,自学志甄选
-  - DOMAIN-SUFFIX,disq.us,自学志甄选
-  - DOMAIN-SUFFIX,disqus.com,自学志甄选
-  - DOMAIN-SUFFIX,disquscdn.com,自学志甄选
-  - DOMAIN-SUFFIX,dnsimple.com,自学志甄选
-  - DOMAIN-SUFFIX,docker.com,自学志甄选
-  - DOMAIN-SUFFIX,dribbble.com,自学志甄选
-  - DOMAIN-SUFFIX,droplr.com,自学志甄选
-  - DOMAIN-SUFFIX,duckduckgo.com,自学志甄选
-  - DOMAIN-SUFFIX,dueapp.com,自学志甄选
-  - DOMAIN-SUFFIX,dytt8.net,自学志甄选
-  - DOMAIN-SUFFIX,edgecastcdn.net,自学志甄选
-  - DOMAIN-SUFFIX,edgekey.net,自学志甄选
-  - DOMAIN-SUFFIX,edgesuite.net,自学志甄选
-  - DOMAIN-SUFFIX,engadget.com,自学志甄选
-  - DOMAIN-SUFFIX,entrust.net,自学志甄选
-  - DOMAIN-SUFFIX,eurekavpt.com,自学志甄选
-  - DOMAIN-SUFFIX,evernote.com,自学志甄选
-  - DOMAIN-SUFFIX,fabric.io,自学志甄选
-  - DOMAIN-SUFFIX,fast.com,自学志甄选
-  - DOMAIN-SUFFIX,fastly.net,自学志甄选
-  - DOMAIN-SUFFIX,fc2.com,自学志甄选
-  - DOMAIN-SUFFIX,feedburner.com,自学志甄选
-  - DOMAIN-SUFFIX,feedly.com,自学志甄选
-  - DOMAIN-SUFFIX,feedsportal.com,自学志甄选
-  - DOMAIN-SUFFIX,fiftythree.com,自学志甄选
-  - DOMAIN-SUFFIX,firebaseio.com,自学志甄选
-  - DOMAIN-SUFFIX,flexibits.com,自学志甄选
-  - DOMAIN-SUFFIX,flickr.com,自学志甄选
-  - DOMAIN-SUFFIX,flipboard.com,自学志甄选
-  - DOMAIN-SUFFIX,g.co,自学志甄选
-  - DOMAIN-SUFFIX,gabia.net,自学志甄选
-  - DOMAIN-SUFFIX,geni.us,自学志甄选
-  - DOMAIN-SUFFIX,gfx.ms,自学志甄选
-  - DOMAIN-SUFFIX,ggpht.com,自学志甄选
-  - DOMAIN-SUFFIX,ghostnoteapp.com,自学志甄选
-  - DOMAIN-SUFFIX,git.io,自学志甄选
-  - DOMAIN-KEYWORD,github,自学志甄选
-  - DOMAIN-SUFFIX,globalsign.com,自学志甄选
-  - DOMAIN-SUFFIX,gmodules.com,自学志甄选
-  - DOMAIN-SUFFIX,godaddy.com,自学志甄选
-  - DOMAIN-SUFFIX,golang.org,自学志甄选
-  - DOMAIN-SUFFIX,gongm.in,自学志甄选
-  - DOMAIN-SUFFIX,goo.gl,自学志甄选
-  - DOMAIN-SUFFIX,goodreaders.com,自学志甄选
-  - DOMAIN-SUFFIX,goodreads.com,自学志甄选
-  - DOMAIN-SUFFIX,gravatar.com,自学志甄选
-  - DOMAIN-SUFFIX,gstatic.com,自学志甄选
-  - DOMAIN-SUFFIX,gvt0.com,自学志甄选
-  - DOMAIN-SUFFIX,hockeyapp.net,自学志甄选
-  - DOMAIN-SUFFIX,hotmail.com,自学志甄选
-  - DOMAIN-SUFFIX,icons8.com,自学志甄选
-  - DOMAIN-SUFFIX,ifixit.com,自学志甄选
-  - DOMAIN-SUFFIX,ift.tt,自学志甄选
-  - DOMAIN-SUFFIX,ifttt.com,自学志甄选
-  - DOMAIN-SUFFIX,iherb.com,自学志甄选
-  - DOMAIN-SUFFIX,imageshack.us,自学志甄选
-  - DOMAIN-SUFFIX,img.ly,自学志甄选
-  - DOMAIN-SUFFIX,imgur.com,自学志甄选
-  - DOMAIN-SUFFIX,imore.com,自学志甄选
-  - DOMAIN-SUFFIX,instapaper.com,自学志甄选
-  - DOMAIN-SUFFIX,ipn.li,自学志甄选
-  - DOMAIN-SUFFIX,is.gd,自学志甄选
-  - DOMAIN-SUFFIX,issuu.com,自学志甄选
-  - DOMAIN-SUFFIX,itgonglun.com,自学志甄选
-  - DOMAIN-SUFFIX,itun.es,自学志甄选
-  - DOMAIN-SUFFIX,ixquick.com,自学志甄选
-  - DOMAIN-SUFFIX,j.mp,自学志甄选
-  - DOMAIN-SUFFIX,js.revsci.net,自学志甄选
-  - DOMAIN-SUFFIX,jshint.com,自学志甄选
-  - DOMAIN-SUFFIX,jtvnw.net,自学志甄选
-  - DOMAIN-SUFFIX,justgetflux.com,自学志甄选
-  - DOMAIN-SUFFIX,kat.cr,自学志甄选
-  - DOMAIN-SUFFIX,klip.me,自学志甄选
-  - DOMAIN-SUFFIX,libsyn.com,自学志甄选
-  - DOMAIN-SUFFIX,linkedin.com,自学志甄选
-  - DOMAIN-SUFFIX,line-apps.com,自学志甄选
-  - DOMAIN-SUFFIX,linode.com,自学志甄选
-  - DOMAIN-SUFFIX,lithium.com,自学志甄选
-  - DOMAIN-SUFFIX,littlehj.com,自学志甄选
-  - DOMAIN-SUFFIX,live.com,自学志甄选
-  - DOMAIN-SUFFIX,live.net,自学志甄选
-  - DOMAIN-SUFFIX,livefilestore.com,自学志甄选
-  - DOMAIN-SUFFIX,llnwd.net,自学志甄选
-  - DOMAIN-SUFFIX,macid.co,自学志甄选
-  - DOMAIN-SUFFIX,macromedia.com,自学志甄选
-  - DOMAIN-SUFFIX,macrumors.com,自学志甄选
-  - DOMAIN-SUFFIX,mashable.com,自学志甄选
-  - DOMAIN-SUFFIX,mathjax.org,自学志甄选
-  - DOMAIN-SUFFIX,medium.com,自学志甄选
-  - DOMAIN-SUFFIX,mega.co.nz,自学志甄选
-  - DOMAIN-SUFFIX,mega.nz,自学志甄选
-  - DOMAIN-SUFFIX,megaupload.com,自学志甄选
-  - DOMAIN-SUFFIX,microsofttranslator.com,自学志甄选
-  - DOMAIN-SUFFIX,mindnode.com,自学志甄选
-  - DOMAIN-SUFFIX,mobile01.com,自学志甄选
-  - DOMAIN-SUFFIX,modmyi.com,自学志甄选
-  - DOMAIN-SUFFIX,msedge.net,自学志甄选
-  - DOMAIN-SUFFIX,myfontastic.com,自学志甄选
-  - DOMAIN-SUFFIX,name.com,自学志甄选
-  - DOMAIN-SUFFIX,nextmedia.com,自学志甄选
-  - DOMAIN-SUFFIX,nsstatic.net,自学志甄选
-  - DOMAIN-SUFFIX,nssurge.com,自学志甄选
-  - DOMAIN-SUFFIX,nyt.com,自学志甄选
-  - DOMAIN-SUFFIX,nytimes.com,自学志甄选
-  - DOMAIN-SUFFIX,omnigroup.com,自学志甄选
-  - DOMAIN-SUFFIX,onedrive.com,自学志甄选
-  - DOMAIN-SUFFIX,onenote.com,自学志甄选
-  - DOMAIN-SUFFIX,ooyala.com,自学志甄选
-  - DOMAIN-SUFFIX,openvpn.net,自学志甄选
-  - DOMAIN-SUFFIX,openwrt.org,自学志甄选
-  - DOMAIN-SUFFIX,orkut.com,自学志甄选
-  - DOMAIN-SUFFIX,osxdaily.com,自学志甄选
-  - DOMAIN-SUFFIX,outlook.com,自学志甄选
-  - DOMAIN-SUFFIX,ow.ly,自学志甄选
-  - DOMAIN-SUFFIX,paddleapi.com,自学志甄选
-  - DOMAIN-SUFFIX,parallels.com,自学志甄选
-  - DOMAIN-SUFFIX,parse.com,自学志甄选
-  - DOMAIN-SUFFIX,pdfexpert.com,自学志甄选
-  - DOMAIN-SUFFIX,periscope.tv,自学志甄选
-  - DOMAIN-SUFFIX,pinboard.in,自学志甄选
-  - DOMAIN-SUFFIX,pinterest.com,自学志甄选
-  - DOMAIN-SUFFIX,pixelmator.com,自学志甄选
-  - DOMAIN-SUFFIX,pixiv.net,自学志甄选
-  - DOMAIN-SUFFIX,playpcesor.com,自学志甄选
-  - DOMAIN-SUFFIX,playstation.com,自学志甄选
-  - DOMAIN-SUFFIX,playstation.com.hk,自学志甄选
-  - DOMAIN-SUFFIX,playstation.net,自学志甄选
-  - DOMAIN-SUFFIX,playstationnetwork.com,自学志甄选
-  - DOMAIN-SUFFIX,pushwoosh.com,自学志甄选
-  - DOMAIN-SUFFIX,rime.im,自学志甄选
-  - DOMAIN-SUFFIX,servebom.com,自学志甄选
-  - DOMAIN-SUFFIX,sfx.ms,自学志甄选
-  - DOMAIN-SUFFIX,shadowsocks.org,自学志甄选
-  - DOMAIN-SUFFIX,sharethis.com,自学志甄选
-  - DOMAIN-SUFFIX,shazam.com,自学志甄选
-  - DOMAIN-SUFFIX,skype.com,自学志甄选
-  - DOMAIN-SUFFIX,smartdns自学志甄选.com,自学志甄选
-  - DOMAIN-SUFFIX,smartmailcloud.com,自学志甄选
-  - DOMAIN-SUFFIX,sndcdn.com,自学志甄选
-  - DOMAIN-SUFFIX,sony.com,自学志甄选
-  - DOMAIN-SUFFIX,soundcloud.com,自学志甄选
-  - DOMAIN-SUFFIX,sourceforge.net,自学志甄选
-  - DOMAIN-SUFFIX,spotify.com,自学志甄选
-  - DOMAIN-SUFFIX,squarespace.com,自学志甄选
-  - DOMAIN-SUFFIX,sstatic.net,自学志甄选
-  - DOMAIN-SUFFIX,st.luluku.pw,自学志甄选
-  - DOMAIN-SUFFIX,stackoverflow.com,自学志甄选
-  - DOMAIN-SUFFIX,startpage.com,自学志甄选
-  - DOMAIN-SUFFIX,staticflickr.com,自学志甄选
-  - DOMAIN-SUFFIX,steamcommunity.com,自学志甄选
-  - DOMAIN-SUFFIX,symauth.com,自学志甄选
-  - DOMAIN-SUFFIX,symcb.com,自学志甄选
-  - DOMAIN-SUFFIX,symcd.com,自学志甄选
-  - DOMAIN-SUFFIX,tapbots.com,自学志甄选
-  - DOMAIN-SUFFIX,tapbots.net,自学志甄选
-  - DOMAIN-SUFFIX,tdesktop.com,自学志甄选
-  - DOMAIN-SUFFIX,techcrunch.com,自学志甄选
-  - DOMAIN-SUFFIX,techsmith.com,自学志甄选
-  - DOMAIN-SUFFIX,thepiratebay.org,自学志甄选
-  - DOMAIN-SUFFIX,theverge.com,自学志甄选
-  - DOMAIN-SUFFIX,time.com,自学志甄选
-  - DOMAIN-SUFFIX,timeinc.net,自学志甄选
-  - DOMAIN-SUFFIX,tiny.cc,自学志甄选
-  - DOMAIN-SUFFIX,tinypic.com,自学志甄选
-  - DOMAIN-SUFFIX,tmblr.co,自学志甄选
-  - DOMAIN-SUFFIX,todoist.com,自学志甄选
-  - DOMAIN-SUFFIX,trello.com,自学志甄选
-  - DOMAIN-SUFFIX,trustasiassl.com,自学志甄选
-  - DOMAIN-SUFFIX,tumblr.co,自学志甄选
-  - DOMAIN-SUFFIX,tumblr.com,自学志甄选
-  - DOMAIN-SUFFIX,tweetdeck.com,自学志甄选
-  - DOMAIN-SUFFIX,tweetmarker.net,自学志甄选
-  - DOMAIN-SUFFIX,twitch.tv,自学志甄选
-  - DOMAIN-SUFFIX,txmblr.com,自学志甄选
-  - DOMAIN-SUFFIX,typekit.net,自学志甄选
-  - DOMAIN-SUFFIX,ubertags.com,自学志甄选
-  - DOMAIN-SUFFIX,ublock.org,自学志甄选
-  - DOMAIN-SUFFIX,ubnt.com,自学志甄选
-  - DOMAIN-SUFFIX,ulyssesapp.com,自学志甄选
-  - DOMAIN-SUFFIX,urchin.com,自学志甄选
-  - DOMAIN-SUFFIX,usertrust.com,自学志甄选
-  - DOMAIN-SUFFIX,v.gd,自学志甄选
-  - DOMAIN-SUFFIX,v2ex.com,自学志甄选
-  - DOMAIN-SUFFIX,vimeo.com,自学志甄选
-  - DOMAIN-SUFFIX,vimeocdn.com,自学志甄选
-  - DOMAIN-SUFFIX,vine.co,自学志甄选
-  - DOMAIN-SUFFIX,vivaldi.com,自学志甄选
-  - DOMAIN-SUFFIX,vox-cdn.com,自学志甄选
-  - DOMAIN-SUFFIX,vsco.co,自学志甄选
-  - DOMAIN-SUFFIX,vultr.com,自学志甄选
-  - DOMAIN-SUFFIX,w.org,自学志甄选
-  - DOMAIN-SUFFIX,w3schools.com,自学志甄选
-  - DOMAIN-SUFFIX,webtype.com,自学志甄选
-  - DOMAIN-SUFFIX,wikiwand.com,自学志甄选
-  - DOMAIN-SUFFIX,wikileaks.org,自学志甄选
-  - DOMAIN-SUFFIX,wikimedia.org,自学志甄选
-  - DOMAIN-SUFFIX,wikipedia.com,自学志甄选
-  - DOMAIN-SUFFIX,wikipedia.org,自学志甄选
-  - DOMAIN-SUFFIX,windows.com,自学志甄选
-  - DOMAIN-SUFFIX,windows.net,自学志甄选
-  - DOMAIN-SUFFIX,wire.com,自学志甄选
-  - DOMAIN-SUFFIX,wordpress.com,自学志甄选
-  - DOMAIN-SUFFIX,workflowy.com,自学志甄选
-  - DOMAIN-SUFFIX,wp.com,自学志甄选
-  - DOMAIN-SUFFIX,wsj.com,自学志甄选
-  - DOMAIN-SUFFIX,wsj.net,自学志甄选
-  - DOMAIN-SUFFIX,xda-developers.com,自学志甄选
-  - DOMAIN-SUFFIX,xeeno.com,自学志甄选
-  - DOMAIN-SUFFIX,xiti.com,自学志甄选
-  - DOMAIN-SUFFIX,yahoo.com,自学志甄选
-  - DOMAIN-SUFFIX,yimg.com,自学志甄选
-  - DOMAIN-SUFFIX,ying.com,自学志甄选
-  - DOMAIN-SUFFIX,yoyo.org,自学志甄选
-  - DOMAIN-SUFFIX,ytimg.com,自学志甄选
-  - DOMAIN-SUFFIX,telegra.ph,自学志甄选
-  - DOMAIN-SUFFIX,telegram.org,自学志甄选
-  - IP-CIDR,91.108.4.0/22,自学志甄选,no-resolve
-  - IP-CIDR,91.108.8.0/21,自学志甄选,no-resolve
-  - IP-CIDR,91.108.16.0/22,自学志甄选,no-resolve
-  - IP-CIDR,91.108.56.0/22,自学志甄选,no-resolve
-  - IP-CIDR,149.154.160.0/20,自学志甄选,no-resolve
-  - IP-CIDR6,2001:67c:4e8::/48,自学志甄选,no-resolve
-  - IP-CIDR6,2001:b28:f23d::/48,自学志甄选,no-resolve
-  - IP-CIDR6,2001:b28:f23f::/48,自学志甄选,no-resolve
-  - IP-CIDR,120.232.181.162/32,自学志甄选,no-resolve
-  - IP-CIDR,120.241.147.226/32,自学志甄选,no-resolve
-  - IP-CIDR,120.253.253.226/32,自学志甄选,no-resolve
-  - IP-CIDR,120.253.255.162/32,自学志甄选,no-resolve
-  - IP-CIDR,120.253.255.34/32,自学志甄选,no-resolve
-  - IP-CIDR,120.253.255.98/32,自学志甄选,no-resolve
-  - IP-CIDR,180.163.150.162/32,自学志甄选,no-resolve
-  - IP-CIDR,180.163.150.34/32,自学志甄选,no-resolve
-  - IP-CIDR,180.163.151.162/32,自学志甄选,no-resolve
-  - IP-CIDR,180.163.151.34/32,自学志甄选,no-resolve
-  - IP-CIDR,203.208.39.0/24,自学志甄选,no-resolve
-  - IP-CIDR,203.208.40.0/24,自学志甄选,no-resolve
-  - IP-CIDR,203.208.41.0/24,自学志甄选,no-resolve
-  - IP-CIDR,203.208.43.0/24,自学志甄选,no-resolve
-  - IP-CIDR,203.208.50.0/24,自学志甄选,no-resolve
-  - IP-CIDR,220.181.174.162/32,自学志甄选,no-resolve
-  - IP-CIDR,220.181.174.226/32,自学志甄选,no-resolve
-  - IP-CIDR,220.181.174.34/32,自学志甄选,no-resolve
-  - DOMAIN,injections.adguard.org,DIRECT
-  - DOMAIN,local.adguard.org,DIRECT
-  - DOMAIN-SUFFIX,local,DIRECT
-  - IP-CIDR,127.0.0.0/8,DIRECT
-  - IP-CIDR,172.16.0.0/12,DIRECT
-  - IP-CIDR,192.168.0.0/16,DIRECT
-  - IP-CIDR,10.0.0.0/8,DIRECT
-  - IP-CIDR,17.0.0.0/8,DIRECT
-  - IP-CIDR,100.64.0.0/10,DIRECT
-  - IP-CIDR,224.0.0.0/4,DIRECT
-  - IP-CIDR6,fe80::/10,DIRECT
-  - DOMAIN-SUFFIX,cn,DIRECT
-  - DOMAIN-KEYWORD,-cn,DIRECT
-  - GEOIP,CN,DIRECT
-  - MATCH,自学志甄选
+  - DOMAIN-SUFFIX,amazon.co.jp,🔰自学志甄选
+  - DOMAIN,d3c33hcgiwev3.cloudfront.net,🔰自学志甄选
+  - DOMAIN,payments-jp.amazon.com,🔰自学志甄选
+  - DOMAIN,s3-ap-northeast-1.amazonaws.com,🔰自学志甄选
+  - DOMAIN,s3-ap-southeast-2.amazonaws.com,🔰自学志甄选
+  - DOMAIN,a248.e.akamai.net,🔰自学志甄选
+  - DOMAIN,a771.dscq.akamai.net,🔰自学志甄选
+  - DOMAIN,testflight.apple.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,clubhouseapi.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,joinclubhouse.com,🔰自学志甄选
+  - DOMAIN,clubhouse.pubnubapi.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,aex.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,bibox.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,binance.cc,🔰自学志甄选
+  - DOMAIN-SUFFIX,binance.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,binance.us,🔰自学志甄选
+  - DOMAIN-SUFFIX,bitcointalk.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,bitfinex.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,bithumb.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,bitmex.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,bitstamp.net,🔰自学志甄选
+  - DOMAIN-SUFFIX,bittrex.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,bybit.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,coinbase.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,coincheck.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,coingecko.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,coinmarketcap.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,coinone.co.kr,🔰自学志甄选
+  - DOMAIN-SUFFIX,ftx.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,gate.io,🔰自学志甄选
+  - DOMAIN-SUFFIX,gemini.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,huobi.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,korbit.co.kr,🔰自学志甄选
+  - DOMAIN-SUFFIX,kraken.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,kucoin.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,liquid.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,okex.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,poloniex.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,uniswap.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,zb.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,discord.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,discordapp.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,discordapp.net,🔰自学志甄选
+  - DOMAIN-SUFFIX,dropbox.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,dropboxapi.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,dropboxusercontent.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,cdninstagram.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,facebook.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,facebook.net,🔰自学志甄选
+  - DOMAIN-SUFFIX,fb.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,fb.me,🔰自学志甄选
+  - DOMAIN-SUFFIX,fbaddins.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,fbcdn.net,🔰自学志甄选
+  - DOMAIN-SUFFIX,fbsbx.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,fbworkmail.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,instagram.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,m.me,🔰自学志甄选
+  - DOMAIN-SUFFIX,messenger.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,oculus.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,oculuscdn.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,rocksdb.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,whatsapp.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,whatsapp.net,🔰自学志甄选
+  - DOMAIN-SUFFIX,github.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,github.io,🔰自学志甄选
+  - DOMAIN-SUFFIX,githubusercontent.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,appspot.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,blogger.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,getoutline.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,gvt0.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,gvt1.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,gvt3.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,ytimg.com,🔰自学志甄选
+  - DOMAIN-KEYWORD,google,🔰自学志甄选
+  - DOMAIN-KEYWORD,.blogspot.,🔰自学志甄选
+  - DOMAIN-SUFFIX,line.me,🔰自学志甄选
+  - DOMAIN-SUFFIX,line-apps.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,line-scdn.net,🔰自学志甄选
+  - DOMAIN-SUFFIX,naver.jp,🔰自学志甄选
+  - IP-CIDR,103.2.30.0/23,🔰自学志甄选,no-resolve
+  - IP-CIDR,125.209.208.0/20,🔰自学志甄选,no-resolve
+  - IP-CIDR,147.92.128.0/17,🔰自学志甄选,no-resolve
+  - IP-CIDR,203.104.144.0/21,🔰自学志甄选,no-resolve
+  - DOMAIN-SUFFIX,aka.ms,🔰自学志甄选
+  - DOMAIN-SUFFIX,onedrive.live.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,streaming.mediaservices.windows.net,🔰自学志甄选
+  - DOMAIN,assets1.xboxlive.com,🔰自学志甄选
+  - DOMAIN,assets2.xboxlive.com,🔰自学志甄选
+  - DOMAIN,az416426.vo.msecnd.net,🔰自学志甄选
+  - DOMAIN,az668014.vo.msecnd.net,🔰自学志甄选
+  - DOMAIN-SUFFIX,nyt.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,nytchina.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,nytcn.me,🔰自学志甄选
+  - DOMAIN-SUFFIX,nytco.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,nytimes.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,nytimg.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,nytlog.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,nytstyle.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,pinterest.at,🔰自学志甄选
+  - DOMAIN-SUFFIX,pinterest.ca,🔰自学志甄选
+  - DOMAIN-SUFFIX,pinterest.co.uk,🔰自学志甄选
+  - DOMAIN-SUFFIX,pinterest.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,pinterest.de,🔰自学志甄选
+  - DOMAIN-SUFFIX,pinterest.fr,🔰自学志甄选
+  - DOMAIN-SUFFIX,pinterest.jp,🔰自学志甄选
+  - DOMAIN-SUFFIX,pinterest.se,🔰自学志甄选
+  - DOMAIN-SUFFIX,pixiv.net,🔰自学志甄选
+  - DOMAIN-SUFFIX,pixiv.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,pximg.net,🔰自学志甄选
+  - DOMAIN-SUFFIX,redd.it,🔰自学志甄选
+  - DOMAIN-SUFFIX,reddit.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,redditmedia.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,telegra.ph,🔰自学志甄选
+  - DOMAIN-SUFFIX,telegram.org,🔰自学志甄选
+  - IP-CIDR,91.108.4.0/22,🔰自学志甄选,no-resolve
+  - IP-CIDR,91.108.8.0/22,🔰自学志甄选,no-resolve
+  - IP-CIDR,91.108.12.0/22,🔰自学志甄选,no-resolve
+  - IP-CIDR,91.108.16.0/22,🔰自学志甄选,no-resolve
+  - IP-CIDR,91.108.20.0/22,🔰自学志甄选,no-resolve
+  - IP-CIDR,91.108.56.0/22,🔰自学志甄选,no-resolve
+  - IP-CIDR,91.105.192.0/23,🔰自学志甄选,no-resolve
+  - IP-CIDR,149.154.160.0/20,🔰自学志甄选,no-resolve
+  - IP-CIDR,185.76.151.0/24,🔰自学志甄选,no-resolve
+  - IP-CIDR6,2001:b28:f23d::/48,🔰自学志甄选,no-resolve
+  - IP-CIDR6,2001:b28:f23f::/48,🔰自学志甄选,no-resolve
+  - IP-CIDR6,2001:67c:4e8::/48,🔰自学志甄选,no-resolve
+  - IP-CIDR6,2001:b28:f23c::/48,🔰自学志甄选,no-resolve
+  - IP-CIDR6,2a0a:f280::/32,🔰自学志甄选,no-resolve
+  - DOMAIN-SUFFIX,pscp.tv,🔰自学志甄选
+  - DOMAIN-SUFFIX,periscope.tv,🔰自学志甄选
+  - DOMAIN-SUFFIX,t.co,🔰自学志甄选
+  - DOMAIN-SUFFIX,twimg.co,🔰自学志甄选
+  - DOMAIN-SUFFIX,twimg.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,twitpic.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,twitter.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,vine.co,🔰自学志甄选
+  - DOMAIN-SUFFIX,wikileaks.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,wikimapia.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,wikimedia.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,wikinews.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,wikipedia.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,wikiquote.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,4shared.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,9cache.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,9gag.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,abc.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,abc.net.au,🔰自学志甄选
+  - DOMAIN-SUFFIX,abebooks.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,ao3.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,apigee.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,apkcombo.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,apk-dl.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,apkfind.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,apkmirror.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,apkmonk.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,apkpure.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,aptoide.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,archive.is,🔰自学志甄选
+  - DOMAIN-SUFFIX,archive.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,archiveofourown.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,archiveofourown.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,arte.tv,🔰自学志甄选
+  - DOMAIN-SUFFIX,artstation.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,arukas.io,🔰自学志甄选
+  - DOMAIN-SUFFIX,ask.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,avg.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,avgle.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,badoo.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,bandcamp.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,bandwagonhost.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,bangkokpost.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,bbc.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,behance.net,🔰自学志甄选
+  - DOMAIN-SUFFIX,biggo.com.tw,🔰自学志甄选
+  - DOMAIN-SUFFIX,bit.ly,🔰自学志甄选
+  - DOMAIN-SUFFIX,bloglovin.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,bloomberg.cn,🔰自学志甄选
+  - DOMAIN-SUFFIX,bloomberg.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,blubrry.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,book.com.tw,🔰自学志甄选
+  - DOMAIN-SUFFIX,booklive.jp,🔰自学志甄选
+  - DOMAIN-SUFFIX,books.com.tw,🔰自学志甄选
+  - DOMAIN-SUFFIX,boslife.net,🔰自学志甄选
+  - DOMAIN-SUFFIX,box.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,brave.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,businessinsider.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,buzzfeed.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,bwh1.net,🔰自学志甄选
+  - DOMAIN-SUFFIX,castbox.fm,🔰自学志甄选
+  - DOMAIN-SUFFIX,cbc.ca,🔰自学志甄选
+  - DOMAIN-SUFFIX,cdw.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,change.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,channelnewsasia.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,ck101.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,clarionproject.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,cloudcone.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,clyp.it,🔰自学志甄选
+  - DOMAIN-SUFFIX,cna.com.tw,🔰自学志甄选
+  - DOMAIN-SUFFIX,comparitech.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,conoha.jp,🔰自学志甄选
+  - DOMAIN-SUFFIX,crucial.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,cts.com.tw,🔰自学志甄选
+  - DOMAIN-SUFFIX,cw.com.tw,🔰自学志甄选
+  - DOMAIN-SUFFIX,cyberctm.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,cyclingnews.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,dailymotion.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,dailyview.tw,🔰自学志甄选
+  - DOMAIN-SUFFIX,dandanzan.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,daum.net,🔰自学志甄选
+  - DOMAIN-SUFFIX,daumcdn.net,🔰自学志甄选
+  - DOMAIN-SUFFIX,dcard.tw,🔰自学志甄选
+  - DOMAIN-SUFFIX,deadline.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,deepdiscount.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,depositphotos.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,deviantart.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,disconnect.me,🔰自学志甄选
+  - DOMAIN-SUFFIX,disqus.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,dlercloud.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,dmhy.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,dns2go.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,dowjones.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,duckduckgo.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,duyaoss.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,dw.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,dynu.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,earthcam.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,ebookservice.tw,🔰自学志甄选
+  - DOMAIN-SUFFIX,economist.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,edgecastcdn.net,🔰自学志甄选
+  - DOMAIN-SUFFIX,edx-cdn.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,elpais.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,enanyang.my,🔰自学志甄选
+  - DOMAIN-SUFFIX,encyclopedia.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,esoir.be,🔰自学志甄选
+  - DOMAIN-SUFFIX,etherscan.io,🔰自学志甄选
+  - DOMAIN-SUFFIX,euronews.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,evozi.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,exblog.jp,🔰自学志甄选
+  - DOMAIN-SUFFIX,feeder.co,🔰自学志甄选
+  - DOMAIN-SUFFIX,feedly.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,feedx.net,🔰自学志甄选
+  - DOMAIN-SUFFIX,firech.at,🔰自学志甄选
+  - DOMAIN-SUFFIX,flickr.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,flipboard.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,flitto.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,foreignpolicy.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,fortawesome.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,freetls.fastly.net,🔰自学志甄选
+  - DOMAIN-SUFFIX,friday.tw,🔰自学志甄选
+  - DOMAIN-SUFFIX,ft.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,ftchinese.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,ftimg.net,🔰自学志甄选
+  - DOMAIN-SUFFIX,genius.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,getlantern.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,getsync.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,globalvoices.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,goo.ne.jp,🔰自学志甄选
+  - DOMAIN-SUFFIX,goodreads.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,gov.tw,🔰自学志甄选
+  - DOMAIN-SUFFIX,gravatar.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,greatfire.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,gumroad.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,heroku.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,hightail.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,hk01.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,hkbf.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,hkbookcity.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,hkej.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,hket.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,hootsuite.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,hudson.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,huffpost.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,hyread.com.tw,🔰自学志甄选
+  - DOMAIN-SUFFIX,ibtimes.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,i-cable.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,icij.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,icoco.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,imgur.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,independent.co.uk,🔰自学志甄选
+  - DOMAIN-SUFFIX,initiummall.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,inoreader.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,insecam.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,ipfs.io,🔰自学志甄选
+  - DOMAIN-SUFFIX,issuu.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,istockphoto.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,japantimes.co.jp,🔰自学志甄选
+  - DOMAIN-SUFFIX,jiji.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,jinx.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,jkforum.net,🔰自学志甄选
+  - DOMAIN-SUFFIX,joinmastodon.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,justmysocks.net,🔰自学志甄选
+  - DOMAIN-SUFFIX,justpaste.it,🔰自学志甄选
+  - DOMAIN-SUFFIX,kadokawa.co.jp,🔰自学志甄选
+  - DOMAIN-SUFFIX,kakao.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,kakaocorp.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,kik.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,kingkong.com.tw,🔰自学志甄选
+  - DOMAIN-SUFFIX,knowyourmeme.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,kobo.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,kobobooks.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,kodingen.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,lemonde.fr,🔰自学志甄选
+  - DOMAIN-SUFFIX,lepoint.fr,🔰自学志甄选
+  - DOMAIN-SUFFIX,lihkg.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,limbopro.xyz,🔰自学志甄选
+  - DOMAIN-SUFFIX,listennotes.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,livestream.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,logimg.jp,🔰自学志甄选
+  - DOMAIN-SUFFIX,logmein.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,mail.ru,🔰自学志甄选
+  - DOMAIN-SUFFIX,mailchimp.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,marc.info,🔰自学志甄选
+  - DOMAIN-SUFFIX,matters.news,🔰自学志甄选
+  - DOMAIN-SUFFIX,maying.co,🔰自学志甄选
+  - DOMAIN-SUFFIX,medibang.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,medium.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,mega.nz,🔰自学志甄选
+  - DOMAIN-SUFFIX,mergersandinquisitions.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,mingpao.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,mixi.jp,🔰自学志甄选
+  - DOMAIN-SUFFIX,mixlr.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,mobile01.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,mubi.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,myspace.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,myspacecdn.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,nanyang.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,nationalinterest.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,naver.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,nbcnews.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,ndr.de,🔰自学志甄选
+  - DOMAIN-SUFFIX,neowin.net,🔰自学志甄选
+  - DOMAIN-SUFFIX,newstapa.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,nexitally.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,nhk.or.jp,🔰自学志甄选
+  - DOMAIN-SUFFIX,nii.ac.jp,🔰自学志甄选
+  - DOMAIN-SUFFIX,nikkei.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,nitter.net,🔰自学志甄选
+  - DOMAIN-SUFFIX,nofile.io,🔰自学志甄选
+  - DOMAIN-SUFFIX,notion.so,🔰自学志甄选
+  - DOMAIN-SUFFIX,now.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,nrk.no,🔰自学志甄选
+  - DOMAIN-SUFFIX,nuget.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,nyaa.si,🔰自学志甄选
+  - DOMAIN-SUFFIX,ok.ru,🔰自学志甄选
+  - DOMAIN-SUFFIX,on.cc,🔰自学志甄选
+  - DOMAIN-SUFFIX,orientaldaily.com.my,🔰自学志甄选
+  - DOMAIN-SUFFIX,overcast.fm,🔰自学志甄选
+  - DOMAIN-SUFFIX,paltalk.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,parsevideo.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,pawoo.net,🔰自学志甄选
+  - DOMAIN-SUFFIX,pbxes.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,pcdvd.com.tw,🔰自学志甄选
+  - DOMAIN-SUFFIX,pchome.com.tw,🔰自学志甄选
+  - DOMAIN-SUFFIX,pcloud.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,peing.net,🔰自学志甄选
+  - DOMAIN-SUFFIX,picacomic.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,pinimg.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,player.fm,🔰自学志甄选
+  - DOMAIN-SUFFIX,plurk.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,po18.tw,🔰自学志甄选
+  - DOMAIN-SUFFIX,potato.im,🔰自学志甄选
+  - DOMAIN-SUFFIX,potatso.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,prism-break.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,proxifier.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,pt.im,🔰自学志甄选
+  - DOMAIN-SUFFIX,pts.org.tw,🔰自学志甄选
+  - DOMAIN-SUFFIX,pubu.com.tw,🔰自学志甄选
+  - DOMAIN-SUFFIX,pubu.tw,🔰自学志甄选
+  - DOMAIN-SUFFIX,pureapk.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,quora.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,quoracdn.net,🔰自学志甄选
+  - DOMAIN-SUFFIX,qz.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,radio.garden,🔰自学志甄选
+  - DOMAIN-SUFFIX,rakuten.co.jp,🔰自学志甄选
+  - DOMAIN-SUFFIX,rarbgprx.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,reabble.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,readingtimes.com.tw,🔰自学志甄选
+  - DOMAIN-SUFFIX,readmoo.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,redbubble.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,resilio.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,reuters.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,reutersmedia.net,🔰自学志甄选
+  - DOMAIN-SUFFIX,rfi.fr,🔰自学志甄选
+  - DOMAIN-SUFFIX,roadshow.hk,🔰自学志甄选
+  - DOMAIN-SUFFIX,rsshub.app,🔰自学志甄选
+  - DOMAIN-SUFFIX,scmp.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,scribd.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,seatguru.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,shadowsocks.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,shindanmaker.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,shopee.tw,🔰自学志甄选
+  - DOMAIN-SUFFIX,signal.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,sina.com.hk,🔰自学志甄选
+  - DOMAIN-SUFFIX,slideshare.net,🔰自学志甄选
+  - DOMAIN-SUFFIX,softfamous.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,spiegel.de,🔰自学志甄选
+  - DOMAIN-SUFFIX,startpage.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,steamcommunity.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,steemit.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,steemitwallet.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,straitstimes.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,streamable.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,streema.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,substack.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,substack.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,t66y.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,tapatalk.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,teco-hk.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,teco-mo.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,teddysun.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,textnow.me,🔰自学志甄选
+  - DOMAIN-SUFFIX,theguardian.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,theinitium.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,themoviedb.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,thetvdb.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,time.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,tineye.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,tiny.cc,🔰自学志甄选
+  - DOMAIN-SUFFIX,tinyurl.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,torproject.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,tradingview.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,tumblr.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,turbobit.net,🔰自学志甄选
+  - DOMAIN-SUFFIX,tutanota.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,tvboxnow.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,udn.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,unseen.is,🔰自学志甄选
+  - DOMAIN-SUFFIX,upmedia.mg,🔰自学志甄选
+  - DOMAIN-SUFFIX,uptodown.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,urbandictionary.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,ustream.tv,🔰自学志甄选
+  - DOMAIN-SUFFIX,uwants.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,v2ex.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,v2fly.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,v2ray.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,viber.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,videopress.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,vimeo.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,voachinese.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,voanews.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,voxer.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,vzw.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,w3schools.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,washingtonpost.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,wattpad.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,whoer.net,🔰自学志甄选
+  - DOMAIN-SUFFIX,wikiwand.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,winudf.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,wire.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,wn.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,wordpress.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,worldcat.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,wsj.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,wsj.net,🔰自学志甄选
+  - DOMAIN-SUFFIX,xhamster.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,xn--90wwvt03e.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,xn--i2ru8q2qg.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,xnxx.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,xvideos.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,yadi.sk,🔰自学志甄选
+  - DOMAIN-SUFFIX,yahoo.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,yandex.ru,🔰自学志甄选
+  - DOMAIN-SUFFIX,ycombinator.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,yesasia.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,yes-news.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,yomiuri.co.jp,🔰自学志甄选
+  - DOMAIN-SUFFIX,you-get.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,zaobao.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,zello.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,zeronet.io,🔰自学志甄选
+  - DOMAIN-SUFFIX,z-lib.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,zoom.us,🔰自学志甄选
+  - DOMAIN,cc.tvbs.com.tw,🔰自学志甄选
+  - DOMAIN,ocsp.int-x3.letsencrypt.org,🔰自学志甄选
+  - DOMAIN,us.weibo.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,edu,🔰自学志甄选
+  - DOMAIN-SUFFIX,gov,🔰自学志甄选
+  - DOMAIN-SUFFIX,mil,🔰自学志甄选
+  - DOMAIN-SUFFIX,abc.xyz,🔰自学志甄选
+  - DOMAIN-SUFFIX,advertisercommunity.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,ampproject.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,android.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,androidify.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,autodraw.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,capitalg.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,certificate-transparency.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,chrome.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,chromeexperiments.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,chromestatus.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,chromium.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,creativelab5.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,debug.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,deepmind.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,dialogflow.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,firebaseio.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,getmdl.io,🔰自学志甄选
+  - DOMAIN-SUFFIX,ggpht.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,gmail.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,gmodules.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,godoc.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,gstatic.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,gv.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,gwtproject.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,itasoftware.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,madewithcode.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,material.io,🔰自学志甄选
+  - DOMAIN-SUFFIX,page.link,🔰自学志甄选
+  - DOMAIN-SUFFIX,polymer-project.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,recaptcha.net,🔰自学志甄选
+  - DOMAIN-SUFFIX,shattered.io,🔰自学志甄选
+  - DOMAIN-SUFFIX,synergyse.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,telephony.goog,🔰自学志甄选
+  - DOMAIN-SUFFIX,tensorflow.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,tfhub.dev,🔰自学志甄选
+  - DOMAIN-SUFFIX,tiltbrush.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,waveprotocol.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,waymo.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,webmproject.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,webrtc.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,whatbrowser.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,widevine.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,x.company,🔰自学志甄选
+  - DOMAIN-SUFFIX,youtu.be,🔰自学志甄选
+  - DOMAIN-SUFFIX,yt.be,🔰自学志甄选
+  - DOMAIN-SUFFIX,ytimg.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,t.me,🔰自学志甄选
+  - DOMAIN-SUFFIX,tdesktop.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,telegram.me,🔰自学志甄选
+  - DOMAIN-SUFFIX,telesco.pe,🔰自学志甄选
+  - DOMAIN-KEYWORD,.facebook.,🔰自学志甄选
+  - DOMAIN-SUFFIX,facebookmail.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,noxinfluencer.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,smartmailcloud.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,weebly.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,twitter.jp,🔰自学志甄选
+  - DOMAIN-SUFFIX,appsto.re,🔰自学志甄选
+  - DOMAIN,books.itunes.apple.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,smoot.apple.com,🔰自学志甄选
+  - DOMAIN,beta.music.apple.com,🔰自学志甄选
+  - DOMAIN,lookup-api.apple.com,🔰自学志甄选
+  - DOMAIN,apps.apple.com,🔰自学志甄选
+  - DOMAIN,books.apple.com,🔰自学志甄选
+  - DOMAIN,itunes.apple.com,🔰自学志甄选
+  - DOMAIN,tv.apple.com,🔰自学志甄选
+  - DOMAIN,amp-api.podcasts.apple.com,🔰自学志甄选
+  - DOMAIN,bookkeeper.itunes.apple.com,🔰自学志甄选
+  - DOMAIN,gateway.icloud.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,apple.news,🔰自学志甄选
+  - DOMAIN,news-assets.apple.com,🔰自学志甄选
+  - DOMAIN,news-client.apple.com,🔰自学志甄选
+  - DOMAIN,news-client-search.apple.com,🔰自学志甄选
+  - DOMAIN,news-edge.apple.com,🔰自学志甄选
+  - DOMAIN,news-events.apple.com,🔰自学志甄选
+  - DOMAIN,apple.comscoreresearch.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,go.dev,🔰自学志甄选
+  - DOMAIN-SUFFIX,golang.org,🔰自学志甄选
+  - DOMAIN-SUFFIX,aicoin.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,aimoon.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,bing.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,cccat.io,🔰自学志甄选
+  - DOMAIN-SUFFIX,dubox.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,duboxcdn.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,ifixit.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,linkedin.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,mangakakalot.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,shopeemobile.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,sushi.com,🔰自学志甄选
+  - DOMAIN,appleid.apple.com,🔰自学志甄选
+  - DOMAIN,developer.apple.com,🔰自学志甄选
+  - DOMAIN,www.icloud.com,🔰自学志甄选
+  - DOMAIN,ocsp.apple.com,🔰自学志甄选
+  - DOMAIN,cacerts.digicert.com,🔰自学志甄选
+  - DOMAIN,crl3.digicert.com,🔰自学志甄选
+  - DOMAIN,crl4.digicert.com,🔰自学志甄选
+  - DOMAIN,ocsp.digicert.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,inkbunny.net,🔰自学志甄选
+  - DOMAIN-SUFFIX,metapix.net,🔰自学志甄选
+  - DOMAIN-SUFFIX,s3.amazonaws.com,🔰自学志甄选
+  - DOMAIN-SUFFIX,zaobao.com.sg,🔰自学志甄选
+  - DOMAIN,international-gfe.download.nvidia.com,🔰自学志甄选
