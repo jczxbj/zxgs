@@ -1,9 +1,9 @@
 ####################################
 # 客户端：Clash
-# 创建时间：2025-01-12 21:09:19
+# 创建时间：2025-01-13 16:09:47
 # 使用模版：自学志888
-# 节点数量：80
-# 节点类型：ssr
+# 节点数量：18
+# 节点类型：ss
 ####################################
 mixed-port: 7890
 allow-lan: false
@@ -96,342 +96,94 @@ dns:
       - +.proton.me
 
 proxies:
-  - {"name":"🇯🇵JP_1 @1-12","type":"ssr","server":"120.232.153.46","port":50132,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇯🇵JP_2 @1-12","type":"ssr","server":"120.232.153.46","port":50133,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇯🇵JP_3 @1-12","type":"ssr","server":"120.232.153.46","port":50134,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇯🇵JP_4 @1-12","type":"ssr","server":"120.232.153.46","port":50135,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇸🇬SG_1 @1-12","type":"ssr","server":"120.232.153.46","port":50136,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇸🇬SG_2 @1-12","type":"ssr","server":"120.232.153.46","port":50137,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇸🇬SG_3 @1-12","type":"ssr","server":"120.232.153.46","port":50138,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇸🇬SG_4 @1-12","type":"ssr","server":"120.232.153.46","port":50139,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇯🇵JP_1 @1-12 2","type":"ssr","server":"120.232.153.47","port":50132,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇯🇵JP_2 @1-12 2","type":"ssr","server":"120.232.153.47","port":50133,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇯🇵JP_3 @1-12 2","type":"ssr","server":"120.232.153.47","port":50134,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇯🇵JP_4 @1-12 2","type":"ssr","server":"120.232.153.47","port":50135,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇸🇬SG_1 @1-12 2","type":"ssr","server":"120.232.153.47","port":50136,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇸🇬SG_2 @1-12 2","type":"ssr","server":"120.232.153.47","port":50137,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇸🇬SG_3 @1-12 2","type":"ssr","server":"120.232.153.47","port":50138,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇸🇬SG_4 @1-12 2","type":"ssr","server":"120.232.153.47","port":50139,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇯🇵JP_1 @1-12 3","type":"ssr","server":"120.232.153.48","port":50132,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇯🇵JP_2 @1-12 3","type":"ssr","server":"120.232.153.48","port":50133,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇯🇵JP_3 @1-12 3","type":"ssr","server":"120.232.153.48","port":50134,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇯🇵JP_4 @1-12 3","type":"ssr","server":"120.232.153.48","port":50135,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇸🇬SG_1 @1-12 3","type":"ssr","server":"120.232.153.48","port":50136,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇸🇬SG_2 @1-12 3","type":"ssr","server":"120.232.153.48","port":50137,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇸🇬SG_3 @1-12 3","type":"ssr","server":"120.232.153.48","port":50138,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇸🇬SG_4 @1-12 3","type":"ssr","server":"120.232.153.48","port":50139,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇯🇵JP_1 @1-12 4","type":"ssr","server":"120.232.153.49","port":50132,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇯🇵JP_2 @1-12 4","type":"ssr","server":"120.232.153.49","port":50133,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇯🇵JP_3 @1-12 4","type":"ssr","server":"120.232.153.49","port":50134,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇯🇵JP_4 @1-12 4","type":"ssr","server":"120.232.153.49","port":50135,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇸🇬SG_1 @1-12 4","type":"ssr","server":"120.232.153.49","port":50136,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇸🇬SG_2 @1-12 4","type":"ssr","server":"120.232.153.49","port":50137,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇸🇬SG_3 @1-12 4","type":"ssr","server":"120.232.153.49","port":50138,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇸🇬SG_4 @1-12 4","type":"ssr","server":"120.232.153.49","port":50139,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇯🇵JP_1 @1-12 5","type":"ssr","server":"120.232.153.50","port":50132,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇯🇵JP_2 @1-12 5","type":"ssr","server":"120.232.153.50","port":50133,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇯🇵JP_3 @1-12 5","type":"ssr","server":"120.232.153.50","port":50134,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇯🇵JP_4 @1-12 5","type":"ssr","server":"120.232.153.50","port":50135,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇸🇬SG_1 @1-12 5","type":"ssr","server":"120.232.153.50","port":50136,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇸🇬SG_2 @1-12 5","type":"ssr","server":"120.232.153.50","port":50137,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇸🇬SG_3 @1-12 5","type":"ssr","server":"120.232.153.50","port":50138,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇸🇬SG_4 @1-12 5","type":"ssr","server":"120.232.153.50","port":50139,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇯🇵JP_1 @1-12 6","type":"ssr","server":"120.232.153.53","port":50132,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇯🇵JP_2 @1-12 6","type":"ssr","server":"120.232.153.53","port":50133,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇯🇵JP_3 @1-12 6","type":"ssr","server":"120.232.153.53","port":50134,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇯🇵JP_4 @1-12 6","type":"ssr","server":"120.232.153.53","port":50135,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇸🇬SG_1 @1-12 6","type":"ssr","server":"120.232.153.53","port":50136,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇸🇬SG_2 @1-12 6","type":"ssr","server":"120.232.153.53","port":50137,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇸🇬SG_3 @1-12 6","type":"ssr","server":"120.232.153.53","port":50138,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇸🇬SG_4 @1-12 6","type":"ssr","server":"120.232.153.53","port":50139,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇯🇵JP_1 @1-12 7","type":"ssr","server":"120.232.153.54","port":50132,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇯🇵JP_2 @1-12 7","type":"ssr","server":"120.232.153.54","port":50133,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇯🇵JP_3 @1-12 7","type":"ssr","server":"120.232.153.54","port":50134,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇯🇵JP_4 @1-12 7","type":"ssr","server":"120.232.153.54","port":50135,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇸🇬SG_1 @1-12 7","type":"ssr","server":"120.232.153.54","port":50136,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇸🇬SG_2 @1-12 7","type":"ssr","server":"120.232.153.54","port":50137,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇸🇬SG_3 @1-12 7","type":"ssr","server":"120.232.153.54","port":50138,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇸🇬SG_4 @1-12 7","type":"ssr","server":"120.232.153.54","port":50139,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇯🇵JP_1 @1-12 8","type":"ssr","server":"120.232.153.55","port":50132,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇯🇵JP_2 @1-12 8","type":"ssr","server":"120.232.153.55","port":50133,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇯🇵JP_3 @1-12 8","type":"ssr","server":"120.232.153.55","port":50134,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇯🇵JP_4 @1-12 8","type":"ssr","server":"120.232.153.55","port":50135,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇸🇬SG_1 @1-12 8","type":"ssr","server":"120.232.153.55","port":50136,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇸🇬SG_2 @1-12 8","type":"ssr","server":"120.232.153.55","port":50137,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇸🇬SG_3 @1-12 8","type":"ssr","server":"120.232.153.55","port":50138,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇸🇬SG_4 @1-12 8","type":"ssr","server":"120.232.153.55","port":50139,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇯🇵JP_1 @1-12 9","type":"ssr","server":"120.232.153.56","port":50132,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇯🇵JP_2 @1-12 9","type":"ssr","server":"120.232.153.56","port":50133,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇯🇵JP_3 @1-12 9","type":"ssr","server":"120.232.153.56","port":50134,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇯🇵JP_4 @1-12 9","type":"ssr","server":"120.232.153.56","port":50135,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇸🇬SG_1 @1-12 9","type":"ssr","server":"120.232.153.56","port":50136,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇸🇬SG_2 @1-12 9","type":"ssr","server":"120.232.153.56","port":50137,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇸🇬SG_3 @1-12 9","type":"ssr","server":"120.232.153.56","port":50138,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇸🇬SG_4 @1-12 9","type":"ssr","server":"120.232.153.56","port":50139,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇯🇵JP_1 @1-12 10","type":"ssr","server":"120.232.153.57","port":50132,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇯🇵JP_2 @1-12 10","type":"ssr","server":"120.232.153.57","port":50133,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇯🇵JP_3 @1-12 10","type":"ssr","server":"120.232.153.57","port":50134,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇯🇵JP_4 @1-12 10","type":"ssr","server":"120.232.153.57","port":50135,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇸🇬SG_1 @1-12 10","type":"ssr","server":"120.232.153.57","port":50136,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇸🇬SG_2 @1-12 10","type":"ssr","server":"120.232.153.57","port":50137,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇸🇬SG_3 @1-12 10","type":"ssr","server":"120.232.153.57","port":50138,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
-  - {"name":"🇸🇬SG_4 @1-12 10","type":"ssr","server":"120.232.153.57","port":50139,"udp":true,"password":"mPQ5C9","cipher":"chacha20","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","obfs-param":"TG.WangCai2","protocol-param":"49221911:89PDyh"}
+  - {"name":"🇨🇳TW_@\r_1","type":"ss","server":"171.111.216.155","port":30002,"password":"2ea079e3-26fc-42ab-97e3-b8e7e11097ec","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳TW_@\r_2","type":"ss","server":"171.111.216.155","port":30002,"password":"ee2591e8-ed63-4ae2-a18f-1f3952f3905e","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬SG_@\r_1","type":"ss","server":"171.111.216.155","port":30001,"password":"ee2591e8-ed63-4ae2-a18f-1f3952f3905e","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳TW_@\r_3","type":"ss","server":"171.111.216.155","port":30002,"password":"a2c25d38-44dc-4b53-9377-9f98bd8d7e2b","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳TW_@\r_4","type":"ss","server":"223.113.53.141","port":30002,"password":"2ea079e3-26fc-42ab-97e3-b8e7e11097ec","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬SG_@\r_2","type":"ss","server":"223.113.53.141","port":30003,"password":"2ea079e3-26fc-42ab-97e3-b8e7e11097ec","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬SG_@\r_3","type":"ss","server":"171.111.216.155","port":30001,"password":"2ea079e3-26fc-42ab-97e3-b8e7e11097ec","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳TW_@\r_5","type":"ss","server":"223.113.53.141","port":30002,"password":"ee2591e8-ed63-4ae2-a18f-1f3952f3905e","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳TW_@\r_6","type":"ss","server":"223.113.53.141","port":30002,"password":"a2c25d38-44dc-4b53-9377-9f98bd8d7e2b","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬SG_@\r_4","type":"ss","server":"223.113.53.141","port":30003,"password":"ee2591e8-ed63-4ae2-a18f-1f3952f3905e","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬SG_@\r_5","type":"ss","server":"223.113.53.141","port":30003,"password":"a2c25d38-44dc-4b53-9377-9f98bd8d7e2b","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬SG_@\r_6","type":"ss","server":"171.111.216.155","port":30001,"password":"a2c25d38-44dc-4b53-9377-9f98bd8d7e2b","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬SG_@\r_7","type":"ss","server":"223.113.53.141","port":30001,"password":"a2c25d38-44dc-4b53-9377-9f98bd8d7e2b","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬SG_@\r_8","type":"ss","server":"171.111.216.155","port":30003,"password":"ee2591e8-ed63-4ae2-a18f-1f3952f3905e","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬SG_@\r_9","type":"ss","server":"223.113.53.141","port":30001,"password":"2ea079e3-26fc-42ab-97e3-b8e7e11097ec","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬SG_@\r_10","type":"ss","server":"171.111.216.155","port":30003,"password":"a2c25d38-44dc-4b53-9377-9f98bd8d7e2b","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬SG_@\r_11","type":"ss","server":"223.113.53.141","port":30001,"password":"ee2591e8-ed63-4ae2-a18f-1f3952f3905e","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬SG_@\r_12","type":"ss","server":"171.111.216.155","port":30003,"password":"2ea079e3-26fc-42ab-97e3-b8e7e11097ec","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: 自学志甄选
     type: select
     proxies:
       - 自动选择
       - 故障转移
-      - 🇯🇵JP_1 @1-12
-      - 🇯🇵JP_2 @1-12
-      - 🇯🇵JP_3 @1-12
-      - 🇯🇵JP_4 @1-12
-      - 🇸🇬SG_1 @1-12
-      - 🇸🇬SG_2 @1-12
-      - 🇸🇬SG_3 @1-12
-      - 🇸🇬SG_4 @1-12
-      - 🇯🇵JP_1 @1-12 2
-      - 🇯🇵JP_2 @1-12 2
-      - 🇯🇵JP_3 @1-12 2
-      - 🇯🇵JP_4 @1-12 2
-      - 🇸🇬SG_1 @1-12 2
-      - 🇸🇬SG_2 @1-12 2
-      - 🇸🇬SG_3 @1-12 2
-      - 🇸🇬SG_4 @1-12 2
-      - 🇯🇵JP_1 @1-12 3
-      - 🇯🇵JP_2 @1-12 3
-      - 🇯🇵JP_3 @1-12 3
-      - 🇯🇵JP_4 @1-12 3
-      - 🇸🇬SG_1 @1-12 3
-      - 🇸🇬SG_2 @1-12 3
-      - 🇸🇬SG_3 @1-12 3
-      - 🇸🇬SG_4 @1-12 3
-      - 🇯🇵JP_1 @1-12 4
-      - 🇯🇵JP_2 @1-12 4
-      - 🇯🇵JP_3 @1-12 4
-      - 🇯🇵JP_4 @1-12 4
-      - 🇸🇬SG_1 @1-12 4
-      - 🇸🇬SG_2 @1-12 4
-      - 🇸🇬SG_3 @1-12 4
-      - 🇸🇬SG_4 @1-12 4
-      - 🇯🇵JP_1 @1-12 5
-      - 🇯🇵JP_2 @1-12 5
-      - 🇯🇵JP_3 @1-12 5
-      - 🇯🇵JP_4 @1-12 5
-      - 🇸🇬SG_1 @1-12 5
-      - 🇸🇬SG_2 @1-12 5
-      - 🇸🇬SG_3 @1-12 5
-      - 🇸🇬SG_4 @1-12 5
-      - 🇯🇵JP_1 @1-12 6
-      - 🇯🇵JP_2 @1-12 6
-      - 🇯🇵JP_3 @1-12 6
-      - 🇯🇵JP_4 @1-12 6
-      - 🇸🇬SG_1 @1-12 6
-      - 🇸🇬SG_2 @1-12 6
-      - 🇸🇬SG_3 @1-12 6
-      - 🇸🇬SG_4 @1-12 6
-      - 🇯🇵JP_1 @1-12 7
-      - 🇯🇵JP_2 @1-12 7
-      - 🇯🇵JP_3 @1-12 7
-      - 🇯🇵JP_4 @1-12 7
-      - 🇸🇬SG_1 @1-12 7
-      - 🇸🇬SG_2 @1-12 7
-      - 🇸🇬SG_3 @1-12 7
-      - 🇸🇬SG_4 @1-12 7
-      - 🇯🇵JP_1 @1-12 8
-      - 🇯🇵JP_2 @1-12 8
-      - 🇯🇵JP_3 @1-12 8
-      - 🇯🇵JP_4 @1-12 8
-      - 🇸🇬SG_1 @1-12 8
-      - 🇸🇬SG_2 @1-12 8
-      - 🇸🇬SG_3 @1-12 8
-      - 🇸🇬SG_4 @1-12 8
-      - 🇯🇵JP_1 @1-12 9
-      - 🇯🇵JP_2 @1-12 9
-      - 🇯🇵JP_3 @1-12 9
-      - 🇯🇵JP_4 @1-12 9
-      - 🇸🇬SG_1 @1-12 9
-      - 🇸🇬SG_2 @1-12 9
-      - 🇸🇬SG_3 @1-12 9
-      - 🇸🇬SG_4 @1-12 9
-      - 🇯🇵JP_1 @1-12 10
-      - 🇯🇵JP_2 @1-12 10
-      - 🇯🇵JP_3 @1-12 10
-      - 🇯🇵JP_4 @1-12 10
-      - 🇸🇬SG_1 @1-12 10
-      - 🇸🇬SG_2 @1-12 10
-      - 🇸🇬SG_3 @1-12 10
-      - 🇸🇬SG_4 @1-12 10
+      - "🇨🇳TW_@\r_1"
+      - "🇨🇳TW_@\r_2"
+      - "🇸🇬SG_@\r_1"
+      - "🇨🇳TW_@\r_3"
+      - "🇨🇳TW_@\r_4"
+      - "🇸🇬SG_@\r_2"
+      - "🇸🇬SG_@\r_3"
+      - "🇨🇳TW_@\r_5"
+      - "🇨🇳TW_@\r_6"
+      - "🇸🇬SG_@\r_4"
+      - "🇸🇬SG_@\r_5"
+      - "🇸🇬SG_@\r_6"
+      - "🇸🇬SG_@\r_7"
+      - "🇸🇬SG_@\r_8"
+      - "🇸🇬SG_@\r_9"
+      - "🇸🇬SG_@\r_10"
+      - "🇸🇬SG_@\r_11"
+      - "🇸🇬SG_@\r_12"
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇯🇵JP_1 @1-12
-      - 🇯🇵JP_2 @1-12
-      - 🇯🇵JP_3 @1-12
-      - 🇯🇵JP_4 @1-12
-      - 🇸🇬SG_1 @1-12
-      - 🇸🇬SG_2 @1-12
-      - 🇸🇬SG_3 @1-12
-      - 🇸🇬SG_4 @1-12
-      - 🇯🇵JP_1 @1-12 2
-      - 🇯🇵JP_2 @1-12 2
-      - 🇯🇵JP_3 @1-12 2
-      - 🇯🇵JP_4 @1-12 2
-      - 🇸🇬SG_1 @1-12 2
-      - 🇸🇬SG_2 @1-12 2
-      - 🇸🇬SG_3 @1-12 2
-      - 🇸🇬SG_4 @1-12 2
-      - 🇯🇵JP_1 @1-12 3
-      - 🇯🇵JP_2 @1-12 3
-      - 🇯🇵JP_3 @1-12 3
-      - 🇯🇵JP_4 @1-12 3
-      - 🇸🇬SG_1 @1-12 3
-      - 🇸🇬SG_2 @1-12 3
-      - 🇸🇬SG_3 @1-12 3
-      - 🇸🇬SG_4 @1-12 3
-      - 🇯🇵JP_1 @1-12 4
-      - 🇯🇵JP_2 @1-12 4
-      - 🇯🇵JP_3 @1-12 4
-      - 🇯🇵JP_4 @1-12 4
-      - 🇸🇬SG_1 @1-12 4
-      - 🇸🇬SG_2 @1-12 4
-      - 🇸🇬SG_3 @1-12 4
-      - 🇸🇬SG_4 @1-12 4
-      - 🇯🇵JP_1 @1-12 5
-      - 🇯🇵JP_2 @1-12 5
-      - 🇯🇵JP_3 @1-12 5
-      - 🇯🇵JP_4 @1-12 5
-      - 🇸🇬SG_1 @1-12 5
-      - 🇸🇬SG_2 @1-12 5
-      - 🇸🇬SG_3 @1-12 5
-      - 🇸🇬SG_4 @1-12 5
-      - 🇯🇵JP_1 @1-12 6
-      - 🇯🇵JP_2 @1-12 6
-      - 🇯🇵JP_3 @1-12 6
-      - 🇯🇵JP_4 @1-12 6
-      - 🇸🇬SG_1 @1-12 6
-      - 🇸🇬SG_2 @1-12 6
-      - 🇸🇬SG_3 @1-12 6
-      - 🇸🇬SG_4 @1-12 6
-      - 🇯🇵JP_1 @1-12 7
-      - 🇯🇵JP_2 @1-12 7
-      - 🇯🇵JP_3 @1-12 7
-      - 🇯🇵JP_4 @1-12 7
-      - 🇸🇬SG_1 @1-12 7
-      - 🇸🇬SG_2 @1-12 7
-      - 🇸🇬SG_3 @1-12 7
-      - 🇸🇬SG_4 @1-12 7
-      - 🇯🇵JP_1 @1-12 8
-      - 🇯🇵JP_2 @1-12 8
-      - 🇯🇵JP_3 @1-12 8
-      - 🇯🇵JP_4 @1-12 8
-      - 🇸🇬SG_1 @1-12 8
-      - 🇸🇬SG_2 @1-12 8
-      - 🇸🇬SG_3 @1-12 8
-      - 🇸🇬SG_4 @1-12 8
-      - 🇯🇵JP_1 @1-12 9
-      - 🇯🇵JP_2 @1-12 9
-      - 🇯🇵JP_3 @1-12 9
-      - 🇯🇵JP_4 @1-12 9
-      - 🇸🇬SG_1 @1-12 9
-      - 🇸🇬SG_2 @1-12 9
-      - 🇸🇬SG_3 @1-12 9
-      - 🇸🇬SG_4 @1-12 9
-      - 🇯🇵JP_1 @1-12 10
-      - 🇯🇵JP_2 @1-12 10
-      - 🇯🇵JP_3 @1-12 10
-      - 🇯🇵JP_4 @1-12 10
-      - 🇸🇬SG_1 @1-12 10
-      - 🇸🇬SG_2 @1-12 10
-      - 🇸🇬SG_3 @1-12 10
-      - 🇸🇬SG_4 @1-12 10
+      - "🇨🇳TW_@\r_1"
+      - "🇨🇳TW_@\r_2"
+      - "🇸🇬SG_@\r_1"
+      - "🇨🇳TW_@\r_3"
+      - "🇨🇳TW_@\r_4"
+      - "🇸🇬SG_@\r_2"
+      - "🇸🇬SG_@\r_3"
+      - "🇨🇳TW_@\r_5"
+      - "🇨🇳TW_@\r_6"
+      - "🇸🇬SG_@\r_4"
+      - "🇸🇬SG_@\r_5"
+      - "🇸🇬SG_@\r_6"
+      - "🇸🇬SG_@\r_7"
+      - "🇸🇬SG_@\r_8"
+      - "🇸🇬SG_@\r_9"
+      - "🇸🇬SG_@\r_10"
+      - "🇸🇬SG_@\r_11"
+      - "🇸🇬SG_@\r_12"
   - name: 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 7200
     proxies:
-      - 🇯🇵JP_1 @1-12
-      - 🇯🇵JP_2 @1-12
-      - 🇯🇵JP_3 @1-12
-      - 🇯🇵JP_4 @1-12
-      - 🇸🇬SG_1 @1-12
-      - 🇸🇬SG_2 @1-12
-      - 🇸🇬SG_3 @1-12
-      - 🇸🇬SG_4 @1-12
-      - 🇯🇵JP_1 @1-12 2
-      - 🇯🇵JP_2 @1-12 2
-      - 🇯🇵JP_3 @1-12 2
-      - 🇯🇵JP_4 @1-12 2
-      - 🇸🇬SG_1 @1-12 2
-      - 🇸🇬SG_2 @1-12 2
-      - 🇸🇬SG_3 @1-12 2
-      - 🇸🇬SG_4 @1-12 2
-      - 🇯🇵JP_1 @1-12 3
-      - 🇯🇵JP_2 @1-12 3
-      - 🇯🇵JP_3 @1-12 3
-      - 🇯🇵JP_4 @1-12 3
-      - 🇸🇬SG_1 @1-12 3
-      - 🇸🇬SG_2 @1-12 3
-      - 🇸🇬SG_3 @1-12 3
-      - 🇸🇬SG_4 @1-12 3
-      - 🇯🇵JP_1 @1-12 4
-      - 🇯🇵JP_2 @1-12 4
-      - 🇯🇵JP_3 @1-12 4
-      - 🇯🇵JP_4 @1-12 4
-      - 🇸🇬SG_1 @1-12 4
-      - 🇸🇬SG_2 @1-12 4
-      - 🇸🇬SG_3 @1-12 4
-      - 🇸🇬SG_4 @1-12 4
-      - 🇯🇵JP_1 @1-12 5
-      - 🇯🇵JP_2 @1-12 5
-      - 🇯🇵JP_3 @1-12 5
-      - 🇯🇵JP_4 @1-12 5
-      - 🇸🇬SG_1 @1-12 5
-      - 🇸🇬SG_2 @1-12 5
-      - 🇸🇬SG_3 @1-12 5
-      - 🇸🇬SG_4 @1-12 5
-      - 🇯🇵JP_1 @1-12 6
-      - 🇯🇵JP_2 @1-12 6
-      - 🇯🇵JP_3 @1-12 6
-      - 🇯🇵JP_4 @1-12 6
-      - 🇸🇬SG_1 @1-12 6
-      - 🇸🇬SG_2 @1-12 6
-      - 🇸🇬SG_3 @1-12 6
-      - 🇸🇬SG_4 @1-12 6
-      - 🇯🇵JP_1 @1-12 7
-      - 🇯🇵JP_2 @1-12 7
-      - 🇯🇵JP_3 @1-12 7
-      - 🇯🇵JP_4 @1-12 7
-      - 🇸🇬SG_1 @1-12 7
-      - 🇸🇬SG_2 @1-12 7
-      - 🇸🇬SG_3 @1-12 7
-      - 🇸🇬SG_4 @1-12 7
-      - 🇯🇵JP_1 @1-12 8
-      - 🇯🇵JP_2 @1-12 8
-      - 🇯🇵JP_3 @1-12 8
-      - 🇯🇵JP_4 @1-12 8
-      - 🇸🇬SG_1 @1-12 8
-      - 🇸🇬SG_2 @1-12 8
-      - 🇸🇬SG_3 @1-12 8
-      - 🇸🇬SG_4 @1-12 8
-      - 🇯🇵JP_1 @1-12 9
-      - 🇯🇵JP_2 @1-12 9
-      - 🇯🇵JP_3 @1-12 9
-      - 🇯🇵JP_4 @1-12 9
-      - 🇸🇬SG_1 @1-12 9
-      - 🇸🇬SG_2 @1-12 9
-      - 🇸🇬SG_3 @1-12 9
-      - 🇸🇬SG_4 @1-12 9
-      - 🇯🇵JP_1 @1-12 10
-      - 🇯🇵JP_2 @1-12 10
-      - 🇯🇵JP_3 @1-12 10
-      - 🇯🇵JP_4 @1-12 10
-      - 🇸🇬SG_1 @1-12 10
-      - 🇸🇬SG_2 @1-12 10
-      - 🇸🇬SG_3 @1-12 10
-      - 🇸🇬SG_4 @1-12 10
+      - "🇨🇳TW_@\r_1"
+      - "🇨🇳TW_@\r_2"
+      - "🇸🇬SG_@\r_1"
+      - "🇨🇳TW_@\r_3"
+      - "🇨🇳TW_@\r_4"
+      - "🇸🇬SG_@\r_2"
+      - "🇸🇬SG_@\r_3"
+      - "🇨🇳TW_@\r_5"
+      - "🇨🇳TW_@\r_6"
+      - "🇸🇬SG_@\r_4"
+      - "🇸🇬SG_@\r_5"
+      - "🇸🇬SG_@\r_6"
+      - "🇸🇬SG_@\r_7"
+      - "🇸🇬SG_@\r_8"
+      - "🇸🇬SG_@\r_9"
+      - "🇸🇬SG_@\r_10"
+      - "🇸🇬SG_@\r_11"
+      - "🇸🇬SG_@\r_12"
 
 rules:
   - DOMAIN,v1.dogapi.yachts,DIRECT
